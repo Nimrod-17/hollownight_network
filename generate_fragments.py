@@ -70,17 +70,26 @@ def main():
         extracts[node["label"]] = fetch_extract(node["label"])
         time.sleep(0.3)
 
+    out_lines = []
     for node_id in ids:
         node = nodes_by_id.get(node_id)
         if not node:
             continue
         label = node["label"]
         extract = extracts.get(label, "")
-        print("=" * 70)
-        print(f"id: {node_id}  |  label: {label}  |  type: {node['type']}  |  game: {node['game']}")
-        print("-" * 70)
-        print(extract[:900] if extract else "(no extract found)")
-        print()
+        out_lines.append("=" * 70)
+        out_lines.append(f"id: {node_id}  |  label: {label}  |  type: {node['type']}  |  game: {node['game']}")
+        out_lines.append("-" * 70)
+        out_lines.append(extract[:900] if extract else "(no extract found)")
+        out_lines.append("")
+
+    text = "\n".join(out_lines)
+    with open("_extracts_out.txt", "w", encoding="utf-8") as f:
+        f.write(text)
+    # console printing can hit Windows codepage issues on some unicode
+    # chars (em dashes, curly quotes) - write the real output to a UTF-8
+    # file above, and print a best-effort ascii-safe version here.
+    print(text.encode("ascii", errors="replace").decode("ascii"))
 
 
 if __name__ == "__main__":

@@ -4,7 +4,7 @@
       "id": "unnamed-npcs-hollow-knight",
       "label": "Unnamed NPCs (Hollow Knight)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Nameless enough to be everyone at once — the ones who gossip by the hot spring, the ones who never got closer than the horizon.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -12,7 +12,7 @@
       "id": "bardoon",
       "label": "Bardoon",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Climbed as high as legs would carry him, just to keep his mind his own a little longer.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -20,7 +20,7 @@
       "id": "blue-child-joni",
       "label": "Blue Child Joni",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Gave away a blessing so long ago that even her own ghost has forgotten the gesture.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -28,7 +28,7 @@
       "id": "bretta",
       "label": "Bretta",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Waited in the dark for someone to notice her, and fell for the first one who finally did.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -36,7 +36,7 @@
       "id": "brumm",
       "label": "Brumm",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Follows the Ritual out of duty, and quietly plots to be the reason it finally stops.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -44,7 +44,7 @@
       "id": "charm-lover-salubra",
       "label": "Charm Lover Salubra",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sells notches for a kingdom she still believes is thriving just outside her door.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -52,7 +52,7 @@
       "id": "cloth",
       "label": "Cloth",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Talks bravely, hides often, and hopes the ending, when it comes, is worth all the boasting.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -60,7 +60,7 @@
       "id": "confessor-jiji",
       "label": "Confessor Jiji",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Slept behind a door no one dared open, and now fears what waking a second time might cost.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -68,7 +68,7 @@
       "id": "cornifer",
       "label": "Cornifer",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Left his own nest before he'd learned to fly, and has been mapping his way home ever since.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -76,7 +76,7 @@
       "id": "divine",
       "label": "Divine",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Hungers for what's fragile, and hands back only what's learned to survive her.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -84,7 +84,7 @@
       "id": "dreamers",
       "label": "Dreamers",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Chose to sleep forever so something far worse never has to wake.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -92,7 +92,7 @@
       "id": "dung-defender",
       "label": "Dung Defender",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Traded glory for a stench no one else would tolerate, and still calls the trade fair.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -100,7 +100,7 @@
       "id": "elderbug",
       "label": "Elderbug",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Watched everyone he knew chase a dream down the well, and decided dreams weren't worth chasing after that.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -108,7 +108,7 @@
       "id": "eternal-emilitia",
       "label": "Eternal Emilitia",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was cast out long before the rot came for everyone who kept her — outliving them still makes her laugh.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -116,7 +116,7 @@
       "id": "fluke-hermit",
       "label": "Fluke Hermit",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls the junk pit's leavings treasure, and wonders quietly if the throne beneath it is hers now.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -124,7 +124,7 @@
       "id": "godseeker",
       "label": "Godseeker",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Carries an entire tribe inside one skull, all of them still looking for something worth worshipping.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -132,7 +132,7 @@
       "id": "grey-mourner",
       "label": "Grey Mourner",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Carries flowers from a homeland no one here remembers, to a grave love was never allowed to reach.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -140,7 +140,7 @@
       "id": "grubfather",
       "label": "Grubfather",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Counts an empty room where his children used to be, and waits for the jars to open.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -148,7 +148,7 @@
       "id": "herrah-the-beast",
       "label": "Herrah the Beast",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Ruled alone after love died, and slept forever rather than bow to a king she never accepted.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -156,7 +156,7 @@
       "id": "hive-queen-vespa",
       "label": "Hive Queen Vespa",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Grew too vast to ever leave her own hall, and taught someone smaller how to be fast instead.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -172,7 +172,7 @@
       "id": "the-hunter",
       "label": "The Hunter",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was taught to hunt by hunting his own siblings, and never really stopped.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -180,7 +180,7 @@
       "id": "iselda",
       "label": "Iselda",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Traded a blade for a quiet shop, and spends her days worrying about the one who still carries one.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -188,7 +188,7 @@
       "id": "last-stag",
       "label": "Last Stag",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Forgets half the roads he used to know by heart, but still comes running the moment a bell rings.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -196,7 +196,7 @@
       "id": "leg-eater",
       "label": "Leg Eater",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Can't see a single coin but always finds one, and dreams of a crown he'll never quite afford.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -204,7 +204,7 @@
       "id": "little-fool",
       "label": "Little Fool",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Hangs upside down at the gate, selling other people's glory while dreaming of earning some of his own.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -212,7 +212,7 @@
       "id": "lurien-the-watcher",
       "label": "Lurien the Watcher",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Watched an entire city through a single long lens, and chose to close his eyes rather than see it fall.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -220,7 +220,7 @@
       "id": "marissa",
       "label": "Marissa",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Still sings to a house that emptied out long ago, note for note, as if someone might still be listening.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -228,7 +228,7 @@
       "id": "mask-maker-hollow-knight",
       "label": "Mask Maker (Hollow Knight)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Hands out faces to the faceless, and no longer bothers asking which kind she's wearing herself.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -236,7 +236,7 @@
       "id": "midwife",
       "label": "Midwife",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Still offers her old services to a nursery gone quiet, though hunger tends to answer first these days.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -244,7 +244,7 @@
       "id": "millibelle-the-banker",
       "label": "Millibelle the Banker",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls herself a bank and means it, right up until the moment it's more profitable not to.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -252,7 +252,7 @@
       "id": "mister-mushroom-hollow-knight",
       "label": "Mister Mushroom (Hollow Knight)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wanders the kingdom babbling half a warning to anyone who'll follow the sound of his voice.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -260,7 +260,7 @@
       "id": "monomon-the-teacher",
       "label": "Monomon the Teacher",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Filled her archive with half-sentences about kings and voids, hoping someone later would know how to finish them.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -268,7 +268,7 @@
       "id": "moss-prophet",
       "label": "Moss Prophet",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Preaches that the light will remake the kingdom, unaware the glow already eating their flock is the proof.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -276,7 +276,7 @@
       "id": "myla",
       "label": "Myla",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Hears the crystals singing to her, and mistakes it for music. For now.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -284,7 +284,7 @@
       "id": "nailmaster-mato",
       "label": "Nailmaster Mato",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was never the most gifted student, only the one who cared enough to keep teaching anyway.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -292,7 +292,7 @@
       "id": "nailmaster-oro",
       "label": "Nailmaster Oro",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Carries a debt to his own brother he still hasn't found the nerve to repay.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -300,7 +300,7 @@
       "id": "nailmaster-sheo",
       "label": "Nailmaster Sheo",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Mastered the blade completely, then set it down the moment mastery stopped meaning anything.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -308,7 +308,7 @@
       "id": "nailsmith",
       "label": "Nailsmith",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Barely noticed his kingdom collapse, too absorbed chasing the one perfect blade he still hasn't made.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -316,7 +316,7 @@
       "id": "nymm",
       "label": "Nymm",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Forgot the name and reason he came, and settled for playing a small, sad song for anyone left to hear.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -332,7 +332,7 @@
       "id": "quirrel",
       "label": "Quirrel",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Carries his teacher's mask on his own head, and half her purpose in it, though he can't remember why.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -340,7 +340,7 @@
       "id": "relic-seeker-lemm",
       "label": "Relic Seeker Lemm",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Moved into a tower emptied by death, and started filling it back up with other people's history.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -348,7 +348,7 @@
       "id": "revek",
       "label": "Revek",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Stands watch over graves that no longer need guarding, and punishes anyone who disagrees.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -356,7 +356,7 @@
       "id": "seer",
       "label": "Seer",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Tends graves for a tribe that forgot its own god, and hopes a stranger might remember better.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -364,7 +364,7 @@
       "id": "sly",
       "label": "Sly",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Traded mastery of the blade for the simpler comfort of counting coins, though he never quite let go of it.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -372,7 +372,7 @@
       "id": "snail-shaman",
       "label": "Snail Shaman",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Bound to one small mound while his kin wander free somewhere he'll never learn the fate of.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -380,7 +380,7 @@
       "id": "spirits",
       "label": "Spirits",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Lingers exactly where it fell, still convinced, somehow, that it's the one still living.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -388,7 +388,7 @@
       "id": "steel-soul-jinn",
       "label": "Steel Soul Jinn",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sleeps for masters she won't name, and insists she's too young to explain the rest.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -396,7 +396,7 @@
       "id": "thistlewind",
       "label": "Thistlewind",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Stopped traveling only because dying does that, and still wonders what became of the one who kept going.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -404,7 +404,7 @@
       "id": "tiso",
       "label": "Tiso",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Talked louder than he fought, and the arena remembers him only as one more body by the acid.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -412,7 +412,7 @@
       "id": "the-traitors'-child",
       "label": "The Traitors' Child",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Loved someone her own people refused to accept, and got a grave instead of a wedding.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -420,7 +420,7 @@
       "id": "troupe-master-grimm",
       "label": "Troupe Master Grimm",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Leads a circus that only ever performs one ritual, over and over, until something new is born to replace him.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -428,7 +428,7 @@
       "id": "tuk",
       "label": "Tuk",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Waits in the sewage for an apology that hasn't come yet, and eats whatever the water provides in the meantime.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -436,7 +436,7 @@
       "id": "unnamed-moth",
       "label": "Unnamed Moth",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Stands outside a shrine of other people's faith, unconvinced, and says so to anyone who'll listen.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -444,7 +444,7 @@
       "id": "white-lady",
       "label": "White Lady",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Built a garden to forget a kingdom, and became a mother to a child that wasn't quite hers to keep.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -452,7 +452,7 @@
       "id": "willoh",
       "label": "Willoh",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Rations a strange fungus and eyes every visitor the same way — as company, or as dinner, depending on the day.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -460,7 +460,7 @@
       "id": "zote-the-mighty",
       "label": "Zote the Mighty",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Named his blade for a power it was never built to have, and never once noticed the difference.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -468,7 +468,7 @@
       "id": "absolute-radiance",
       "label": "Absolute Radiance",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "What the light becomes once nothing is left to dim it.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -476,7 +476,7 @@
       "id": "broken-vessel",
       "label": "Broken Vessel",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Escaped the same dark the Knight did, and simply had worse luck once it got out.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -484,7 +484,7 @@
       "id": "brooding-mawlek",
       "label": "Brooding Mawlek",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls out for kin that stopped answering long before the sickness gave it a reason to scream.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -492,7 +492,7 @@
       "id": "brothers-oro-&-mato",
       "label": "Brothers Oro & Mato",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Fight side by side the way they trained — in step, even now, even here.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -500,7 +500,7 @@
       "id": "the-collector",
       "label": "The Collector",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Smiles while it jars anything that moves, calling the cage a kindness and the kindness love.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -508,7 +508,7 @@
       "id": "crystal-guardian",
       "label": "Crystal Guardian",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Still digs, still shrieks in a voice that isn't quite his, encased in the very stone he used to mine.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -516,7 +516,7 @@
       "id": "elder-hu",
       "label": "Elder Hu",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Came to cure a sickness he mistook for everyone but himself, and paid for the mistake in full.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -524,7 +524,7 @@
       "id": "enraged-guardian",
       "label": "Enraged Guardian",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Whatever patience the first form had left, this one burned through completely.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -532,7 +532,7 @@
       "id": "failed-champion",
       "label": "Failed Champion",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Dreams the same failure over and over, faster each time, as if speed alone could rewrite the ending.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -540,7 +540,7 @@
       "id": "false-knight",
       "label": "False Knight",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Borrowed a dead knight's armor to protect a family that never knew how close it came to losing him.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -548,7 +548,7 @@
       "id": "flukemarm",
       "label": "Flukemarm",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Can't leave the cave she fills with her own children — sick or not, breeding is the only freedom left her.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -556,7 +556,7 @@
       "id": "galien",
       "label": "Galien",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Went looking for a fight worthy of a king's attention, and found only the one that finally ended him.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -564,7 +564,7 @@
       "id": "god-tamer",
       "label": "God Tamer",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Small enough to be underestimated, so she brought something large enough that no one makes that mistake twice.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -572,7 +572,7 @@
       "id": "gorb",
       "label": "Gorb",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Believed enlightenment was something you could recruit others into, and never once doubted the size of his own mind.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -580,7 +580,7 @@
       "id": "great-nailsage-sly",
       "label": "Great Nailsage Sly",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Fights now the way he once only taught — every strike remembered perfectly, none of them softened by age.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -588,7 +588,7 @@
       "id": "grey-prince-zote",
       "label": "Grey Prince Zote",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Grew powerful only inside someone else's daydream, which makes him, in a strange way, the strongest version there ever was.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -596,7 +596,7 @@
       "id": "gruz-mother",
       "label": "Gruz Mother",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sleeps off the exhaustion of motherhood in the middle of the road, and wakes up furious at whoever interrupts the rest.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -604,7 +604,7 @@
       "id": "hive-knight",
       "label": "Hive Knight",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Guards a queen long dead, still convinced devotion alone might be enough to wake her.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -612,7 +612,7 @@
       "id": "the-hollow-knight",
       "label": "The Hollow Knight",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was built to be empty enough to hold a god's fury, and came just short of being empty enough.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -620,7 +620,7 @@
       "id": "hornet-protector",
       "label": "Hornet Protector",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Held back her full strength the first time, certain the intruder wouldn't need more than a warning.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -628,7 +628,7 @@
       "id": "hornet-sentinel",
       "label": "Hornet Sentinel",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Comes back with everything she held in reserve the first time, because a warning clearly wasn't enough.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -636,7 +636,7 @@
       "id": "lost-kin",
       "label": "Lost Kin",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "The same tragedy, replayed faster, as if urgency could undo how it already ended.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -644,7 +644,7 @@
       "id": "mantis-lords",
       "label": "Mantis Lords",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Three sisters guarding one truce, still honoring terms the rest of the kingdom stopped keeping long ago.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -652,7 +652,7 @@
       "id": "markoth",
       "label": "Markoth",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Meditated alone so long in that cave he stopped noticing his own body had already died beside him.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -660,7 +660,7 @@
       "id": "marmu",
       "label": "Marmu",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Waited by the garden gate for a lesson in flying the years never quite delivered.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -668,7 +668,7 @@
       "id": "massive-moss-charger",
       "label": "Massive Moss Charger",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Looks like a single sleeping giant, and turns out, once struck, to have never been alone at all.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -676,7 +676,7 @@
       "id": "nightmare-king-grimm",
       "label": "Nightmare King Grimm",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "The circus master's own nightmare of himself, and somehow still hungrier than the original.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -684,7 +684,7 @@
       "id": "no-eyes",
       "label": "No Eyes",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Tore her own sight away rather than let the light finish the job, and called the dark a mercy.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -692,7 +692,7 @@
       "id": "nosk",
       "label": "Nosk",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wears whichever face you loved most, right up until it's close enough to matter.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -700,7 +700,7 @@
       "id": "oblobbles",
       "label": "Oblobbles",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Trained in pairs to fight as one, and turn twice as vicious the moment they're down to one.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -708,7 +708,7 @@
       "id": "paintmaster-sheo",
       "label": "Paintmaster Sheo",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Paints the arena in the same strokes he once used for art, before deciding a blade wasn't worth the mess.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -716,7 +716,7 @@
       "id": "pure-vessel",
       "label": "Pure Vessel",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "What the sealed sibling might have become, if nothing had ever gotten in.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -724,7 +724,7 @@
       "id": "the-radiance",
       "label": "The Radiance",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was worshipped, then quietly replaced, and never once accepted being forgotten as the ending.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -732,7 +732,7 @@
       "id": "sisters-of-battle",
       "label": "Sisters of Battle",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Three fights that used to be separate, now happening all at once, because patience stopped being an option.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -740,7 +740,7 @@
       "id": "soul-master",
       "label": "Soul Master",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Believed he'd found the cure inside the very sickness that was already rewriting his own mind.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -748,7 +748,7 @@
       "id": "soul-tyrant",
       "label": "Soul Tyrant",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "The same conviction, wound tighter, moving faster toward the same mistaken cure.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -756,7 +756,7 @@
       "id": "soul-warrior",
       "label": "Soul Warrior",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Traded memory for power, and can no longer quite recall which came first.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -764,7 +764,7 @@
       "id": "traitor-lord",
       "label": "Traitor Lord",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Chose strength over his own tribe, and a stolen garden over a daughter he'd already lost to love.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -772,7 +772,7 @@
       "id": "uumuu",
       "label": "Uumuu",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Guards a sleeping teacher behind a wall of itself, soft until struck, and dangerous only then.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -780,7 +780,7 @@
       "id": "vengefly-king",
       "label": "Vengefly King",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Rules a small patch of ceiling fiercely enough to make a meal of anyone who wanders under it.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -788,7 +788,7 @@
       "id": "watcher-knight",
       "label": "Watcher Knight",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Died standing guard, and got reanimated by the very sickness it once would have fought off.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -796,7 +796,7 @@
       "id": "white-defender",
       "label": "White Defender",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Remembers a glory the waking self gave up on, and fights like nothing was ever traded away.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -804,7 +804,7 @@
       "id": "winged-nosk",
       "label": "Winged Nosk",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wears a different borrowed face this time, and finds new ways to fall from higher up.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -812,7 +812,7 @@
       "id": "xero",
       "label": "Xero",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Turned on his king out of a conviction he still won't call wrong, buried as a warning no one reads the same way twice.",
       "type": "boss",
       "game": "Hollow Knight"
     },
@@ -820,7 +820,7 @@
       "id": "the-abyss-hollow-knight",
       "label": "The Abyss (Hollow Knight)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "A pit full of the shells of children no one came back for, with Void pooling patiently at the bottom.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -828,7 +828,7 @@
       "id": "ancient-basin",
       "label": "Ancient Basin",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Bones and rock and a fountain that still takes offerings for a king who stopped listening long ago.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -844,7 +844,7 @@
       "id": "colosseum-of-fools",
       "label": "Colosseum of Fools",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Built inside the carcass of something even older than the kingdom, and still finds new bodies to fill the arena.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -852,7 +852,7 @@
       "id": "crystal-peak",
       "label": "Crystal Peak",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "The crystal grows into the miners as readily as they mine it, until it's hard to say which one is being harvested.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -868,7 +868,7 @@
       "id": "dirtmouth",
       "label": "Dirtmouth",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "A town that used to be a gateway, now just a doorstep for a kingdom nobody living remembers opening.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -876,7 +876,7 @@
       "id": "fog-canyon",
       "label": "Fog Canyon",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Mist thick enough to hide the acid until you're already standing in it.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -892,7 +892,7 @@
       "id": "fungal-wastes",
       "label": "Fungal Wastes",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Every mushroom here is someone's territory, and every clearing is a border somebody's willing to defend.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -908,7 +908,7 @@
       "id": "greenpath",
       "label": "Greenpath",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Green enough to hide in, and the things that live here learned that lesson generations before anyone came looking.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -916,7 +916,7 @@
       "id": "the-hive",
       "label": "The Hive",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Built entirely from its own labor, comb by comb, by bees still working for a queen who can no longer leave.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -924,7 +924,7 @@
       "id": "howling-cliffs",
       "label": "Howling Cliffs",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Marks the edge of a kingdom that used to matter, littered with the husks of things that tried to leave it.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -932,7 +932,7 @@
       "id": "kingdom's-edge",
       "label": "Kingdom's Edge",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Ash falls here the way rain falls elsewhere — constant, indifferent, burying whoever the arena throws down first.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -940,7 +940,7 @@
       "id": "queen's-gardens",
       "label": "Queen's Gardens",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "A garden gone feral enough that even its trespassers have started to feel like they belong.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -948,7 +948,7 @@
       "id": "resting-grounds",
       "label": "Resting Grounds",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "A graveyard built by a tribe that then joined the very dead they came here to remember.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -956,7 +956,7 @@
       "id": "royal-waterways",
       "label": "Royal Waterways",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Everything the city upstream doesn't want ends up flowing down here eventually, including, in time, the city itself.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -964,7 +964,7 @@
       "id": "white-palace",
       "label": "White Palace",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "A palace preserved only in dream, kept spotless by blades that never once stopped moving to let the dust settle.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -972,7 +972,7 @@
       "id": "aged-pilgrim",
       "label": "Aged Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Complains about the climb at every rest stop, and keeps climbing anyway, the way pilgrims always seem to.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -980,7 +980,7 @@
       "id": "alchemist-zylotol",
       "label": "Alchemist Zylotol",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was sent to study a miracle in dirt that was never supposed to produce one, and hasn't given up hope yet.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -988,7 +988,7 @@
       "id": "ballow",
       "label": "Ballow",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Keeps his head down and his senses whole among coworkers who kept neither, and calls that his whole achievement.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -996,7 +996,7 @@
       "id": "beastlings",
       "label": "Beastlings",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sing along with their mother the moment they're called, too young yet to know any other kind of answer.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1004,7 +1004,7 @@
       "id": "bell-beast",
       "label": "Bell Beast",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was chained by thread until something stronger cut her loose, and now carries strangers the way she once carried her own captivity.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1012,7 +1012,7 @@
       "id": "bell-hermit",
       "label": "Bell Hermit",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls every rescue a new kind of leash, and has buried enough family to have earned the right to say so.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1020,7 +1020,7 @@
       "id": "broodling",
       "label": "Broodling",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Is already being fed toward becoming the very cycle it was just born out of.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1028,7 +1028,7 @@
       "id": "caretaker",
       "label": "Caretaker",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Rings the same bell every day while quietly plotting the one act that could silence the whole chorus.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1036,7 +1036,7 @@
       "id": "chapel-maid",
       "label": "Chapel Maid",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Keeps a chapel that the faithful abandoned, and still calls it tending rather than mourning.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1044,7 +1044,7 @@
       "id": "cogwork-statues",
       "label": "Cogwork Statues",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Ask for a song before they'll open the last door, as if music alone could prove anyone worth the climb.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1052,7 +1052,7 @@
       "id": "conductor-ballador",
       "label": "Conductor Ballador",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Kept alive by a single thread of Silk, and spends what's left of himself wondering if the fall was his fault.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1060,7 +1060,7 @@
       "id": "couriers-tipp-&-pill",
       "label": "Couriers Tipp & Pill",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Still calls his brother 'young' long after neither of them has much right to the word anymore.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1068,7 +1068,7 @@
       "id": "creige",
       "label": "Creige",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Pours the same drink for every exhausted pilgrim, and remembers a road that used to be easier than this one.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1076,7 +1076,7 @@
       "id": "crull-and-benjin",
       "label": "Crull and Benjin",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Argue about whether the food was ever really better, and keep raising roaches either way.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1084,7 +1084,7 @@
       "id": "dejected-pilgrim",
       "label": "Dejected Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wonders whether the new ruin is a punishment or a test, unable to imagine a third, worse option: neither.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1092,7 +1092,7 @@
       "id": "eva",
       "label": "Eva",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was spun to prove a curse could be broken, and grew distant from her own mothers once she started to wonder whether it was.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1100,7 +1100,7 @@
       "id": "exhausted-pilgrim",
       "label": "Exhausted Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Believes every ache will vanish the moment the Citadel comes into view, and hasn't been proven wrong yet.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1108,7 +1108,7 @@
       "id": "fayforn",
       "label": "Fayforn",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Answers those who climb high enough to ask her something, though not always with the answer they were hoping for.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1116,7 +1116,7 @@
       "id": "fearful-pilgrim",
       "label": "Fearful Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Meditates just far enough from the others to feel brave, and just close enough to still call for help.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1132,7 +1132,7 @@
       "id": "flea-caravan",
       "label": "Flea Caravan",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wanders looking for every flea that got left behind, and somehow keeps finding a few more.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1140,7 +1140,7 @@
       "id": "fleamaster-mooshka",
       "label": "Fleamaster Mooshka",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Leads a caravan of the smallest, most easily lost creatures in the kingdom, and hasn't given up on finding them all somewhere safe.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1148,7 +1148,7 @@
       "id": "flick-the-fixer",
       "label": "Flick the Fixer",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Knows it's shameful for a pilgrim to stop moving, and stayed anyway because someone had to fix what kept breaking.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1156,7 +1156,7 @@
       "id": "forge-daughter",
       "label": "Forge Daughter",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Keeps her mind clear in a dock full of haunted ones, and spends that clarity forging tools for someone else's journey.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1164,7 +1164,7 @@
       "id": "frey",
       "label": "Frey",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Waited out the town's haunting behind a locked door, living off whatever was already on the shelves.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1172,7 +1172,7 @@
       "id": "garmond-and-zaza",
       "label": "Garmond and Zaza",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Are the only two left of a village the Haunting erased, and carry that math with them into every fight.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1180,7 +1180,7 @@
       "id": "gilly",
       "label": "Gilly",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Hid herself as a bush to study why these fields still grow while everything around them turns to dust.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1188,7 +1188,7 @@
       "id": "great-gourmand",
       "label": "Great Gourmand",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Eats every meal in total silence, and calls the silence afterward reflection rather than what it might actually be.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1196,7 +1196,7 @@
       "id": "green-prince",
       "label": "Green Prince",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Watched his partner become a statue to save a kingdom that fell anyway, and is now the last one left who remembers why.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1204,7 +1204,7 @@
       "id": "greyroot",
       "label": "Greyroot",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Used to receive offerings from travelers who never came back, and doesn't get visitors anymore for exactly that reason.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1212,7 +1212,7 @@
       "id": "grindle",
       "label": "Grindle",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls it light thievery, the same way everyone in a cell calls their own crime the lightest one there is.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1220,7 +1220,7 @@
       "id": "grishkin",
       "label": "Grishkin",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sells a drink brewed for creatures whose future is still being decided, and no longer bothers charging for it.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1228,7 +1228,7 @@
       "id": "horned-pilgrim",
       "label": "Horned Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls a weapon a sin even on a road this dangerous, and leaves before anyone can prove him wrong.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1236,7 +1236,7 @@
       "id": "humble-pilgrim",
       "label": "Humble Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Heard a child laughing somewhere in halls that shouldn't hold any children left, and still isn't sure they believe it.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1244,7 +1244,7 @@
       "id": "huntress",
       "label": "Huntress",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Gathers a feast large enough that her children might, for once, choose it over her — and hates how much relief that hope brings.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1252,7 +1252,7 @@
       "id": "jubilana",
       "label": "Jubilana",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Spent a whole life inside golden halls now past their prime, and still can't call them anything but holy.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1260,7 +1260,7 @@
       "id": "kratt",
       "label": "Kratt",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was found tangled in the same thread that catches everyone else, and offered a reward the moment he got loose.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1276,7 +1276,7 @@
       "id": "loam",
       "label": "Loam",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Runs in place to keep a city lit he's never once been allowed to enter, and calls the running hope.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1284,7 +1284,7 @@
       "id": "loddie",
       "label": "Loddie",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Runs a game of chance to bring joy back to a kingdom running low on it, and doesn't mention what's left of his own tribe.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1292,7 +1292,7 @@
       "id": "loyal-mergwin",
       "label": "Loyal Mergwin",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Still cooks for a master he calls the finest who ever lived, unaware the kitchen he serves is already ruins.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1300,7 +1300,7 @@
       "id": "lumble-the-lucky",
       "label": "Lumble the Lucky",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Bets everything he's carrying on a game of chance, alone on a road that's already one long gamble.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1308,7 +1308,7 @@
       "id": "mask-maker-silksong",
       "label": "Mask Maker (Silksong)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Hums the same lines about needing a face to anyone who'll listen, though no one's ever sure if he's convincing them or himself.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1316,7 +1316,7 @@
       "id": "mister-mushroom-silksong",
       "label": "Mister Mushroom (Silksong)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Buries himself across the whole kingdom in pieces, and only answers to a song, never to a name.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1324,7 +1324,7 @@
       "id": "mort",
       "label": "Mort",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Charges a toll at a door that locks itself the moment you leave, and never once questions why.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1332,7 +1332,7 @@
       "id": "moss-druid",
       "label": "Moss Druid",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Might be the last of an entire kind, and spends what's left of that loneliness brewing visions no one else is around to share.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1340,7 +1340,7 @@
       "id": "mottled-skarr",
       "label": "Mottled Skarr",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wears a mark his own kin call a curse, and stays loyal to a tribe that's dwindling anyway.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1348,7 +1348,7 @@
       "id": "nuu",
       "label": "Nuu",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Has already written down more of the world's dying things than anyone else bothered to notice.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1356,7 +1356,7 @@
       "id": "old-penitent",
       "label": "Old Penitent",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Came here to atone in silence, and still flinches with longing every time music slips in past the walls.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1364,7 +1364,7 @@
       "id": "pavo",
       "label": "Pavo",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Welcomed every stranger through the gate, right up until the thread caught him too, mid-greeting.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1372,7 +1372,7 @@
       "id": "pebb",
       "label": "Pebb",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sells off everything she owns for a currency she's betting will matter more than the owning ever did.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1380,7 +1380,7 @@
       "id": "pilby",
       "label": "Pilby",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Admits the camp is falling apart, and insists the falling apart is exactly what the faith is for.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1388,7 +1388,7 @@
       "id": "pilgrim-preacher",
       "label": "Pilgrim Preacher",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Warns of the haunted things further in, then quietly becomes one more absence himself, sooner or later.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1396,7 +1396,7 @@
       "id": "pinmaster-plinney",
       "label": "Pinmaster Plinney",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sharpens strangers' weapons all day, and keeps one grave in Shellwood he never mentions unless asked twice.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1404,7 +1404,7 @@
       "id": "pious-isamor",
       "label": "Pious Isamor",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Used to greet every new arrival before the Citadel learned to prefer gold to welcome, and got left in the dark for it.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1412,7 +1412,7 @@
       "id": "pondcatcher-reed",
       "label": "Pondcatcher Reed",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Is the last of their trade still standing, and keeps hunting for a town that mostly can't hunt for itself anymore.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1420,7 +1420,7 @@
       "id": "quiet-pilgrim",
       "label": "Quiet Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Asks for silence on a road full of noise, and finds even the quietest visitor somehow too loud.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1428,7 +1428,7 @@
       "id": "relic-seeker-scrounge",
       "label": "Relic Seeker Scrounge",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Trusts old objects to tell the truth more than any of the neighbors she's stopped bothering to talk to.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1436,7 +1436,7 @@
       "id": "runt",
       "label": "Runt",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was too small to join the feast that ate their own mother, and calls that smallness the reason they're still here.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1444,7 +1444,7 @@
       "id": "scared-pilgrim",
       "label": "Scared Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Is afraid of nearly everything left in the Citadel, and grateful, in spite of that, for the one corner that still feels safe.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1452,7 +1452,7 @@
       "id": "seamstress",
       "label": "Seamstress",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was one of the last of a warrior order, and chose, eventually, to become someone that order wouldn't recognize.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1460,7 +1460,7 @@
       "id": "shakra",
       "label": "Shakra",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Left a home she can never return to, in search of a master she still hasn't found, and sells maps to everyone else's destinations instead.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1468,7 +1468,7 @@
       "id": "sherma",
       "label": "Sherma",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sings to inanimate objects with the same warmth he gives to strangers, and hasn't yet learned the road punishes that kind of trust.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1476,7 +1476,7 @@
       "id": "shrine-guardian-seth",
       "label": "Shrine Guardian Seth",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Counts every stranger he's killed defending a shrine, and grieves each one without ever once considering not fighting.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1484,7 +1484,7 @@
       "id": "skarrsinger-karmelita",
       "label": "Skarrsinger Karmelita",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Once sang an entire tribe into resisting a god, and is fought now only as a memory of the voice that used to work.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1492,7 +1492,7 @@
       "id": "skynx",
       "label": "Skynx",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Waits in the dark for someone willing to trade, and only steps into the light once she's sure they've noticed her first.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1500,7 +1500,7 @@
       "id": "snail-shamans-silksong",
       "label": "Snail Shamans (Silksong)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Built a trap clever enough to catch a god, and never once considered what catching her might let loose instead.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1508,7 +1508,7 @@
       "id": "solemn-pilgrim",
       "label": "Solemn Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sings a farewell for a stranger whose name might not even survive the singing of it.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1516,7 +1516,7 @@
       "id": "sprintmaster-swift",
       "label": "Sprintmaster Swift",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Built a racetrack around the bones of something enormous, and waits there for someone fast enough to be worth racing.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1524,7 +1524,7 @@
       "id": "steel-seer-zi",
       "label": "Steel Seer Zi",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Answers to masters she's never seen, and hunts down anyone who decides that's not worth doing anymore.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1532,7 +1532,7 @@
       "id": "styx",
       "label": "Styx",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Built an entire pantry hoping to attract a master strong enough to finally own him.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1540,7 +1540,7 @@
       "id": "sula",
       "label": "Sula",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Got tired of watching the world die quietly, and called something out of the Void rather than keep serving the ones killing it.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1548,7 +1548,7 @@
       "id": "tall-pilgrim",
       "label": "Tall Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Begs a locked gate to open for the mighty ones on the other side, and knows exactly which bells might make them listen.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1556,7 +1556,7 @@
       "id": "tormented-trobbio",
       "label": "Tormented Trobbio",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Hides beneath his own stage, consumed by a sadness too large for the kingdom collapsing around him to fully explain.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1564,7 +1564,7 @@
       "id": "twelfth-architect",
       "label": "Twelfth Architect",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was built only to follow orders, and is running out of time just as it's finally starting to have opinions of its own.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1572,7 +1572,7 @@
       "id": "unnamed-skarr",
       "label": "Unnamed Skarr",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wears the same mark that gets others exiled, and hides underground before anyone can decide what to do about it.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1580,7 +1580,7 @@
       "id": "varga",
       "label": "Varga",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls every temporary stop cozy, and is reluctant, every single time, to admit the caravan has to move on.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1588,7 +1588,7 @@
       "id": "vaultkeeper-cardinius",
       "label": "Vaultkeeper Cardinius",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Is the only one of his order who still remembers what all that hoarded history was even for.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1596,7 +1596,7 @@
       "id": "vog",
       "label": "Vog",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Tracked down every last lost flea in the kingdom alone, and only then let herself join the company of others.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1604,7 +1604,7 @@
       "id": "weary-pilgrim",
       "label": "Weary Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Answers a friend's song with nothing but moans now, worn past the point where encouragement still helps.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1612,7 +1612,7 @@
       "id": "worried-pilgrim",
       "label": "Worried Pilgrim",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls the stranger who saved her a golden knight, and carries the admiration like it might be the last good thing she keeps.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1620,7 +1620,7 @@
       "id": "yarnaby",
       "label": "Yarnaby",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was exiled for procedures too cruel to forgive, and still measures her worth by whether her exilers will admit they were wrong.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1628,7 +1628,7 @@
       "id": "bell-eater",
       "label": "Bell Eater",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wakes up enraged whenever the kingdom breaks, and swallows the very bells that used to call for help.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1636,7 +1636,7 @@
       "id": "broodmother",
       "label": "Broodmother",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Passes an old, forgotten guilt down through every child, and calls the inheritance a kind of penance.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1644,7 +1644,7 @@
       "id": "clover-dancers",
       "label": "Clover Dancers",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Dances now only inside a memory, with a partner who traded away his body to save a kingdom that fell regardless.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1652,7 +1652,7 @@
       "id": "cogwork-dancers",
       "label": "Cogwork Dancers",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Guard a door with a soul that was split in two just to build them, and neither half quite remembers whole.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1660,7 +1660,7 @@
       "id": "crawfather",
       "label": "Crawfather",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Sits in judgment of a stranger he's already decided is to blame, in a court built entirely around his own verdict.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1668,7 +1668,7 @@
       "id": "crust-king-khann",
       "label": "Crust King Khann",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Ruled by the belief that the weak should crumble, and held out against a god longer than anyone else even tried to.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1676,7 +1676,7 @@
       "id": "disgraced-chef-lugoli",
       "label": "Disgraced Chef Lugoli",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was exiled for what went into the dishes, and kept cooking anyway, alone, in the caves that took him back.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1684,7 +1684,7 @@
       "id": "father-of-the-flame",
       "label": "Father of the Flame",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was built by worshippers into a god, with someone's actual heart still burning quietly at the center of the idea.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1692,7 +1692,7 @@
       "id": "first-sinner",
       "label": "First Sinner",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Knew the truth behind the lie her whole tribe was built on, and was condemned for saying so rather than believed.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1700,7 +1700,7 @@
       "id": "forebrothers-signis-&-gron",
       "label": "Forebrothers Signis & Gron",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Keep commanding an excavation that stopped needing commanding once the haunting took the workers instead.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1708,7 +1708,7 @@
       "id": "fourth-chorus",
       "label": "Fourth Chorus",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was left for dead under rubble by the one warrior it failed to kill, and got back up anyway once someone new arrived.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1724,7 +1724,7 @@
       "id": "great-conchflies",
       "label": "Great Conchflies",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Mated so closely that losing one is the only thing that's ever made the other run.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1732,7 +1732,7 @@
       "id": "groal-the-great",
       "label": "Groal the Great",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was offered an alliance once, and answered with a killing blow instead, then kept the offered friend's strength for their own.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1740,7 +1740,7 @@
       "id": "gurr-the-outcast",
       "label": "Gurr the Outcast",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Collects the bodies of everything he's ever hunted, and built one more stand, patiently, for something paler than the rest.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1748,7 +1748,7 @@
       "id": "last-judge",
       "label": "Last Judge",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Has decided who counts as sinless for longer than anyone can remember, and never once had to explain the standard.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1756,7 +1756,7 @@
       "id": "lost-garmond",
       "label": "Lost Garmond",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Turns black-threaded and roars at the one thing he came here to protect, and thanks her for it with his last words anyway.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1764,7 +1764,7 @@
       "id": "lost-lace",
       "label": "Lost Lace",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wails up out of the Void wearing a daughter's shape, purified only once someone's willing to fight through the wailing.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1772,7 +1772,7 @@
       "id": "moorwing",
       "label": "Moorwing",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was bred to catch anyone who tried to run, and never stopped hunting once its handlers were the ones who died.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1780,7 +1780,7 @@
       "id": "moss-mother",
       "label": "Moss Mother",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Defends a nest far past any reasonable limit, because motherhood here doesn't come with an off switch.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1788,7 +1788,7 @@
       "id": "nyleth",
       "label": "Nyleth",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Struck a deal so old it outlived her, and still gets guarded by someone who's forgotten most of the reason why.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1796,7 +1796,7 @@
       "id": "palestag",
       "label": "Palestag",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was hunted to prove someone else's greatness, and the proof mattered more than whether the myth was ever true.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1804,7 +1804,7 @@
       "id": "phantom",
       "label": "Phantom",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was spun and then set aside, and now plays a mournful song through a mask too broken to stay on by itself.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1812,7 +1812,7 @@
       "id": "pinstress",
       "label": "Pinstress",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Held onto a warrior's code after the ones who taught it were wiped out for following it too well.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1820,7 +1820,7 @@
       "id": "plasmified-zango",
       "label": "Plasmified Zango",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Died carrying out someone else's experiment, and got brought back only to serve as more evidence of it.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1828,7 +1828,7 @@
       "id": "raging-conchfly",
       "label": "Raging Conchfly",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Fled once, watched its mate die, and has been furious about it at this doorway ever since.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1836,7 +1836,7 @@
       "id": "savage-beastfly",
       "label": "Savage Beastfly",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Spent so long charging the same locked gate that fury is now the only shape left of the attempt.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1844,7 +1844,7 @@
       "id": "second-sentinel",
       "label": "Second Sentinel",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was built to bring pilgrims safely inside, whether or not safety was something they actually asked for.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1852,7 +1852,7 @@
       "id": "sister-splinter",
       "label": "Sister Splinter",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Claimed an entire forest the moment its old, quiet heart stopped watching, and has defended the theft ever since.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1860,7 +1860,7 @@
       "id": "skull-tyrant",
       "label": "Skull Tyrant",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Is the reason every pilgrim in the Marrow learns to walk quietly beneath its caves.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1868,7 +1868,7 @@
       "id": "summoned-saviour",
       "label": "Summoned Saviour",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was stitched together out of dead pilgrims' masks by someone desperate enough not to ask what it would cost.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1876,7 +1876,7 @@
       "id": "the-unravelled",
       "label": "The Unravelled",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Is every soul that didn't survive the operating table, still trying, together, to remember its own name.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1884,7 +1884,7 @@
       "id": "trobbio",
       "label": "Trobbio",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wants to be adored badly enough that he's willing to kill for an audience, and calls it raising the kingdom's spirits.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1892,7 +1892,7 @@
       "id": "voltvyrm",
       "label": "Voltvyrm",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Thinks in barely more than instinct, and got studied anyway by scholars hoping to borrow its lightning.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1900,7 +1900,7 @@
       "id": "watcher-at-the-edge",
       "label": "Watcher at the Edge",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Outlived an entire tribe just to keep guarding a border no one's left to cross, standing so still they mistake him for stone.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1908,7 +1908,7 @@
       "id": "widow",
       "label": "Widow",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Stayed loyal long enough to be pinned into silence for it, and now drags the same silence down onto everyone else.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1916,7 +1916,7 @@
       "id": "the-abyss-silksong",
       "label": "The Abyss (Silksong)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "The same dark the Knight once climbed out of, waiting at the bottom of an entirely different kingdom.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1932,7 +1932,7 @@
       "id": "bilewater",
       "label": "Bilewater",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Chokes on its own fumes in the Citadel's shadow, and has for longer than the shadow's been falling.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1972,7 +1972,7 @@
       "id": "cogwork-core",
       "label": "Cogwork Core",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Ticks on exactly as designed, indifferent to the fact that what it guards has stopped deserving the effort.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1980,7 +1980,7 @@
       "id": "the-cradle",
       "label": "The Cradle",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Holds a sleeping god above a room full of cages built for children exactly like the one who finally woke her.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1988,7 +1988,7 @@
       "id": "deep-docks",
       "label": "Deep Docks",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Forges tools over a lake of fire, and calls the burns that come with the job simply part of the wage.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2004,7 +2004,7 @@
       "id": "grand-gate",
       "label": "Grand Gate",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Used to open for anyone with faith enough to climb this far, and now mostly just judges who still has any left.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2020,7 +2020,7 @@
       "id": "high-halls",
       "label": "High Halls",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Kept its water running and its halls gleaming long after the people meant to enjoy either one stopped coming.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2028,7 +2028,7 @@
       "id": "hunter's-march",
       "label": "Hunter's March",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Every shadow here is either a red ant or a trap set by one, and the dark doesn't much care which finds you first.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2044,7 +2044,7 @@
       "id": "memorium",
       "label": "Memorium",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Keeps the kingdom's creatures behind glass in rooms built to lie about being their real home.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2052,7 +2052,7 @@
       "id": "the-mist",
       "label": "The Mist",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Fogs over a road already littered with the last people who tried to find their way through it.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2060,7 +2060,7 @@
       "id": "moss-grotto",
       "label": "Moss Grotto",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Stayed gentle and green while everything past its border learned to be otherwise.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2068,7 +2068,7 @@
       "id": "mosslands",
       "label": "Mosslands",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Two places sharing one name and one color, as if the map itself gave up trying to tell them apart.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2076,7 +2076,7 @@
       "id": "mount-fay",
       "label": "Mount Fay",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Freezes anyone who lingers too long between its scattered fires, patient in the specific way only cold can be.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2084,7 +2084,7 @@
       "id": "putrified-ducts",
       "label": "Putrified Ducts",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Carries the Citadel's own filth downhill, and calls the carrying someone else's problem now.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2092,7 +2092,7 @@
       "id": "red-memory",
       "label": "Red Memory",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Is a memory dressed up as a place, red-threaded and humming with a heartbeat that was never really here at all.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2100,7 +2100,7 @@
       "id": "sands-of-karak",
       "label": "Sands of Karak",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Used to have a river running through it, and kept the coral long after it forgot how to keep the water.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2116,7 +2116,7 @@
       "id": "sinner's-road",
       "label": "Sinner's Road",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Still breeds and butchers exactly as it always did, just with keepers too haunted now to notice they're not needed.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2124,7 +2124,7 @@
       "id": "the-slab",
       "label": "The Slab",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Calls itself a place of forgiveness, though everyone actually locked inside knows better than to believe the sign.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2132,7 +2132,7 @@
       "id": "underworks",
       "label": "Underworks",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Charges its own workers to rest, in a basement built entirely to keep somebody else's lights on.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2140,7 +2140,7 @@
       "id": "verdania",
       "label": "Verdania",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Used to be lush enough to inspire a kingdom's pride, and is now mostly just a place to grieve what that pride cost.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2148,7 +2148,7 @@
       "id": "weavenest-atla",
       "label": "Weavenest Atla",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Was named for a Weaver of time, and abandoned long enough that even the name has started slipping.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2156,7 +2156,7 @@
       "id": "whispering-vaults",
       "label": "Whispering Vaults",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Held the whole Citadel's memory once, and now mostly just echoes it back to whoever still bothers to ask.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2164,7 +2164,7 @@
       "id": "whiteward",
       "label": "Whiteward",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Still has the wheelchairs lined up from patients who never got wheeled back out.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2172,7 +2172,7 @@
       "id": "wisp-thicket",
       "label": "Wisp Thicket",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Stays small and dim on purpose, tucked away just far enough that its fire-worshippers go mostly unnoticed.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2180,7 +2180,7 @@
       "id": "wormways",
       "label": "Wormways",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Trembles constantly with things burrowing just beneath the floor, and no one's quite sure yet if that's dangerous or just alive.",
       "type": "location",
       "game": "Silksong"
     },
