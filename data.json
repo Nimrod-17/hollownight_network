@@ -164,7 +164,7 @@
       "id": "hornet-hollow-knight",
       "label": "Hornet (Hollow Knight)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Tests every stranger twice before deciding they've earned the right to keep walking these halls.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -324,7 +324,7 @@
       "id": "the-pale-king",
       "label": "The Pale King",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wore a crown grown from a shed skin, and asked an entire kingdom to forget what he used to be.",
       "type": "npc",
       "game": "Hollow Knight"
     },
@@ -836,7 +836,7 @@
       "id": "city-of-tears",
       "label": "City of Tears",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Rain falls the same on every tower, rich or ruined, as if the sky never learned to tell them apart.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -860,7 +860,7 @@
       "id": "deepnest",
       "label": "Deepnest",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "No two maps agree on its shape, because nothing that lives here wants to be found the same way twice.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -884,7 +884,7 @@
       "id": "forgotten-crossroads",
       "label": "Forgotten Crossroads",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "These roads still remember where they used to lead, long after the travelers wore down to bone.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -900,7 +900,7 @@
       "id": "godhome",
       "label": "Godhome",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Built for losing, over and over, to those who call dying a kind of practice.",
       "type": "location",
       "game": "Hollow Knight"
     },
@@ -1124,7 +1124,7 @@
       "id": "flea",
       "label": "Flea",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Small enough to be forgotten in a cage, loud enough not to stay that way once someone finally listens.",
       "type": "npc",
       "game": "Silksong"
     },
@@ -1268,7 +1268,7 @@
       "id": "lace",
       "label": "Lace",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Spun to love her mother awake, and loyal enough never to ask what she was made to replace.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1716,7 +1716,7 @@
       "id": "grand-mother-silk",
       "label": "Grand Mother Silk",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Told her children they were divine, and believed it long enough that none of them dared wake her to ask.",
       "type": "boss",
       "game": "Silksong"
     },
@@ -1924,7 +1924,7 @@
       "id": "bellhart",
       "label": "Bellhart",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Every wall rings if struck — a town that learned to sound its own alarm, and forgot why.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1940,7 +1940,7 @@
       "id": "blasted-steps",
       "label": "Blasted Steps",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Wind has been sanding this staircase flat since long before there was anyone left to climb it.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1948,7 +1948,7 @@
       "id": "bone-bottom",
       "label": "Bone Bottom",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "First stop on a road that only steepens from here, where pilgrims write down wishes before they know better.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1956,7 +1956,7 @@
       "id": "choral-chambers",
       "label": "Choral Chambers",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Song still moves through these halls, though whatever used to sing here stopped being alive a long time ago.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1964,7 +1964,7 @@
       "id": "the-citadel",
       "label": "The Citadel",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Gold enough to blind the faithful climbing toward it, as though brightness alone could pass for mercy.",
       "type": "location",
       "game": "Silksong"
     },
@@ -1996,7 +1996,7 @@
       "id": "far-fields",
       "label": "Far Fields",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Warm air rises from somewhere below that would rather not be looked at too closely.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2012,7 +2012,7 @@
       "id": "greymoor",
       "label": "Greymoor",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Rain hasn't stopped long enough for anyone to remember dry, least of all the ones still tending the fields.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2036,7 +2036,7 @@
       "id": "the-marrow",
       "label": "The Marrow",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Every road down here is paved in someone's bones, and none of them seem to mind the traffic.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2108,7 +2108,7 @@
       "id": "shellwood",
       "label": "Shellwood",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Green swallowed the pilgrim road so completely it forgot a road was ever meant to be walked.",
       "type": "location",
       "game": "Silksong"
     },
@@ -2188,7 +2188,7 @@
       "id": "the-knight",
       "label": "The Knight",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Empty inside by design, yet still descends where fuller things refuse to go.",
       "type": "protagonist",
       "game": "Hollow Knight"
     },
@@ -2196,7 +2196,7 @@
       "id": "hornet-silksong",
       "label": "Hornet (Silksong)",
       "area": "",
-      "fragment": "TODO: write a short original description.",
+      "fragment": "Slipped her captors before the cage could close, and now climbs toward a peak that does not want her.",
       "type": "protagonist",
       "game": "Silksong"
     }
