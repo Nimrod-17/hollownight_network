@@ -46,6 +46,14 @@ const labelLayer = viewport.append("g").attr("class", "labels");
 
 const zoom = d3.zoom()
   .scaleExtent([0.3, 4])
+  // d3-zoom's default wheelDelta multiplies by 10 whenever ctrlKey is set,
+  // since browsers report trackpad pinch-zoom as ctrl+wheel with tiny
+  // deltas that need amplifying. We require ctrl/cmd+wheel for every zoom
+  // (see filter below), so a real mouse wheel's much larger delta was
+  // getting that same 10x boost on every notch - jumping almost straight
+  // to the min/max zoom in one scroll click. Dropping that multiplier
+  // (and halving the base rate) gives small, steady steps instead.
+  .wheelDelta((event) => -event.deltaY * (event.deltaMode ? 0.025 : 0.001))
   // Plain wheel scrolls the page (the graph now lives in a scrollable
   // post, not the whole viewport); only ctrl/cmd+wheel (also how
   // trackpad pinch is reported) or drag zoom/pan the graph itself.
