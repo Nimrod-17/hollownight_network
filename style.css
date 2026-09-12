@@ -1,0 +1,210 @@
+:root {
+  --bg: #10131a;
+  --bg-deep: #0a0c11;
+  --bone: #e4ded0;
+  --bone-dim: #a8a396;
+  --soul: #9fd8e0;
+  --deepnest: #5b4a68;
+  --geo: #8fae6b;
+  --line: rgba(228, 222, 208, 0.14);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--bone);
+  font-family: 'Work Sans', sans-serif;
+  overflow: hidden;
+}
+
+h1, h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.topbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.1rem 1.75rem;
+  background: linear-gradient(to bottom, var(--bg) 60%, transparent);
+}
+
+.topbar h1 {
+  font-size: 1.5rem;
+  color: var(--bone);
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+  font-size: 0.85rem;
+  color: var(--bone-dim);
+}
+
+.progress-track {
+  width: 140px;
+  height: 5px;
+  border-radius: 3px;
+  background: rgba(228, 222, 208, 0.12);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--geo);
+  transition: width 0.6s ease;
+}
+
+.ghost-btn {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.8rem;
+  color: var(--bone-dim);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.ghost-btn:hover, .ghost-btn:focus-visible {
+  border-color: var(--soul);
+  color: var(--soul);
+}
+
+main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#graph {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.node-circle {
+  stroke: var(--bg-deep);
+  stroke-width: 1.5px;
+  cursor: pointer;
+  transition: fill 0.4s ease, r 0.3s ease;
+}
+
+.node-circle.hidden-node {
+  fill: var(--bg-deep);
+  stroke: none;
+}
+
+.node-circle.glimpsed {
+  fill: var(--deepnest);
+}
+
+.node-circle.revealed {
+  fill: var(--soul);
+}
+
+.node-label {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 11px;
+  fill: var(--bone-dim);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.node-label.visible {
+  opacity: 1;
+}
+
+.link-line {
+  stroke: var(--line);
+  stroke-width: 1px;
+}
+
+.hint {
+  position: absolute;
+  bottom: 1.75rem;
+  left: 1.75rem;
+  margin: 0;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--bone-dim);
+  max-width: 22ch;
+}
+
+.journal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(340px, 85vw);
+  height: 100%;
+  background: var(--bg-deep);
+  border-left: 1px solid var(--line);
+  padding: 4rem 1.75rem 2rem;
+  z-index: 20;
+  transform: translateX(0);
+  transition: transform 0.45s ease;
+}
+
+.journal.hidden {
+  transform: translateX(100%);
+}
+
+.journal-area {
+  font-size: 0.75rem;
+  text-transform: none;
+  letter-spacing: 0.04em;
+  color: var(--geo);
+  margin: 0 0 0.4rem;
+}
+
+.journal h2 {
+  font-size: 1.8rem;
+  color: var(--soul);
+  margin-bottom: 1rem;
+}
+
+.journal p#journal-fragment {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--bone);
+}
+
+.journal-close {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  color: var(--bone-dim);
+  font-size: 1.4rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.journal-close:hover {
+  color: var(--soul);
+}
+
+@media (max-width: 640px) {
+  .topbar { gap: 1rem; padding: 0.9rem 1rem; }
+  .topbar h1 { font-size: 1.15rem; }
+  .progress-track { width: 80px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diario di Hallownest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <h1>Diario di Hallownest</h1>
+    <div class="progress">
+      <span id="progress-label">0% esplorato</span>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    </div>
+    <button id="reveal-all-btn" class="ghost-btn">Illumina tutto</button>
+  </header>
+
+  <main>
+    <svg id="graph"></svg>
+
+    <aside id="journal" class="journal hidden">
+      <button id="journal-close" class="journal-close" aria-label="Chiudi">&times;</button>
+      <p class="journal-area" id="journal-area"></p>
+      <h2 id="journal-title"></h2>
+      <p id="journal-fragment"></p>
+    </aside>
+
+    <p id="hint" class="hint">Clicca il Cavaliere per iniziare a scoprire Hallownest.</p>
+  </main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
