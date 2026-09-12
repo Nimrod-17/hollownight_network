@@ -126,15 +126,23 @@ main {
 }
 
 /* Soft halo instead of a hard geometric outline - reads more like an
-   in-game charm/notch icon than a technical diagram node. */
-.node-shape.type-protagonist { filter: drop-shadow(0 0 7px rgba(232, 193, 112, 0.55)); }
+   in-game charm/notch icon than a technical diagram node. Protagonists
+   are the exception: their "glow" is a separate blurred ellipse drawn
+   behind the image (see .protagonist-halo) rather than an SVG
+   drop-shadow filter, which produced a messy halo when combined with
+   the official artwork's own transparency. */
 .node-shape.type-boss { fill: var(--c-boss); filter: drop-shadow(0 0 5px rgba(168, 99, 95, 0.5)); }
 .node-shape.type-npc { fill: var(--c-npc); filter: drop-shadow(0 0 5px rgba(127, 179, 213, 0.45)); }
 .node-shape.type-location { fill: var(--c-location); filter: drop-shadow(0 0 5px rgba(138, 153, 117, 0.45)); }
 
-.protagonist-badge { fill: var(--c-protagonist); }
+/* Official artwork, drawn at its own natural aspect ratio - no crop/mask. */
 .protagonist-image {
-  clip-path: circle(50%);
+  pointer-events: none;
+}
+
+.protagonist-halo {
+  fill: rgba(232, 193, 112, 0.28);
+  filter: blur(9px);
   pointer-events: none;
 }
 

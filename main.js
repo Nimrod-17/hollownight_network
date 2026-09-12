@@ -23,12 +23,21 @@ const svg = d3.select("#graph");
 let { width, height } = measureAppFrame();
 svg.attr("viewBox", [0, 0, width, height]);
 
-// Official Team Cherry artwork, used as-is (see assets/icon/) - masked
-// into a circle per node, not redrawn.
-const PROTAGONIST_ICON = {
-  "the-knight": "assets/icon/knight_head.png",
-  "hornet-silksong": "assets/icon/hornet_head.png",
+// Official Team Cherry artwork, used as-is (see assets/icon/), drawn at
+// its own natural aspect ratio - NOT cropped/masked into a uniform shape.
+// Hornet's mask is genuinely taller-than-wide (long vertical horns);
+// the Knight's is closer to square. Aspect ratios below are measured
+// directly from the source files (knight_head.png: 1618x1815,
+// hornet_head.png: 1340x2142) rather than hardcoding pixel dimensions,
+// so only the ratio matters.
+const PROTAGONIST_ICONS = {
+  "the-knight": { href: "assets/icon/knight_head.png", aspect: 1618 / 1815 },
+  "hornet-silksong": { href: "assets/icon/hornet_head.png", aspect: 1340 / 2142 },
 };
+// Shared height for both protagonist icons so neither reads as
+// disproportionately bigger - width is then derived per-icon from its
+// own aspect ratio, so proportions stay true (Hornet ends up narrower).
+const PROTAGONIST_ICON_HEIGHT = 46;
 
 const viewport = svg.append("g").attr("class", "viewport");
 const linkLayer = viewport.append("g").attr("class", "links");
@@ -121,6 +130,10 @@ fetch("data.json")
   });
 
 function radiusFor(d) {
+  // Protagonists render at a fixed icon height regardless of degree (see
+  // PROTAGONIST_ICON_HEIGHT), so their "radius" for collision/label
+  // purposes is just half that height, not the degree-based formula.
+  if (d.type === "protagonist") return PROTAGONIST_ICON_HEIGHT / 2;
   const degree = degreeById.get(d.id) || 0;
   return TYPE_BASE_RADIUS[d.type] + Math.min(6, Math.sqrt(degree) * 1.1);
 }
@@ -219,13 +232,23 @@ function render(reheat = "low") {
     const g = d3.select(this);
     const r = radiusFor(d);
     if (d.type === "protagonist") {
+      const icon = PROTAGONIST_ICONS[d.id];
+      const h = PROTAGONIST_ICON_HEIGHT;
+      const w = h * icon.aspect;
       const shape = g.append("g").attr("class", "node-shape");
-      shape.append("circle").attr("r", r).attr("class", "protagonist-badge");
+      // Halo drawn first (behind the image): a soft, blurred, low-opacity
+      // ellipse loosely matching the icon's own bounding box - not a
+      // fixed circle, and not a solid backing shape (that would show
+      // through the PNG's transparent regions as a hard-edged color).
+      shape.append("ellipse")
+        .attr("class", "protagonist-halo")
+        .attr("rx", w / 2 + 7)
+        .attr("ry", h / 2 + 7);
       shape.append("image")
-        .attr("href", PROTAGONIST_ICON[d.id])
-        .attr("x", -r).attr("y", -r)
-        .attr("width", r * 2).attr("height", r * 2)
-        .attr("preserveAspectRatio", "xMidYMid slice")
+        .attr("href", icon.href)
+        .attr("x", -w / 2).attr("y", -h / 2)
+        .attr("width", w).attr("height", h)
+        .attr("preserveAspectRatio", "xMidYMid meet")
         .attr("class", "protagonist-image");
     } else if (d.type === "boss") {
       const side = r * 1.3;
