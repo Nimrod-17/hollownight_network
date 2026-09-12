@@ -10,72 +10,114 @@
 </head>
 <body>
 
-  <header class="topbar">
-    <h1>Hallownest Diary</h1>
-    <div class="progress">
-      <span id="progress-label">0% explored</span>
-      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+  <section class="hero">
+    <div class="motes" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
     </div>
-    <button id="filters-toggle-btn" class="ghost-btn" aria-expanded="false">Filters</button>
-    <button id="reveal-all-btn" class="ghost-btn">Reveal all</button>
-  </header>
+    <div class="hero-content">
+      <svg class="hero-emblem" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M6,15 C6,11 10,9 16,9 C22,9 26,11 26,15 L26,23 C26,27 21,29 16,29 C11,29 6,27 6,23 Z" />
+        <path d="M9,14 C6.5,10 4,5 1.5,1.5 C5,3 8.5,6.5 11,11 C11.8,12.4 10.8,13.6 9,14 Z" />
+        <path d="M23,14 C25.5,10 28,5 30.5,1.5 C27,3 23.5,6.5 21,11 C20.2,12.4 21.2,13.6 23,14 Z" />
+        <ellipse cx="12" cy="20" rx="2.4" ry="3.2" class="eye" />
+        <ellipse cx="20" cy="20" rx="2.4" ry="3.2" class="eye" />
+      </svg>
+      <h1>Hallownest Diary</h1>
+      <p class="hero-subtitle">
+        A weekly network-science exploration of the Hollow Knight and
+        Silksong lore — characters, bosses and places, mapped as a
+        living, gradually-revealed web straight from the wiki.
+      </p>
+    </div>
+    <button id="scroll-cue" class="scroll-cue" aria-label="Scroll to the first post">
+      <span>Scroll to explore</span>
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 8 L12 16 L20 8" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </section>
 
-  <main>
-    <svg id="graph"></svg>
+  <section class="post" id="post-network">
+    <header class="post-intro">
+      <p class="post-label">Post 1</p>
+      <h2>Mapping the Network</h2>
+      <p>
+        275 characters, bosses and locations pulled from the official
+        Hollow Knight wiki, linked by what their own pages mention about
+        each other. Click The Knight or Hornet below to start uncovering
+        Hallownest and Pharloom node by node.
+      </p>
+    </header>
 
-    <aside id="filters-panel" class="filters-panel hidden">
-      <button id="filters-close" class="journal-close" aria-label="Close">&times;</button>
+    <div class="app-frame">
+      <header class="topbar">
+        <h3 class="topbar-title">Hallownest Diary</h3>
+        <div class="progress">
+          <span id="progress-label">0% explored</span>
+          <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+        </div>
+        <button id="filters-toggle-btn" class="ghost-btn" aria-expanded="false">Filters</button>
+        <button id="reveal-all-btn" class="ghost-btn">Reveal all</button>
+      </header>
 
-      <section class="filter-section">
-        <h3>Legend</h3>
-        <ul class="legend">
-          <li><span class="swatch type-protagonist"></span>Protagonist</li>
-          <li><span class="swatch type-boss"></span>Boss</li>
-          <li><span class="swatch type-npc"></span>NPC</li>
-          <li><span class="swatch type-location"></span>Location</li>
-        </ul>
-      </section>
+      <main>
+        <svg id="graph"></svg>
 
-      <section class="filter-section">
-        <h3>Show</h3>
-        <label class="check-row"><input type="checkbox" class="type-filter" value="protagonist" checked>Protagonists</label>
-        <label class="check-row"><input type="checkbox" class="type-filter" value="boss" checked>Bosses</label>
-        <label class="check-row"><input type="checkbox" class="type-filter" value="npc" checked>NPCs</label>
-        <label class="check-row"><input type="checkbox" class="type-filter" value="location" checked>Locations</label>
-      </section>
+        <aside id="filters-panel" class="filters-panel hidden">
+          <button id="filters-close" class="journal-close" aria-label="Close">&times;</button>
 
-      <section class="filter-section">
-        <h3>Game</h3>
-        <label class="check-row"><input type="checkbox" class="game-filter" value="Hollow Knight" checked>Hollow Knight</label>
-        <label class="check-row"><input type="checkbox" class="game-filter" value="Silksong" checked>Silksong</label>
-      </section>
+          <section class="filter-section">
+            <h3>Legend</h3>
+            <ul class="legend">
+              <li><span class="swatch type-protagonist"></span>Protagonist</li>
+              <li><span class="swatch type-boss"></span>Boss</li>
+              <li><span class="swatch type-npc"></span>NPC</li>
+              <li><span class="swatch type-location"></span>Location</li>
+            </ul>
+          </section>
 
-      <section class="filter-section">
-        <h3>Layout</h3>
-        <select id="view-mode-select">
-          <option value="force">Force-directed</option>
-          <option value="by-game">Split by game</option>
-          <option value="by-type">Grouped by role</option>
-        </select>
-      </section>
+          <section class="filter-section">
+            <h3>Show</h3>
+            <label class="check-row"><input type="checkbox" class="type-filter" value="protagonist" checked>Protagonists</label>
+            <label class="check-row"><input type="checkbox" class="type-filter" value="boss" checked>Bosses</label>
+            <label class="check-row"><input type="checkbox" class="type-filter" value="npc" checked>NPCs</label>
+            <label class="check-row"><input type="checkbox" class="type-filter" value="location" checked>Locations</label>
+          </section>
 
-      <section class="filter-section">
-        <h3>Find</h3>
-        <input type="search" id="search-input" placeholder="Search discovered entries…" autocomplete="off">
-        <p id="search-status" class="search-status"></p>
-      </section>
-    </aside>
+          <section class="filter-section">
+            <h3>Game</h3>
+            <label class="check-row"><input type="checkbox" class="game-filter" value="Hollow Knight" checked>Hollow Knight</label>
+            <label class="check-row"><input type="checkbox" class="game-filter" value="Silksong" checked>Silksong</label>
+          </section>
 
-    <aside id="journal" class="journal hidden">
-      <button id="journal-close" class="journal-close" aria-label="Close">&times;</button>
-      <p class="journal-area" id="journal-area"></p>
-      <h2 id="journal-title"></h2>
-      <p id="journal-fragment"></p>
-      <label class="check-row focus-row"><input type="checkbox" id="focus-toggle">Focus on this entry</label>
-    </aside>
+          <section class="filter-section">
+            <h3>Layout</h3>
+            <select id="view-mode-select">
+              <option value="force">Force-directed</option>
+              <option value="by-game">Split by game</option>
+              <option value="by-type">Grouped by role</option>
+            </select>
+          </section>
 
-    <p id="hint" class="hint">Click the Knight or Hornet to start uncovering Hallownest and Pharloom.</p>
-  </main>
+          <section class="filter-section">
+            <h3>Find</h3>
+            <input type="search" id="search-input" placeholder="Search discovered entries…" autocomplete="off">
+            <p id="search-status" class="search-status"></p>
+          </section>
+        </aside>
+
+        <aside id="journal" class="journal hidden">
+          <button id="journal-close" class="journal-close" aria-label="Close">&times;</button>
+          <p class="journal-area" id="journal-area"></p>
+          <h2 id="journal-title"></h2>
+          <p id="journal-fragment"></p>
+          <label class="check-row focus-row"><input type="checkbox" id="focus-toggle">Focus on this entry</label>
+        </aside>
+
+        <p id="hint" class="hint">Click the Knight or Hornet to start uncovering Hallownest and Pharloom.</p>
+        <p class="zoom-hint">Drag to pan · Ctrl/Cmd + scroll to zoom</p>
+      </main>
+    </div>
+  </section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="main.js"></script>

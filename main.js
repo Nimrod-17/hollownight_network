@@ -12,9 +12,15 @@ const TYPE_BASE_RADIUS = { protagonist: 16, boss: 10, npc: 7, location: 10 };
 const ALL_TYPES = ["protagonist", "boss", "npc", "location"];
 const ALL_GAMES = ["Hollow Knight", "Silksong"];
 
+const appFrame = document.querySelector(".app-frame");
+
+function measureAppFrame() {
+  const rect = appFrame.getBoundingClientRect();
+  return { width: rect.width, height: rect.height };
+}
+
 const svg = d3.select("#graph");
-let width = window.innerWidth;
-let height = window.innerHeight;
+let { width, height } = measureAppFrame();
 svg.attr("viewBox", [0, 0, width, height]);
 
 const defs = svg.append("defs");
@@ -41,6 +47,10 @@ const labelLayer = viewport.append("g").attr("class", "labels");
 
 const zoom = d3.zoom()
   .scaleExtent([0.3, 4])
+  // Plain wheel scrolls the page (the graph now lives in a scrollable
+  // post, not the whole viewport); only ctrl/cmd+wheel (also how
+  // trackpad pinch is reported) or drag zoom/pan the graph itself.
+  .filter((event) => (event.type !== "wheel" || event.ctrlKey || event.metaKey) && !event.button)
   .on("zoom", (event) => viewport.attr("transform", event.transform));
 svg.call(zoom);
 
@@ -380,9 +390,12 @@ function updateProgress() {
 }
 
 window.addEventListener("resize", () => {
-  width = window.innerWidth;
-  height = window.innerHeight;
+  ({ width, height } = measureAppFrame());
   svg.attr("viewBox", [0, 0, width, height]);
   simulation.force("center", d3.forceCenter(width / 2, height / 2));
   applyViewMode("low");
+});
+
+document.getElementById("scroll-cue").addEventListener("click", () => {
+  document.getElementById("post-network").scrollIntoView({ behavior: "smooth" });
 });
