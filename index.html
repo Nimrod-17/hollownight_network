@@ -118,6 +118,20 @@
     Hollow Knight and its assets are property of Team Cherry — fan project, not affiliated.
   </footer>
 
+  <div id="music-control" class="music-control">
+    <button id="music-toggle" class="music-toggle" aria-label="Play ambient music" aria-pressed="false" disabled>
+      <svg class="icon-play" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 4 L20 12 L6 20 Z" fill="currentColor"/></svg>
+      <svg class="icon-pause" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 4 H10 V20 H6 Z M14 4 H18 V20 H14 Z" fill="currentColor"/></svg>
+    </button>
+    <div class="music-credit">
+      <a href="https://www.youtube.com/@ComposerLarkin" target="_blank" rel="noopener noreferrer">Music by Christopher Larkin</a>
+      <a href="https://christopherlarkin.bandcamp.com/album/hollow-knight-silksong-original-soundtrack" target="_blank" rel="noopener noreferrer" class="music-credit-secondary">Bandcamp</a>
+    </div>
+  </div>
+  <div id="youtube-player" aria-hidden="true"></div>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="music.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="main.js"></script>
 </body>
