@@ -6,7 +6,7 @@
 //   revealed  -> clicked: shows the fragment card in the side panel
 //
 // SEED_IDS: which nodes the exploration starts from. Change these to match the real dataset.
-const SEED_IDS = ["knight"];
+const SEED_IDS = ["the-knight", "hornet-silksong"];
 
 const svg = d3.select("#graph");
 let width = window.innerWidth;

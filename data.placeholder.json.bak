@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    { "id": "knight",     "label": "The Knight",     "area": "Forgotten Crossroads", "fragment": "A voiceless vessel, descended into Hallownest for reasons even it no longer recalls.", "type": "character" },
+    { "id": "hornet",     "label": "Hornet",        "area": "Greenpath",            "fragment": "Watches over Hallownest's borders with far more discretion than she lets on.", "type": "character" },
+    { "id": "quirrel",    "label": "Quirrel",       "area": "Forgotten Crossroads", "fragment": "A traveler who no longer remembers why he travels, only that he must.", "type": "character" },
+    { "id": "cornifer",   "label": "Cornifer",      "area": "Forgotten Crossroads", "fragment": "Draws maps of a kingdom that never seems to stop surprising him.", "type": "character" },
+    { "id": "greenpath",  "label": "Greenpath",     "area": "Greenpath",            "fragment": "A forest grown where once there was only stone.", "type": "location" },
+    { "id": "crossroads", "label": "Forgotten Crossroads", "area": "Forgotten Crossroads", "fragment": "The junction from which every road through Hallownest eventually returns.", "type": "location" },
+    { "id": "zote",       "label": "Zote",          "area": "Greenpath",            "fragment": "Convinced he is the hero of a story no one else is telling.", "type": "character" },
+    { "id": "moss-knight","label": "Moss Knight",   "area": "Greenpath",            "fragment": "A plant-bound guardian, as slow as the things it swore to protect.", "type": "character" }
+  ],
+  "links": [
+    { "source": "knight", "target": "crossroads" },
+    { "source": "knight", "target": "cornifer" },
+    { "source": "knight", "target": "quirrel" },
+    { "source": "crossroads", "target": "cornifer" },
+    { "source": "crossroads", "target": "quirrel" },
+    { "source": "knight", "target": "hornet" },
+    { "source": "hornet", "target": "greenpath" },
+    { "source": "greenpath", "target": "zote" },
+    { "source": "greenpath", "target": "moss-knight" },
+    { "source": "zote", "target": "moss-knight" }
+  ]
+}

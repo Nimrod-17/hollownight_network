@@ -1,24 +1,8775 @@
 {
   "nodes": [
-    { "id": "knight",     "label": "The Knight",     "area": "Forgotten Crossroads", "fragment": "A voiceless vessel, descended into Hallownest for reasons even it no longer recalls.", "type": "character" },
-    { "id": "hornet",     "label": "Hornet",        "area": "Greenpath",            "fragment": "Watches over Hallownest's borders with far more discretion than she lets on.", "type": "character" },
-    { "id": "quirrel",    "label": "Quirrel",       "area": "Forgotten Crossroads", "fragment": "A traveler who no longer remembers why he travels, only that he must.", "type": "character" },
-    { "id": "cornifer",   "label": "Cornifer",      "area": "Forgotten Crossroads", "fragment": "Draws maps of a kingdom that never seems to stop surprising him.", "type": "character" },
-    { "id": "greenpath",  "label": "Greenpath",     "area": "Greenpath",            "fragment": "A forest grown where once there was only stone.", "type": "location" },
-    { "id": "crossroads", "label": "Forgotten Crossroads", "area": "Forgotten Crossroads", "fragment": "The junction from which every road through Hallownest eventually returns.", "type": "location" },
-    { "id": "zote",       "label": "Zote",          "area": "Greenpath",            "fragment": "Convinced he is the hero of a story no one else is telling.", "type": "character" },
-    { "id": "moss-knight","label": "Moss Knight",   "area": "Greenpath",            "fragment": "A plant-bound guardian, as slow as the things it swore to protect.", "type": "character" }
+    {
+      "id": "unnamed-npcs-hollow-knight",
+      "label": "Unnamed NPCs (Hollow Knight)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "bardoon",
+      "label": "Bardoon",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "blue-child-joni",
+      "label": "Blue Child Joni",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "bretta",
+      "label": "Bretta",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "brumm",
+      "label": "Brumm",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "charm-lover-salubra",
+      "label": "Charm Lover Salubra",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "cloth",
+      "label": "Cloth",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "confessor-jiji",
+      "label": "Confessor Jiji",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "cornifer",
+      "label": "Cornifer",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "divine",
+      "label": "Divine",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "dreamers",
+      "label": "Dreamers",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "dung-defender",
+      "label": "Dung Defender",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "elderbug",
+      "label": "Elderbug",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "eternal-emilitia",
+      "label": "Eternal Emilitia",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "fluke-hermit",
+      "label": "Fluke Hermit",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "godseeker",
+      "label": "Godseeker",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "grey-mourner",
+      "label": "Grey Mourner",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "grubfather",
+      "label": "Grubfather",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "herrah-the-beast",
+      "label": "Herrah the Beast",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "hive-queen-vespa",
+      "label": "Hive Queen Vespa",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "hornet-hollow-knight",
+      "label": "Hornet (Hollow Knight)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-hunter",
+      "label": "The Hunter",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "iselda",
+      "label": "Iselda",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "last-stag",
+      "label": "Last Stag",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "leg-eater",
+      "label": "Leg Eater",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "little-fool",
+      "label": "Little Fool",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "lurien-the-watcher",
+      "label": "Lurien the Watcher",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "marissa",
+      "label": "Marissa",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "mask-maker-hollow-knight",
+      "label": "Mask Maker (Hollow Knight)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "midwife",
+      "label": "Midwife",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "millibelle-the-banker",
+      "label": "Millibelle the Banker",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "mister-mushroom-hollow-knight",
+      "label": "Mister Mushroom (Hollow Knight)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "monomon-the-teacher",
+      "label": "Monomon the Teacher",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "moss-prophet",
+      "label": "Moss Prophet",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "myla",
+      "label": "Myla",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nailmaster-mato",
+      "label": "Nailmaster Mato",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nailmaster-oro",
+      "label": "Nailmaster Oro",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nailmaster-sheo",
+      "label": "Nailmaster Sheo",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nailsmith",
+      "label": "Nailsmith",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nymm",
+      "label": "Nymm",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-pale-king",
+      "label": "The Pale King",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "quirrel",
+      "label": "Quirrel",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "relic-seeker-lemm",
+      "label": "Relic Seeker Lemm",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "revek",
+      "label": "Revek",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "seer",
+      "label": "Seer",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "sly",
+      "label": "Sly",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "snail-shaman",
+      "label": "Snail Shaman",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "spirits",
+      "label": "Spirits",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "steel-soul-jinn",
+      "label": "Steel Soul Jinn",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "thistlewind",
+      "label": "Thistlewind",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "tiso",
+      "label": "Tiso",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-traitors'-child",
+      "label": "The Traitors' Child",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "troupe-master-grimm",
+      "label": "Troupe Master Grimm",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "tuk",
+      "label": "Tuk",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "unnamed-moth",
+      "label": "Unnamed Moth",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "white-lady",
+      "label": "White Lady",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "willoh",
+      "label": "Willoh",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "zote-the-mighty",
+      "label": "Zote the Mighty",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "absolute-radiance",
+      "label": "Absolute Radiance",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "broken-vessel",
+      "label": "Broken Vessel",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "brooding-mawlek",
+      "label": "Brooding Mawlek",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "brothers-oro-&-mato",
+      "label": "Brothers Oro & Mato",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-collector",
+      "label": "The Collector",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "crystal-guardian",
+      "label": "Crystal Guardian",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "elder-hu",
+      "label": "Elder Hu",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "enraged-guardian",
+      "label": "Enraged Guardian",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "failed-champion",
+      "label": "Failed Champion",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "false-knight",
+      "label": "False Knight",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "flukemarm",
+      "label": "Flukemarm",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "galien",
+      "label": "Galien",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "god-tamer",
+      "label": "God Tamer",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "gorb",
+      "label": "Gorb",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "great-nailsage-sly",
+      "label": "Great Nailsage Sly",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "grey-prince-zote",
+      "label": "Grey Prince Zote",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "gruz-mother",
+      "label": "Gruz Mother",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "hive-knight",
+      "label": "Hive Knight",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-hollow-knight",
+      "label": "The Hollow Knight",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "hornet-protector",
+      "label": "Hornet Protector",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "hornet-sentinel",
+      "label": "Hornet Sentinel",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "lost-kin",
+      "label": "Lost Kin",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "mantis-lords",
+      "label": "Mantis Lords",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "markoth",
+      "label": "Markoth",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "marmu",
+      "label": "Marmu",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "massive-moss-charger",
+      "label": "Massive Moss Charger",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nightmare-king-grimm",
+      "label": "Nightmare King Grimm",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "no-eyes",
+      "label": "No Eyes",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nosk",
+      "label": "Nosk",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "oblobbles",
+      "label": "Oblobbles",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "paintmaster-sheo",
+      "label": "Paintmaster Sheo",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pure-vessel",
+      "label": "Pure Vessel",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-radiance",
+      "label": "The Radiance",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "sisters-of-battle",
+      "label": "Sisters of Battle",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "soul-master",
+      "label": "Soul Master",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "soul-tyrant",
+      "label": "Soul Tyrant",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "soul-warrior",
+      "label": "Soul Warrior",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "traitor-lord",
+      "label": "Traitor Lord",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "uumuu",
+      "label": "Uumuu",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "vengefly-king",
+      "label": "Vengefly King",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "watcher-knight",
+      "label": "Watcher Knight",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "white-defender",
+      "label": "White Defender",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "winged-nosk",
+      "label": "Winged Nosk",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "xero",
+      "label": "Xero",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-abyss-hollow-knight",
+      "label": "The Abyss (Hollow Knight)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "ancient-basin",
+      "label": "Ancient Basin",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "city-of-tears",
+      "label": "City of Tears",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "colosseum-of-fools",
+      "label": "Colosseum of Fools",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "crystal-peak",
+      "label": "Crystal Peak",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "deepnest",
+      "label": "Deepnest",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "dirtmouth",
+      "label": "Dirtmouth",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "fog-canyon",
+      "label": "Fog Canyon",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "forgotten-crossroads",
+      "label": "Forgotten Crossroads",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "fungal-wastes",
+      "label": "Fungal Wastes",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "godhome",
+      "label": "Godhome",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "greenpath",
+      "label": "Greenpath",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "the-hive",
+      "label": "The Hive",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "howling-cliffs",
+      "label": "Howling Cliffs",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "kingdom's-edge",
+      "label": "Kingdom's Edge",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "queen's-gardens",
+      "label": "Queen's Gardens",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "resting-grounds",
+      "label": "Resting Grounds",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "royal-waterways",
+      "label": "Royal Waterways",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "white-palace",
+      "label": "White Palace",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "aged-pilgrim",
+      "label": "Aged Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "alchemist-zylotol",
+      "label": "Alchemist Zylotol",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "ballow",
+      "label": "Ballow",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "beastlings",
+      "label": "Beastlings",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "bell-beast",
+      "label": "Bell Beast",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "bell-hermit",
+      "label": "Bell Hermit",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "broodling",
+      "label": "Broodling",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "caretaker",
+      "label": "Caretaker",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "chapel-maid",
+      "label": "Chapel Maid",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "cogwork-statues",
+      "label": "Cogwork Statues",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "conductor-ballador",
+      "label": "Conductor Ballador",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "couriers-tipp-&-pill",
+      "label": "Couriers Tipp & Pill",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "creige",
+      "label": "Creige",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "crull-and-benjin",
+      "label": "Crull and Benjin",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "dejected-pilgrim",
+      "label": "Dejected Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "eva",
+      "label": "Eva",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "exhausted-pilgrim",
+      "label": "Exhausted Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "fayforn",
+      "label": "Fayforn",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "fearful-pilgrim",
+      "label": "Fearful Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "flea",
+      "label": "Flea",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "flea-caravan",
+      "label": "Flea Caravan",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "fleamaster-mooshka",
+      "label": "Fleamaster Mooshka",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "flick-the-fixer",
+      "label": "Flick the Fixer",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "forge-daughter",
+      "label": "Forge Daughter",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "frey",
+      "label": "Frey",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "garmond-and-zaza",
+      "label": "Garmond and Zaza",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "gilly",
+      "label": "Gilly",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "great-gourmand",
+      "label": "Great Gourmand",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "green-prince",
+      "label": "Green Prince",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "greyroot",
+      "label": "Greyroot",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "grindle",
+      "label": "Grindle",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "grishkin",
+      "label": "Grishkin",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "horned-pilgrim",
+      "label": "Horned Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "humble-pilgrim",
+      "label": "Humble Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "huntress",
+      "label": "Huntress",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "jubilana",
+      "label": "Jubilana",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "kratt",
+      "label": "Kratt",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "lace",
+      "label": "Lace",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "loam",
+      "label": "Loam",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "loddie",
+      "label": "Loddie",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "loyal-mergwin",
+      "label": "Loyal Mergwin",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "lumble-the-lucky",
+      "label": "Lumble the Lucky",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "mask-maker-silksong",
+      "label": "Mask Maker (Silksong)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "mister-mushroom-silksong",
+      "label": "Mister Mushroom (Silksong)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "mort",
+      "label": "Mort",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "moss-druid",
+      "label": "Moss Druid",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "mottled-skarr",
+      "label": "Mottled Skarr",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nuu",
+      "label": "Nuu",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "old-penitent",
+      "label": "Old Penitent",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pavo",
+      "label": "Pavo",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pebb",
+      "label": "Pebb",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pilby",
+      "label": "Pilby",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pilgrim-preacher",
+      "label": "Pilgrim Preacher",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pinmaster-plinney",
+      "label": "Pinmaster Plinney",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pious-isamor",
+      "label": "Pious Isamor",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pondcatcher-reed",
+      "label": "Pondcatcher Reed",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "quiet-pilgrim",
+      "label": "Quiet Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "relic-seeker-scrounge",
+      "label": "Relic Seeker Scrounge",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "runt",
+      "label": "Runt",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "scared-pilgrim",
+      "label": "Scared Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "seamstress",
+      "label": "Seamstress",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "shakra",
+      "label": "Shakra",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "sherma",
+      "label": "Sherma",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "shrine-guardian-seth",
+      "label": "Shrine Guardian Seth",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "skarrsinger-karmelita",
+      "label": "Skarrsinger Karmelita",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "skynx",
+      "label": "Skynx",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "snail-shamans-silksong",
+      "label": "Snail Shamans (Silksong)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "solemn-pilgrim",
+      "label": "Solemn Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "sprintmaster-swift",
+      "label": "Sprintmaster Swift",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "steel-seer-zi",
+      "label": "Steel Seer Zi",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "styx",
+      "label": "Styx",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "sula",
+      "label": "Sula",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "tall-pilgrim",
+      "label": "Tall Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "tormented-trobbio",
+      "label": "Tormented Trobbio",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "twelfth-architect",
+      "label": "Twelfth Architect",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "unnamed-skarr",
+      "label": "Unnamed Skarr",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "varga",
+      "label": "Varga",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "vaultkeeper-cardinius",
+      "label": "Vaultkeeper Cardinius",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "vog",
+      "label": "Vog",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "weary-pilgrim",
+      "label": "Weary Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "worried-pilgrim",
+      "label": "Worried Pilgrim",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "yarnaby",
+      "label": "Yarnaby",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "bell-eater",
+      "label": "Bell Eater",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "broodmother",
+      "label": "Broodmother",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "clover-dancers",
+      "label": "Clover Dancers",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "cogwork-dancers",
+      "label": "Cogwork Dancers",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "crawfather",
+      "label": "Crawfather",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "crust-king-khann",
+      "label": "Crust King Khann",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "disgraced-chef-lugoli",
+      "label": "Disgraced Chef Lugoli",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "father-of-the-flame",
+      "label": "Father of the Flame",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "first-sinner",
+      "label": "First Sinner",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "forebrothers-signis-&-gron",
+      "label": "Forebrothers Signis & Gron",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "fourth-chorus",
+      "label": "Fourth Chorus",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "grand-mother-silk",
+      "label": "Grand Mother Silk",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "great-conchflies",
+      "label": "Great Conchflies",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "groal-the-great",
+      "label": "Groal the Great",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "gurr-the-outcast",
+      "label": "Gurr the Outcast",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "last-judge",
+      "label": "Last Judge",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "lost-garmond",
+      "label": "Lost Garmond",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "lost-lace",
+      "label": "Lost Lace",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "moorwing",
+      "label": "Moorwing",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "moss-mother",
+      "label": "Moss Mother",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "nyleth",
+      "label": "Nyleth",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "palestag",
+      "label": "Palestag",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "phantom",
+      "label": "Phantom",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "pinstress",
+      "label": "Pinstress",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "plasmified-zango",
+      "label": "Plasmified Zango",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "raging-conchfly",
+      "label": "Raging Conchfly",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "savage-beastfly",
+      "label": "Savage Beastfly",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "second-sentinel",
+      "label": "Second Sentinel",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "sister-splinter",
+      "label": "Sister Splinter",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "skull-tyrant",
+      "label": "Skull Tyrant",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "summoned-saviour",
+      "label": "Summoned Saviour",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-unravelled",
+      "label": "The Unravelled",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "trobbio",
+      "label": "Trobbio",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "voltvyrm",
+      "label": "Voltvyrm",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "watcher-at-the-edge",
+      "label": "Watcher at the Edge",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "widow",
+      "label": "Widow",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "the-abyss-silksong",
+      "label": "The Abyss (Silksong)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "bellhart",
+      "label": "Bellhart",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "bilewater",
+      "label": "Bilewater",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "blasted-steps",
+      "label": "Blasted Steps",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "bone-bottom",
+      "label": "Bone Bottom",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "choral-chambers",
+      "label": "Choral Chambers",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "the-citadel",
+      "label": "The Citadel",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "cogwork-core",
+      "label": "Cogwork Core",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "the-cradle",
+      "label": "The Cradle",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "deep-docks",
+      "label": "Deep Docks",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "far-fields",
+      "label": "Far Fields",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "grand-gate",
+      "label": "Grand Gate",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "greymoor",
+      "label": "Greymoor",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "high-halls",
+      "label": "High Halls",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "hunter's-march",
+      "label": "Hunter's March",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "the-marrow",
+      "label": "The Marrow",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "memorium",
+      "label": "Memorium",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "the-mist",
+      "label": "The Mist",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "moss-grotto",
+      "label": "Moss Grotto",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "mosslands",
+      "label": "Mosslands",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "mount-fay",
+      "label": "Mount Fay",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "putrified-ducts",
+      "label": "Putrified Ducts",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "red-memory",
+      "label": "Red Memory",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "sands-of-karak",
+      "label": "Sands of Karak",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "shellwood",
+      "label": "Shellwood",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "sinner's-road",
+      "label": "Sinner's Road",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "the-slab",
+      "label": "The Slab",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "underworks",
+      "label": "Underworks",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "verdania",
+      "label": "Verdania",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "weavenest-atla",
+      "label": "Weavenest Atla",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "whispering-vaults",
+      "label": "Whispering Vaults",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "whiteward",
+      "label": "Whiteward",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "wisp-thicket",
+      "label": "Wisp Thicket",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "wormways",
+      "label": "Wormways",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "location"
+    },
+    {
+      "id": "the-knight",
+      "label": "The Knight",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    },
+    {
+      "id": "hornet-silksong",
+      "label": "Hornet (Silksong)",
+      "area": "",
+      "fragment": "TODO: write a short original description.",
+      "type": "character"
+    }
   ],
   "links": [
-    { "source": "knight", "target": "crossroads" },
-    { "source": "knight", "target": "cornifer" },
-    { "source": "knight", "target": "quirrel" },
-    { "source": "crossroads", "target": "cornifer" },
-    { "source": "crossroads", "target": "quirrel" },
-    { "source": "knight", "target": "hornet" },
-    { "source": "hornet", "target": "greenpath" },
-    { "source": "greenpath", "target": "zote" },
-    { "source": "greenpath", "target": "moss-knight" },
-    { "source": "zote", "target": "moss-knight" }
+    {
+      "source": "unnamed-npcs-hollow-knight",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "unnamed-npcs-hollow-knight",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "unnamed-npcs-hollow-knight",
+      "target": "deepnest"
+    },
+    {
+      "source": "unnamed-npcs-hollow-knight",
+      "target": "willoh"
+    },
+    {
+      "source": "unnamed-npcs-hollow-knight",
+      "target": "nightmare-king-grimm"
+    },
+    {
+      "source": "unnamed-npcs-hollow-knight",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "unnamed-npcs-hollow-knight",
+      "target": "false-knight"
+    },
+    {
+      "source": "bardoon",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "bardoon",
+      "target": "deepnest"
+    },
+    {
+      "source": "blue-child-joni",
+      "target": "spirits"
+    },
+    {
+      "source": "blue-child-joni",
+      "target": "the-knight"
+    },
+    {
+      "source": "blue-child-joni",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "bretta",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "bretta",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "bretta",
+      "target": "elderbug"
+    },
+    {
+      "source": "bretta",
+      "target": "the-knight"
+    },
+    {
+      "source": "bretta",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "bretta",
+      "target": "grey-prince-zote"
+    },
+    {
+      "source": "bretta",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "brumm",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "brumm",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "brumm",
+      "target": "the-knight"
+    },
+    {
+      "source": "brumm",
+      "target": "nymm"
+    },
+    {
+      "source": "charm-lover-salubra",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "charm-lover-salubra",
+      "target": "the-knight"
+    },
+    {
+      "source": "charm-lover-salubra",
+      "target": "gruz-mother"
+    },
+    {
+      "source": "charm-lover-salubra",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "charm-lover-salubra",
+      "target": "divine"
+    },
+    {
+      "source": "cloth",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "cloth",
+      "target": "deepnest"
+    },
+    {
+      "source": "cloth",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "cloth",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "cloth",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "cloth",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "cloth",
+      "target": "the-knight"
+    },
+    {
+      "source": "cloth",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "cloth",
+      "target": "white-lady"
+    },
+    {
+      "source": "cloth",
+      "target": "traitor-lord"
+    },
+    {
+      "source": "cloth",
+      "target": "spirits"
+    },
+    {
+      "source": "cloth",
+      "target": "sly"
+    },
+    {
+      "source": "cloth",
+      "target": "the-traitors'-child"
+    },
+    {
+      "source": "cloth",
+      "target": "godhome"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "steel-soul-jinn"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "steel-seer-zi"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "the-knight"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "deepnest"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "greenpath"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "the-hive"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "confessor-jiji",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "cornifer",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "cornifer",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "cornifer",
+      "target": "the-hive"
+    },
+    {
+      "source": "cornifer",
+      "target": "iselda"
+    },
+    {
+      "source": "cornifer",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "cornifer",
+      "target": "the-knight"
+    },
+    {
+      "source": "cornifer",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "cornifer",
+      "target": "false-knight"
+    },
+    {
+      "source": "cornifer",
+      "target": "deepnest"
+    },
+    {
+      "source": "cornifer",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "cornifer",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "cornifer",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "cornifer",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "cornifer",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "cornifer",
+      "target": "greenpath"
+    },
+    {
+      "source": "cornifer",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "cornifer",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "cornifer",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "cornifer",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "cornifer",
+      "target": "broken-vessel"
+    },
+    {
+      "source": "cornifer",
+      "target": "dreamers"
+    },
+    {
+      "source": "divine",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "divine",
+      "target": "the-knight"
+    },
+    {
+      "source": "divine",
+      "target": "leg-eater"
+    },
+    {
+      "source": "divine",
+      "target": "nightmare-king-grimm"
+    },
+    {
+      "source": "dreamers",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "dreamers",
+      "target": "monomon-the-teacher"
+    },
+    {
+      "source": "dreamers",
+      "target": "lurien-the-watcher"
+    },
+    {
+      "source": "dreamers",
+      "target": "herrah-the-beast"
+    },
+    {
+      "source": "dreamers",
+      "target": "the-knight"
+    },
+    {
+      "source": "dreamers",
+      "target": "greenpath"
+    },
+    {
+      "source": "dreamers",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "dreamers",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "dreamers",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "dreamers",
+      "target": "deepnest"
+    },
+    {
+      "source": "dung-defender",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "dung-defender",
+      "target": "tuk"
+    },
+    {
+      "source": "dung-defender",
+      "target": "white-defender"
+    },
+    {
+      "source": "dung-defender",
+      "target": "white-lady"
+    },
+    {
+      "source": "dung-defender",
+      "target": "the-knight"
+    },
+    {
+      "source": "dung-defender",
+      "target": "dreamers"
+    },
+    {
+      "source": "elderbug",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "elderbug",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "elderbug",
+      "target": "the-knight"
+    },
+    {
+      "source": "elderbug",
+      "target": "nymm"
+    },
+    {
+      "source": "elderbug",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "elderbug",
+      "target": "iselda"
+    },
+    {
+      "source": "elderbug",
+      "target": "sly"
+    },
+    {
+      "source": "elderbug",
+      "target": "confessor-jiji"
+    },
+    {
+      "source": "elderbug",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "elderbug",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "elderbug",
+      "target": "greenpath"
+    },
+    {
+      "source": "elderbug",
+      "target": "soul-master"
+    },
+    {
+      "source": "elderbug",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "elderbug",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "elderbug",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "elderbug",
+      "target": "nightmare-king-grimm"
+    },
+    {
+      "source": "elderbug",
+      "target": "grey-prince-zote"
+    },
+    {
+      "source": "elderbug",
+      "target": "grey-mourner"
+    },
+    {
+      "source": "elderbug",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "eternal-emilitia",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "eternal-emilitia",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "fluke-hermit",
+      "target": "flukemarm"
+    },
+    {
+      "source": "fluke-hermit",
+      "target": "nailsmith"
+    },
+    {
+      "source": "godseeker",
+      "target": "godhome"
+    },
+    {
+      "source": "godseeker",
+      "target": "the-radiance"
+    },
+    {
+      "source": "godseeker",
+      "target": "pure-vessel"
+    },
+    {
+      "source": "godseeker",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "godseeker",
+      "target": "the-knight"
+    },
+    {
+      "source": "godseeker",
+      "target": "white-lady"
+    },
+    {
+      "source": "godseeker",
+      "target": "absolute-radiance"
+    },
+    {
+      "source": "godseeker",
+      "target": "brothers-oro-&-mato"
+    },
+    {
+      "source": "godseeker",
+      "target": "paintmaster-sheo"
+    },
+    {
+      "source": "godseeker",
+      "target": "great-nailsage-sly"
+    },
+    {
+      "source": "godseeker",
+      "target": "hornet-protector"
+    },
+    {
+      "source": "godseeker",
+      "target": "hornet-sentinel"
+    },
+    {
+      "source": "godseeker",
+      "target": "dung-defender"
+    },
+    {
+      "source": "godseeker",
+      "target": "soul-master"
+    },
+    {
+      "source": "godseeker",
+      "target": "winged-nosk"
+    },
+    {
+      "source": "godseeker",
+      "target": "troupe-master-grimm"
+    },
+    {
+      "source": "godseeker",
+      "target": "nightmare-king-grimm"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "the-knight"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "nailmaster-sheo"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "white-defender"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "white-palace"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "white-lady"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "the-traitors'-child"
+    },
+    {
+      "source": "grey-mourner",
+      "target": "traitor-lord"
+    },
+    {
+      "source": "grubfather",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "grubfather",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "grubfather",
+      "target": "the-collector"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "red-memory"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "hornet-hollow-knight"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "deepnest"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "the-knight"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "widow"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "eva"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "quirrel"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "midwife"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "white-lady"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "greenpath"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "lurien-the-watcher"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "monomon-the-teacher"
+    },
+    {
+      "source": "herrah-the-beast",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "the-hive"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "red-memory"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "dreamers"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "hive-knight"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "spirits"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "the-knight"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "white-lady"
+    },
+    {
+      "source": "hive-queen-vespa",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "greenpath"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "godhome"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "hornet-protector"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "hornet-sentinel"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "deepnest"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "dreamers"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "white-lady"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "the-knight"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "midwife"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "quirrel"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "monomon-the-teacher"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "markoth"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "the-radiance"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "absolute-radiance"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "hive-queen-vespa"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "red-memory"
+    },
+    {
+      "source": "hornet-hollow-knight",
+      "target": "widow"
+    },
+    {
+      "source": "the-hunter",
+      "target": "oblobbles"
+    },
+    {
+      "source": "the-hunter",
+      "target": "god-tamer"
+    },
+    {
+      "source": "the-hunter",
+      "target": "dung-defender"
+    },
+    {
+      "source": "the-hunter",
+      "target": "greenpath"
+    },
+    {
+      "source": "the-hunter",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-hunter",
+      "target": "brooding-mawlek"
+    },
+    {
+      "source": "iselda",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "iselda",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "iselda",
+      "target": "the-knight"
+    },
+    {
+      "source": "iselda",
+      "target": "false-knight"
+    },
+    {
+      "source": "iselda",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "iselda",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "iselda",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "iselda",
+      "target": "deepnest"
+    },
+    {
+      "source": "iselda",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "iselda",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "iselda",
+      "target": "greenpath"
+    },
+    {
+      "source": "iselda",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "iselda",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "iselda",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "iselda",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "iselda",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "iselda",
+      "target": "nymm"
+    },
+    {
+      "source": "last-stag",
+      "target": "elderbug"
+    },
+    {
+      "source": "last-stag",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "last-stag",
+      "target": "the-knight"
+    },
+    {
+      "source": "last-stag",
+      "target": "deepnest"
+    },
+    {
+      "source": "last-stag",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "last-stag",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "last-stag",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "last-stag",
+      "target": "tiso"
+    },
+    {
+      "source": "last-stag",
+      "target": "greenpath"
+    },
+    {
+      "source": "last-stag",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "last-stag",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "last-stag",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "last-stag",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "last-stag",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "leg-eater",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "leg-eater",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "leg-eater",
+      "target": "the-knight"
+    },
+    {
+      "source": "little-fool",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "little-fool",
+      "target": "the-knight"
+    },
+    {
+      "source": "lurien-the-watcher",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "lurien-the-watcher",
+      "target": "the-knight"
+    },
+    {
+      "source": "lurien-the-watcher",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "lurien-the-watcher",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "lurien-the-watcher",
+      "target": "the-radiance"
+    },
+    {
+      "source": "lurien-the-watcher",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "lurien-the-watcher",
+      "target": "greenpath"
+    },
+    {
+      "source": "lurien-the-watcher",
+      "target": "monomon-the-teacher"
+    },
+    {
+      "source": "marissa",
+      "target": "spirits"
+    },
+    {
+      "source": "marissa",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "marissa",
+      "target": "the-knight"
+    },
+    {
+      "source": "mask-maker-hollow-knight",
+      "target": "deepnest"
+    },
+    {
+      "source": "mask-maker-hollow-knight",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "mask-maker-hollow-knight",
+      "target": "the-knight"
+    },
+    {
+      "source": "mask-maker-hollow-knight",
+      "target": "mask-maker-silksong"
+    },
+    {
+      "source": "midwife",
+      "target": "deepnest"
+    },
+    {
+      "source": "midwife",
+      "target": "the-knight"
+    },
+    {
+      "source": "millibelle-the-banker",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "millibelle-the-banker",
+      "target": "the-knight"
+    },
+    {
+      "source": "millibelle-the-banker",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "millibelle-the-banker",
+      "target": "sly"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "deepnest"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "dreamers"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "the-knight"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "galien"
+    },
+    {
+      "source": "mister-mushroom-hollow-knight",
+      "target": "cornifer"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "the-knight"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "the-radiance"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "quirrel"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "greenpath"
+    },
+    {
+      "source": "monomon-the-teacher",
+      "target": "uumuu"
+    },
+    {
+      "source": "moss-prophet",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "moss-prophet",
+      "target": "the-radiance"
+    },
+    {
+      "source": "moss-prophet",
+      "target": "bardoon"
+    },
+    {
+      "source": "moss-prophet",
+      "target": "the-knight"
+    },
+    {
+      "source": "moss-prophet",
+      "target": "dreamers"
+    },
+    {
+      "source": "moss-prophet",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "moss-prophet",
+      "target": "deepnest"
+    },
+    {
+      "source": "myla",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "myla",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "myla",
+      "target": "soul-master"
+    },
+    {
+      "source": "myla",
+      "target": "the-radiance"
+    },
+    {
+      "source": "myla",
+      "target": "the-knight"
+    },
+    {
+      "source": "nailmaster-mato",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "nailmaster-mato",
+      "target": "nailmaster-oro"
+    },
+    {
+      "source": "nailmaster-mato",
+      "target": "nailmaster-sheo"
+    },
+    {
+      "source": "nailmaster-mato",
+      "target": "sly"
+    },
+    {
+      "source": "nailmaster-mato",
+      "target": "brothers-oro-&-mato"
+    },
+    {
+      "source": "nailmaster-mato",
+      "target": "the-knight"
+    },
+    {
+      "source": "nailmaster-mato",
+      "target": "godhome"
+    },
+    {
+      "source": "nailmaster-oro",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "nailmaster-oro",
+      "target": "nailmaster-sheo"
+    },
+    {
+      "source": "nailmaster-oro",
+      "target": "sly"
+    },
+    {
+      "source": "nailmaster-oro",
+      "target": "brothers-oro-&-mato"
+    },
+    {
+      "source": "nailmaster-oro",
+      "target": "the-knight"
+    },
+    {
+      "source": "nailmaster-oro",
+      "target": "godhome"
+    },
+    {
+      "source": "nailmaster-sheo",
+      "target": "greenpath"
+    },
+    {
+      "source": "nailmaster-sheo",
+      "target": "nailsmith"
+    },
+    {
+      "source": "nailmaster-sheo",
+      "target": "the-knight"
+    },
+    {
+      "source": "nailmaster-sheo",
+      "target": "sly"
+    },
+    {
+      "source": "nailmaster-sheo",
+      "target": "paintmaster-sheo"
+    },
+    {
+      "source": "nailmaster-sheo",
+      "target": "godhome"
+    },
+    {
+      "source": "nailsmith",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "nailsmith",
+      "target": "greenpath"
+    },
+    {
+      "source": "nailsmith",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "nailsmith",
+      "target": "the-knight"
+    },
+    {
+      "source": "nailsmith",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "nymm",
+      "target": "the-knight"
+    },
+    {
+      "source": "nymm",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "nymm",
+      "target": "nightmare-king-grimm"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "white-palace"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "godseeker"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "greenpath"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "the-citadel"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "white-lady"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "broken-vessel"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "widow"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "bardoon"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "mask-maker-hollow-knight"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "troupe-master-grimm"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "white-defender"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "eternal-emilitia"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "the-radiance"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "seer"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "moss-prophet"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "hornet-hollow-knight"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "dreamers"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "pure-vessel"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "nightmare-king-grimm"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "dung-defender"
+    },
+    {
+      "source": "the-pale-king",
+      "target": "gruz-mother"
+    },
+    {
+      "source": "quirrel",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "quirrel",
+      "target": "deepnest"
+    },
+    {
+      "source": "quirrel",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "quirrel",
+      "target": "dreamers"
+    },
+    {
+      "source": "quirrel",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "quirrel",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "quirrel",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "quirrel",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "quirrel",
+      "target": "the-knight"
+    },
+    {
+      "source": "quirrel",
+      "target": "false-knight"
+    },
+    {
+      "source": "quirrel",
+      "target": "mantis-lords"
+    },
+    {
+      "source": "quirrel",
+      "target": "nailsmith"
+    },
+    {
+      "source": "quirrel",
+      "target": "soul-master"
+    },
+    {
+      "source": "quirrel",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "quirrel",
+      "target": "uumuu"
+    },
+    {
+      "source": "quirrel",
+      "target": "greenpath"
+    },
+    {
+      "source": "quirrel",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "quirrel",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "relic-seeker-lemm",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "relic-seeker-lemm",
+      "target": "the-knight"
+    },
+    {
+      "source": "relic-seeker-lemm",
+      "target": "dreamers"
+    },
+    {
+      "source": "relic-seeker-lemm",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "relic-seeker-lemm",
+      "target": "relic-seeker-scrounge"
+    },
+    {
+      "source": "revek",
+      "target": "spirits"
+    },
+    {
+      "source": "revek",
+      "target": "the-knight"
+    },
+    {
+      "source": "seer",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "seer",
+      "target": "the-radiance"
+    },
+    {
+      "source": "seer",
+      "target": "the-knight"
+    },
+    {
+      "source": "seer",
+      "target": "dreamers"
+    },
+    {
+      "source": "seer",
+      "target": "xero"
+    },
+    {
+      "source": "seer",
+      "target": "nightmare-king-grimm"
+    },
+    {
+      "source": "sly",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "sly",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "sly",
+      "target": "great-nailsage-sly"
+    },
+    {
+      "source": "sly",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "sly",
+      "target": "gruz-mother"
+    },
+    {
+      "source": "sly",
+      "target": "the-knight"
+    },
+    {
+      "source": "sly",
+      "target": "godhome"
+    },
+    {
+      "source": "sly",
+      "target": "iselda"
+    },
+    {
+      "source": "sly",
+      "target": "nymm"
+    },
+    {
+      "source": "snail-shaman",
+      "target": "the-knight"
+    },
+    {
+      "source": "snail-shaman",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "snail-shaman",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "snail-shaman",
+      "target": "false-knight"
+    },
+    {
+      "source": "snail-shaman",
+      "target": "soul-master"
+    },
+    {
+      "source": "spirits",
+      "target": "the-traitors'-child"
+    },
+    {
+      "source": "spirits",
+      "target": "seer"
+    },
+    {
+      "source": "spirits",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "spirits",
+      "target": "lost-kin"
+    },
+    {
+      "source": "spirits",
+      "target": "soul-tyrant"
+    },
+    {
+      "source": "spirits",
+      "target": "failed-champion"
+    },
+    {
+      "source": "spirits",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "spirits",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "spirits",
+      "target": "thistlewind"
+    },
+    {
+      "source": "spirits",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "spirits",
+      "target": "the-hive"
+    },
+    {
+      "source": "spirits",
+      "target": "traitor-lord"
+    },
+    {
+      "source": "steel-soul-jinn",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "steel-soul-jinn",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "steel-soul-jinn",
+      "target": "steel-seer-zi"
+    },
+    {
+      "source": "steel-soul-jinn",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "thistlewind",
+      "target": "markoth"
+    },
+    {
+      "source": "thistlewind",
+      "target": "the-knight"
+    },
+    {
+      "source": "thistlewind",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "thistlewind",
+      "target": "revek"
+    },
+    {
+      "source": "thistlewind",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "tiso",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "tiso",
+      "target": "the-knight"
+    },
+    {
+      "source": "tiso",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "tiso",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "tiso",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "tiso",
+      "target": "brooding-mawlek"
+    },
+    {
+      "source": "the-traitors'-child",
+      "target": "traitor-lord"
+    },
+    {
+      "source": "the-traitors'-child",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "the-traitors'-child",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "the-traitors'-child",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-traitors'-child",
+      "target": "godhome"
+    },
+    {
+      "source": "troupe-master-grimm",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "troupe-master-grimm",
+      "target": "brumm"
+    },
+    {
+      "source": "troupe-master-grimm",
+      "target": "nightmare-king-grimm"
+    },
+    {
+      "source": "troupe-master-grimm",
+      "target": "the-knight"
+    },
+    {
+      "source": "troupe-master-grimm",
+      "target": "godhome"
+    },
+    {
+      "source": "troupe-master-grimm",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "tuk",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "tuk",
+      "target": "the-knight"
+    },
+    {
+      "source": "tuk",
+      "target": "confessor-jiji"
+    },
+    {
+      "source": "tuk",
+      "target": "steel-soul-jinn"
+    },
+    {
+      "source": "tuk",
+      "target": "quirrel"
+    },
+    {
+      "source": "unnamed-moth",
+      "target": "unnamed-npcs-hollow-knight"
+    },
+    {
+      "source": "white-lady",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "white-lady",
+      "target": "red-memory"
+    },
+    {
+      "source": "white-lady",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "white-lady",
+      "target": "last-stag"
+    },
+    {
+      "source": "white-lady",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "white-lady",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "white-lady",
+      "target": "the-knight"
+    },
+    {
+      "source": "white-lady",
+      "target": "broken-vessel"
+    },
+    {
+      "source": "white-lady",
+      "target": "greenpath"
+    },
+    {
+      "source": "white-lady",
+      "target": "white-palace"
+    },
+    {
+      "source": "white-lady",
+      "target": "dreamers"
+    },
+    {
+      "source": "white-lady",
+      "target": "the-radiance"
+    },
+    {
+      "source": "white-lady",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "white-lady",
+      "target": "godhome"
+    },
+    {
+      "source": "white-lady",
+      "target": "traitor-lord"
+    },
+    {
+      "source": "white-lady",
+      "target": "gruz-mother"
+    },
+    {
+      "source": "willoh",
+      "target": "cloth"
+    },
+    {
+      "source": "willoh",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "willoh",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "willoh",
+      "target": "the-knight"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "the-knight"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "greenpath"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "vengefly-king"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "cornifer"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "deepnest"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "bretta"
+    },
+    {
+      "source": "zote-the-mighty",
+      "target": "grey-prince-zote"
+    },
+    {
+      "source": "absolute-radiance",
+      "target": "the-radiance"
+    },
+    {
+      "source": "absolute-radiance",
+      "target": "pure-vessel"
+    },
+    {
+      "source": "absolute-radiance",
+      "target": "gruz-mother"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "hornet-hollow-knight"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "lost-kin"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "the-knight"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "the-radiance"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "spirits"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "greenpath"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "hornet-protector"
+    },
+    {
+      "source": "broken-vessel",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "brooding-mawlek",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "brooding-mawlek",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "brooding-mawlek",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "brooding-mawlek",
+      "target": "the-knight"
+    },
+    {
+      "source": "brothers-oro-&-mato",
+      "target": "godhome"
+    },
+    {
+      "source": "brothers-oro-&-mato",
+      "target": "watcher-knight"
+    },
+    {
+      "source": "brothers-oro-&-mato",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-collector",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "the-collector",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "the-collector",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-collector",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "the-collector",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "the-collector",
+      "target": "godhome"
+    },
+    {
+      "source": "the-collector",
+      "target": "broken-vessel"
+    },
+    {
+      "source": "crystal-guardian",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "crystal-guardian",
+      "target": "enraged-guardian"
+    },
+    {
+      "source": "crystal-guardian",
+      "target": "the-radiance"
+    },
+    {
+      "source": "crystal-guardian",
+      "target": "the-knight"
+    },
+    {
+      "source": "crystal-guardian",
+      "target": "godhome"
+    },
+    {
+      "source": "elder-hu",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "elder-hu",
+      "target": "mantis-lords"
+    },
+    {
+      "source": "elder-hu",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "elder-hu",
+      "target": "spirits"
+    },
+    {
+      "source": "elder-hu",
+      "target": "the-knight"
+    },
+    {
+      "source": "enraged-guardian",
+      "target": "crystal-peak"
+    },
+    {
+      "source": "enraged-guardian",
+      "target": "the-knight"
+    },
+    {
+      "source": "enraged-guardian",
+      "target": "godhome"
+    },
+    {
+      "source": "failed-champion",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "failed-champion",
+      "target": "false-knight"
+    },
+    {
+      "source": "failed-champion",
+      "target": "godhome"
+    },
+    {
+      "source": "false-knight",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "false-knight",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "false-knight",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "false-knight",
+      "target": "white-defender"
+    },
+    {
+      "source": "false-knight",
+      "target": "the-knight"
+    },
+    {
+      "source": "false-knight",
+      "target": "spirits"
+    },
+    {
+      "source": "false-knight",
+      "target": "godhome"
+    },
+    {
+      "source": "flukemarm",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "flukemarm",
+      "target": "the-knight"
+    },
+    {
+      "source": "galien",
+      "target": "deepnest"
+    },
+    {
+      "source": "galien",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "galien",
+      "target": "spirits"
+    },
+    {
+      "source": "galien",
+      "target": "the-knight"
+    },
+    {
+      "source": "god-tamer",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "god-tamer",
+      "target": "the-knight"
+    },
+    {
+      "source": "god-tamer",
+      "target": "godhome"
+    },
+    {
+      "source": "gorb",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "gorb",
+      "target": "spirits"
+    },
+    {
+      "source": "gorb",
+      "target": "the-knight"
+    },
+    {
+      "source": "great-nailsage-sly",
+      "target": "nailmaster-sheo"
+    },
+    {
+      "source": "great-nailsage-sly",
+      "target": "godhome"
+    },
+    {
+      "source": "great-nailsage-sly",
+      "target": "the-knight"
+    },
+    {
+      "source": "great-nailsage-sly",
+      "target": "paintmaster-sheo"
+    },
+    {
+      "source": "grey-prince-zote",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "grey-prince-zote",
+      "target": "the-knight"
+    },
+    {
+      "source": "grey-prince-zote",
+      "target": "godhome"
+    },
+    {
+      "source": "grey-prince-zote",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "gruz-mother",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "gruz-mother",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "gruz-mother",
+      "target": "the-knight"
+    },
+    {
+      "source": "gruz-mother",
+      "target": "zote-the-mighty"
+    },
+    {
+      "source": "hive-knight",
+      "target": "the-hive"
+    },
+    {
+      "source": "hive-knight",
+      "target": "the-knight"
+    },
+    {
+      "source": "hive-knight",
+      "target": "spirits"
+    },
+    {
+      "source": "the-hollow-knight",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-hollow-knight",
+      "target": "pure-vessel"
+    },
+    {
+      "source": "the-hollow-knight",
+      "target": "the-radiance"
+    },
+    {
+      "source": "the-hollow-knight",
+      "target": "the-abyss-hollow-knight"
+    },
+    {
+      "source": "the-hollow-knight",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "the-hollow-knight",
+      "target": "godhome"
+    },
+    {
+      "source": "the-hollow-knight",
+      "target": "absolute-radiance"
+    },
+    {
+      "source": "the-hollow-knight",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "hornet-protector",
+      "target": "greenpath"
+    },
+    {
+      "source": "hornet-protector",
+      "target": "the-knight"
+    },
+    {
+      "source": "hornet-protector",
+      "target": "godhome"
+    },
+    {
+      "source": "hornet-protector",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "hornet-sentinel",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "hornet-sentinel",
+      "target": "the-knight"
+    },
+    {
+      "source": "hornet-sentinel",
+      "target": "godhome"
+    },
+    {
+      "source": "hornet-sentinel",
+      "target": "hornet-protector"
+    },
+    {
+      "source": "lost-kin",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "lost-kin",
+      "target": "white-lady"
+    },
+    {
+      "source": "lost-kin",
+      "target": "hornet-hollow-knight"
+    },
+    {
+      "source": "lost-kin",
+      "target": "the-knight"
+    },
+    {
+      "source": "lost-kin",
+      "target": "godhome"
+    },
+    {
+      "source": "mantis-lords",
+      "target": "deepnest"
+    },
+    {
+      "source": "mantis-lords",
+      "target": "traitor-lord"
+    },
+    {
+      "source": "mantis-lords",
+      "target": "sisters-of-battle"
+    },
+    {
+      "source": "mantis-lords",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "mantis-lords",
+      "target": "the-knight"
+    },
+    {
+      "source": "mantis-lords",
+      "target": "godhome"
+    },
+    {
+      "source": "mantis-lords",
+      "target": "nailsmith"
+    },
+    {
+      "source": "markoth",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "markoth",
+      "target": "spirits"
+    },
+    {
+      "source": "markoth",
+      "target": "the-knight"
+    },
+    {
+      "source": "marmu",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "marmu",
+      "target": "white-lady"
+    },
+    {
+      "source": "marmu",
+      "target": "spirits"
+    },
+    {
+      "source": "marmu",
+      "target": "the-knight"
+    },
+    {
+      "source": "massive-moss-charger",
+      "target": "greenpath"
+    },
+    {
+      "source": "massive-moss-charger",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "massive-moss-charger",
+      "target": "the-knight"
+    },
+    {
+      "source": "nightmare-king-grimm",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "nightmare-king-grimm",
+      "target": "the-knight"
+    },
+    {
+      "source": "nightmare-king-grimm",
+      "target": "the-radiance"
+    },
+    {
+      "source": "nightmare-king-grimm",
+      "target": "absolute-radiance"
+    },
+    {
+      "source": "nightmare-king-grimm",
+      "target": "godhome"
+    },
+    {
+      "source": "no-eyes",
+      "target": "the-radiance"
+    },
+    {
+      "source": "no-eyes",
+      "target": "spirits"
+    },
+    {
+      "source": "no-eyes",
+      "target": "the-knight"
+    },
+    {
+      "source": "no-eyes",
+      "target": "greenpath"
+    },
+    {
+      "source": "nosk",
+      "target": "deepnest"
+    },
+    {
+      "source": "nosk",
+      "target": "winged-nosk"
+    },
+    {
+      "source": "nosk",
+      "target": "the-knight"
+    },
+    {
+      "source": "nosk",
+      "target": "godhome"
+    },
+    {
+      "source": "nosk",
+      "target": "hornet-hollow-knight"
+    },
+    {
+      "source": "oblobbles",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "oblobbles",
+      "target": "the-knight"
+    },
+    {
+      "source": "paintmaster-sheo",
+      "target": "godhome"
+    },
+    {
+      "source": "paintmaster-sheo",
+      "target": "the-knight"
+    },
+    {
+      "source": "paintmaster-sheo",
+      "target": "brothers-oro-&-mato"
+    },
+    {
+      "source": "pure-vessel",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-radiance",
+      "target": "white-palace"
+    },
+    {
+      "source": "the-radiance",
+      "target": "bardoon"
+    },
+    {
+      "source": "the-radiance",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-radiance",
+      "target": "quirrel"
+    },
+    {
+      "source": "the-radiance",
+      "target": "dreamers"
+    },
+    {
+      "source": "the-radiance",
+      "target": "watcher-knight"
+    },
+    {
+      "source": "the-radiance",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "the-radiance",
+      "target": "godhome"
+    },
+    {
+      "source": "the-radiance",
+      "target": "pure-vessel"
+    },
+    {
+      "source": "sisters-of-battle",
+      "target": "traitor-lord"
+    },
+    {
+      "source": "soul-master",
+      "target": "soul-tyrant"
+    },
+    {
+      "source": "soul-master",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "soul-master",
+      "target": "the-radiance"
+    },
+    {
+      "source": "soul-master",
+      "target": "the-knight"
+    },
+    {
+      "source": "soul-master",
+      "target": "spirits"
+    },
+    {
+      "source": "soul-tyrant",
+      "target": "the-knight"
+    },
+    {
+      "source": "soul-warrior",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "soul-warrior",
+      "target": "the-knight"
+    },
+    {
+      "source": "soul-warrior",
+      "target": "soul-master"
+    },
+    {
+      "source": "soul-warrior",
+      "target": "hornet-protector"
+    },
+    {
+      "source": "soul-warrior",
+      "target": "crystal-guardian"
+    },
+    {
+      "source": "traitor-lord",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "traitor-lord",
+      "target": "godhome"
+    },
+    {
+      "source": "traitor-lord",
+      "target": "the-knight"
+    },
+    {
+      "source": "traitor-lord",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "uumuu",
+      "target": "dreamers"
+    },
+    {
+      "source": "uumuu",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "uumuu",
+      "target": "the-knight"
+    },
+    {
+      "source": "uumuu",
+      "target": "godhome"
+    },
+    {
+      "source": "vengefly-king",
+      "target": "greenpath"
+    },
+    {
+      "source": "vengefly-king",
+      "target": "colosseum-of-fools"
+    },
+    {
+      "source": "vengefly-king",
+      "target": "the-knight"
+    },
+    {
+      "source": "vengefly-king",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "vengefly-king",
+      "target": "cornifer"
+    },
+    {
+      "source": "vengefly-king",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "vengefly-king",
+      "target": "deepnest"
+    },
+    {
+      "source": "vengefly-king",
+      "target": "godhome"
+    },
+    {
+      "source": "watcher-knight",
+      "target": "lurien-the-watcher"
+    },
+    {
+      "source": "watcher-knight",
+      "target": "dreamers"
+    },
+    {
+      "source": "watcher-knight",
+      "target": "the-knight"
+    },
+    {
+      "source": "watcher-knight",
+      "target": "false-knight"
+    },
+    {
+      "source": "white-defender",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "white-defender",
+      "target": "tuk"
+    },
+    {
+      "source": "white-defender",
+      "target": "the-knight"
+    },
+    {
+      "source": "white-defender",
+      "target": "dreamers"
+    },
+    {
+      "source": "white-defender",
+      "target": "godhome"
+    },
+    {
+      "source": "winged-nosk",
+      "target": "hornet-hollow-knight"
+    },
+    {
+      "source": "winged-nosk",
+      "target": "the-knight"
+    },
+    {
+      "source": "winged-nosk",
+      "target": "vengefly-king"
+    },
+    {
+      "source": "xero",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "xero",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "xero",
+      "target": "spirits"
+    },
+    {
+      "source": "xero",
+      "target": "the-knight"
+    },
+    {
+      "source": "xero",
+      "target": "godhome"
+    },
+    {
+      "source": "the-abyss-hollow-knight",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "the-abyss-hollow-knight",
+      "target": "the-hunter"
+    },
+    {
+      "source": "the-abyss-hollow-knight",
+      "target": "white-palace"
+    },
+    {
+      "source": "the-abyss-hollow-knight",
+      "target": "the-knight"
+    },
+    {
+      "source": "the-abyss-hollow-knight",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "the-abyss-hollow-knight",
+      "target": "lace"
+    },
+    {
+      "source": "ancient-basin",
+      "target": "city-of-tears"
+    },
+    {
+      "source": "ancient-basin",
+      "target": "deepnest"
+    },
+    {
+      "source": "ancient-basin",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "ancient-basin",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "ancient-basin",
+      "target": "white-palace"
+    },
+    {
+      "source": "ancient-basin",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "ancient-basin",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "ancient-basin",
+      "target": "the-citadel"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "soul-master"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "greenpath"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "fog-canyon"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "soul-warrior"
+    },
+    {
+      "source": "city-of-tears",
+      "target": "snail-shaman"
+    },
+    {
+      "source": "colosseum-of-fools",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "colosseum-of-fools",
+      "target": "the-knight"
+    },
+    {
+      "source": "colosseum-of-fools",
+      "target": "deepnest"
+    },
+    {
+      "source": "colosseum-of-fools",
+      "target": "cornifer"
+    },
+    {
+      "source": "colosseum-of-fools",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "colosseum-of-fools",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "crystal-peak",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "crystal-peak",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "crystal-peak",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "crystal-peak",
+      "target": "the-hunter"
+    },
+    {
+      "source": "crystal-peak",
+      "target": "the-radiance"
+    },
+    {
+      "source": "crystal-peak",
+      "target": "snail-shaman"
+    },
+    {
+      "source": "deepnest",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "deepnest",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "deepnest",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "deepnest",
+      "target": "widow"
+    },
+    {
+      "source": "deepnest",
+      "target": "white-lady"
+    },
+    {
+      "source": "deepnest",
+      "target": "the-knight"
+    },
+    {
+      "source": "deepnest",
+      "target": "brumm"
+    },
+    {
+      "source": "deepnest",
+      "target": "hornet-sentinel"
+    },
+    {
+      "source": "deepnest",
+      "target": "greenpath"
+    },
+    {
+      "source": "deepnest",
+      "target": "sly"
+    },
+    {
+      "source": "deepnest",
+      "target": "red-memory"
+    },
+    {
+      "source": "dirtmouth",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "dirtmouth",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "dirtmouth",
+      "target": "the-knight"
+    },
+    {
+      "source": "dirtmouth",
+      "target": "false-knight"
+    },
+    {
+      "source": "dirtmouth",
+      "target": "leg-eater"
+    },
+    {
+      "source": "fog-canyon",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "fog-canyon",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "fog-canyon",
+      "target": "greenpath"
+    },
+    {
+      "source": "fog-canyon",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "fog-canyon",
+      "target": "the-hunter"
+    },
+    {
+      "source": "fog-canyon",
+      "target": "the-knight"
+    },
+    {
+      "source": "fog-canyon",
+      "target": "leg-eater"
+    },
+    {
+      "source": "fog-canyon",
+      "target": "snail-shaman"
+    },
+    {
+      "source": "forgotten-crossroads",
+      "target": "fungal-wastes"
+    },
+    {
+      "source": "forgotten-crossroads",
+      "target": "greenpath"
+    },
+    {
+      "source": "forgotten-crossroads",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "forgotten-crossroads",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "forgotten-crossroads",
+      "target": "the-knight"
+    },
+    {
+      "source": "forgotten-crossroads",
+      "target": "dreamers"
+    },
+    {
+      "source": "forgotten-crossroads",
+      "target": "ancient-basin"
+    },
+    {
+      "source": "fungal-wastes",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "fungal-wastes",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "fungal-wastes",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "godhome",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "godhome",
+      "target": "flukemarm"
+    },
+    {
+      "source": "godhome",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "godhome",
+      "target": "massive-moss-charger"
+    },
+    {
+      "source": "godhome",
+      "target": "soul-warrior"
+    },
+    {
+      "source": "godhome",
+      "target": "oblobbles"
+    },
+    {
+      "source": "greenpath",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "greenpath",
+      "target": "queen's-gardens"
+    },
+    {
+      "source": "greenpath",
+      "target": "the-knight"
+    },
+    {
+      "source": "greenpath",
+      "target": "snail-shaman"
+    },
+    {
+      "source": "the-hive",
+      "target": "kingdom's-edge"
+    },
+    {
+      "source": "the-hive",
+      "target": "deepnest"
+    },
+    {
+      "source": "the-hive",
+      "target": "red-memory"
+    },
+    {
+      "source": "howling-cliffs",
+      "target": "the-knight"
+    },
+    {
+      "source": "howling-cliffs",
+      "target": "white-palace"
+    },
+    {
+      "source": "howling-cliffs",
+      "target": "spirits"
+    },
+    {
+      "source": "kingdom's-edge",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "kingdom's-edge",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "queen's-gardens",
+      "target": "mask-maker-hollow-knight"
+    },
+    {
+      "source": "resting-grounds",
+      "target": "tiso"
+    },
+    {
+      "source": "resting-grounds",
+      "target": "revek"
+    },
+    {
+      "source": "resting-grounds",
+      "target": "unnamed-moth"
+    },
+    {
+      "source": "resting-grounds",
+      "target": "royal-waterways"
+    },
+    {
+      "source": "royal-waterways",
+      "target": "fluke-hermit"
+    },
+    {
+      "source": "royal-waterways",
+      "target": "the-hive"
+    },
+    {
+      "source": "royal-waterways",
+      "target": "the-knight"
+    },
+    {
+      "source": "royal-waterways",
+      "target": "mister-mushroom-hollow-knight"
+    },
+    {
+      "source": "royal-waterways",
+      "target": "nailsmith"
+    },
+    {
+      "source": "white-palace",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "white-palace",
+      "target": "the-knight"
+    },
+    {
+      "source": "white-palace",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "white-palace",
+      "target": "red-memory"
+    },
+    {
+      "source": "aged-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "aged-pilgrim",
+      "target": "greymoor"
+    },
+    {
+      "source": "aged-pilgrim",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "aged-pilgrim",
+      "target": "creige"
+    },
+    {
+      "source": "aged-pilgrim",
+      "target": "lace"
+    },
+    {
+      "source": "aged-pilgrim",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "aged-pilgrim",
+      "target": "exhausted-pilgrim"
+    },
+    {
+      "source": "alchemist-zylotol",
+      "target": "wormways"
+    },
+    {
+      "source": "alchemist-zylotol",
+      "target": "plasmified-zango"
+    },
+    {
+      "source": "alchemist-zylotol",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "alchemist-zylotol",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "alchemist-zylotol",
+      "target": "bilewater"
+    },
+    {
+      "source": "ballow",
+      "target": "deep-docks"
+    },
+    {
+      "source": "ballow",
+      "target": "forge-daughter"
+    },
+    {
+      "source": "ballow",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "ballow",
+      "target": "the-abyss-silksong"
+    },
+    {
+      "source": "beastlings",
+      "target": "bell-beast"
+    },
+    {
+      "source": "beastlings",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "beastlings",
+      "target": "bell-eater"
+    },
+    {
+      "source": "beastlings",
+      "target": "shellwood"
+    },
+    {
+      "source": "bell-beast",
+      "target": "the-marrow"
+    },
+    {
+      "source": "bell-beast",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "bell-beast",
+      "target": "bellhart"
+    },
+    {
+      "source": "bell-beast",
+      "target": "bell-eater"
+    },
+    {
+      "source": "bell-beast",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "bell-hermit",
+      "target": "bellhart"
+    },
+    {
+      "source": "bell-hermit",
+      "target": "caretaker"
+    },
+    {
+      "source": "bell-hermit",
+      "target": "chapel-maid"
+    },
+    {
+      "source": "bell-hermit",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "bell-hermit",
+      "target": "bilewater"
+    },
+    {
+      "source": "bell-hermit",
+      "target": "widow"
+    },
+    {
+      "source": "bell-hermit",
+      "target": "yarnaby"
+    },
+    {
+      "source": "broodling",
+      "target": "the-slab"
+    },
+    {
+      "source": "broodling",
+      "target": "broodmother"
+    },
+    {
+      "source": "caretaker",
+      "target": "the-cradle"
+    },
+    {
+      "source": "caretaker",
+      "target": "chapel-maid"
+    },
+    {
+      "source": "caretaker",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "caretaker",
+      "target": "bilewater"
+    },
+    {
+      "source": "caretaker",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "caretaker",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "caretaker",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "caretaker",
+      "target": "bellhart"
+    },
+    {
+      "source": "caretaker",
+      "target": "jubilana"
+    },
+    {
+      "source": "caretaker",
+      "target": "whiteward"
+    },
+    {
+      "source": "caretaker",
+      "target": "lace"
+    },
+    {
+      "source": "caretaker",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "chapel-maid",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "chapel-maid",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "chapel-maid",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "chapel-maid",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "chapel-maid",
+      "target": "bilewater"
+    },
+    {
+      "source": "chapel-maid",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "chapel-maid",
+      "target": "bell-beast"
+    },
+    {
+      "source": "chapel-maid",
+      "target": "moss-mother"
+    },
+    {
+      "source": "cogwork-statues",
+      "target": "cogwork-core"
+    },
+    {
+      "source": "cogwork-statues",
+      "target": "the-cradle"
+    },
+    {
+      "source": "cogwork-statues",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "conductor-ballador",
+      "target": "the-citadel"
+    },
+    {
+      "source": "conductor-ballador",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "conductor-ballador",
+      "target": "high-halls"
+    },
+    {
+      "source": "conductor-ballador",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "conductor-ballador",
+      "target": "the-unravelled"
+    },
+    {
+      "source": "couriers-tipp-&-pill",
+      "target": "bellhart"
+    },
+    {
+      "source": "couriers-tipp-&-pill",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "couriers-tipp-&-pill",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "couriers-tipp-&-pill",
+      "target": "frey"
+    },
+    {
+      "source": "couriers-tipp-&-pill",
+      "target": "caretaker"
+    },
+    {
+      "source": "couriers-tipp-&-pill",
+      "target": "flea-caravan"
+    },
+    {
+      "source": "couriers-tipp-&-pill",
+      "target": "styx"
+    },
+    {
+      "source": "creige",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "creige",
+      "target": "bellhart"
+    },
+    {
+      "source": "creige",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "creige",
+      "target": "widow"
+    },
+    {
+      "source": "creige",
+      "target": "yarnaby"
+    },
+    {
+      "source": "creige",
+      "target": "greymoor"
+    },
+    {
+      "source": "crull-and-benjin",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "crull-and-benjin",
+      "target": "yarnaby"
+    },
+    {
+      "source": "dejected-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "eva",
+      "target": "weavenest-atla"
+    },
+    {
+      "source": "eva",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "eva",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "exhausted-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "exhausted-pilgrim",
+      "target": "greymoor"
+    },
+    {
+      "source": "exhausted-pilgrim",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "exhausted-pilgrim",
+      "target": "grand-gate"
+    },
+    {
+      "source": "exhausted-pilgrim",
+      "target": "lace"
+    },
+    {
+      "source": "exhausted-pilgrim",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "exhausted-pilgrim",
+      "target": "creige"
+    },
+    {
+      "source": "exhausted-pilgrim",
+      "target": "widow"
+    },
+    {
+      "source": "fayforn",
+      "target": "mount-fay"
+    },
+    {
+      "source": "fayforn",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "fayforn",
+      "target": "mask-maker-silksong"
+    },
+    {
+      "source": "fayforn",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "fayforn",
+      "target": "mister-mushroom-silksong"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "bell-beast"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "bellhart"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "skull-tyrant"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "the-marrow"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "flea-caravan"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "shellwood"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "wormways"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "widow"
+    },
+    {
+      "source": "fearful-pilgrim",
+      "target": "scared-pilgrim"
+    },
+    {
+      "source": "flea",
+      "target": "flea-caravan"
+    },
+    {
+      "source": "flea",
+      "target": "fleamaster-mooshka"
+    },
+    {
+      "source": "flea",
+      "target": "kratt"
+    },
+    {
+      "source": "flea",
+      "target": "vog"
+    },
+    {
+      "source": "flea",
+      "target": "greymoor"
+    },
+    {
+      "source": "flea",
+      "target": "moorwing"
+    },
+    {
+      "source": "flea",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "flea",
+      "target": "last-judge"
+    },
+    {
+      "source": "flea",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "flea",
+      "target": "the-marrow"
+    },
+    {
+      "source": "flea",
+      "target": "bell-beast"
+    },
+    {
+      "source": "flea",
+      "target": "deep-docks"
+    },
+    {
+      "source": "flea",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "flea",
+      "target": "far-fields"
+    },
+    {
+      "source": "flea",
+      "target": "wormways"
+    },
+    {
+      "source": "flea",
+      "target": "bellhart"
+    },
+    {
+      "source": "flea",
+      "target": "sister-splinter"
+    },
+    {
+      "source": "flea",
+      "target": "shellwood"
+    },
+    {
+      "source": "flea",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "flea",
+      "target": "bilewater"
+    },
+    {
+      "source": "flea",
+      "target": "the-mist"
+    },
+    {
+      "source": "flea",
+      "target": "underworks"
+    },
+    {
+      "source": "flea",
+      "target": "wisp-thicket"
+    },
+    {
+      "source": "flea",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "flea",
+      "target": "memorium"
+    },
+    {
+      "source": "flea",
+      "target": "the-slab"
+    },
+    {
+      "source": "flea",
+      "target": "mount-fay"
+    },
+    {
+      "source": "flea",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "flea",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "flea",
+      "target": "vaultkeeper-cardinius"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "the-marrow"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "greymoor"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "fleamaster-mooshka"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "moorwing"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "last-judge"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "grishkin"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "varga"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "kratt"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "vog"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "shrine-guardian-seth"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "shellwood"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "huntress"
+    },
+    {
+      "source": "flea-caravan",
+      "target": "grindle"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "the-marrow"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "greymoor"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "varga"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "kratt"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "grand-gate"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "grishkin"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "moorwing"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "last-judge"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "bell-beast"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "bellhart"
+    },
+    {
+      "source": "fleamaster-mooshka",
+      "target": "vog"
+    },
+    {
+      "source": "flick-the-fixer",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "flick-the-fixer",
+      "target": "the-citadel"
+    },
+    {
+      "source": "flick-the-fixer",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "flick-the-fixer",
+      "target": "bell-beast"
+    },
+    {
+      "source": "flick-the-fixer",
+      "target": "skull-tyrant"
+    },
+    {
+      "source": "flick-the-fixer",
+      "target": "pilby"
+    },
+    {
+      "source": "flick-the-fixer",
+      "target": "solemn-pilgrim"
+    },
+    {
+      "source": "flick-the-fixer",
+      "target": "the-marrow"
+    },
+    {
+      "source": "forge-daughter",
+      "target": "deep-docks"
+    },
+    {
+      "source": "forge-daughter",
+      "target": "the-citadel"
+    },
+    {
+      "source": "forge-daughter",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "forge-daughter",
+      "target": "the-abyss-silksong"
+    },
+    {
+      "source": "forge-daughter",
+      "target": "widow"
+    },
+    {
+      "source": "forge-daughter",
+      "target": "grishkin"
+    },
+    {
+      "source": "frey",
+      "target": "bellhart"
+    },
+    {
+      "source": "frey",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "frey",
+      "target": "widow"
+    },
+    {
+      "source": "frey",
+      "target": "vaultkeeper-cardinius"
+    },
+    {
+      "source": "frey",
+      "target": "lace"
+    },
+    {
+      "source": "frey",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "high-halls"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "the-citadel"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "lost-garmond"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "moorwing"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "disgraced-chef-lugoli"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "the-marrow"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "far-fields"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "greymoor"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "shellwood"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "bellhart"
+    },
+    {
+      "source": "garmond-and-zaza",
+      "target": "deep-docks"
+    },
+    {
+      "source": "gilly",
+      "target": "deep-docks"
+    },
+    {
+      "source": "gilly",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "gilly",
+      "target": "far-fields"
+    },
+    {
+      "source": "gilly",
+      "target": "skarrsinger-karmelita"
+    },
+    {
+      "source": "gilly",
+      "target": "the-citadel"
+    },
+    {
+      "source": "great-gourmand",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "great-gourmand",
+      "target": "loyal-mergwin"
+    },
+    {
+      "source": "green-prince",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "green-prince",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "green-prince",
+      "target": "cogwork-core"
+    },
+    {
+      "source": "green-prince",
+      "target": "verdania"
+    },
+    {
+      "source": "green-prince",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "green-prince",
+      "target": "clover-dancers"
+    },
+    {
+      "source": "green-prince",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "green-prince",
+      "target": "greymoor"
+    },
+    {
+      "source": "green-prince",
+      "target": "palestag"
+    },
+    {
+      "source": "greyroot",
+      "target": "shellwood"
+    },
+    {
+      "source": "greyroot",
+      "target": "pavo"
+    },
+    {
+      "source": "grindle",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "grindle",
+      "target": "the-marrow"
+    },
+    {
+      "source": "grindle",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "grindle",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "grindle",
+      "target": "far-fields"
+    },
+    {
+      "source": "grindle",
+      "target": "shellwood"
+    },
+    {
+      "source": "grindle",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "grindle",
+      "target": "high-halls"
+    },
+    {
+      "source": "grindle",
+      "target": "the-slab"
+    },
+    {
+      "source": "grindle",
+      "target": "pebb"
+    },
+    {
+      "source": "grindle",
+      "target": "mort"
+    },
+    {
+      "source": "grindle",
+      "target": "lumble-the-lucky"
+    },
+    {
+      "source": "grindle",
+      "target": "huntress"
+    },
+    {
+      "source": "grindle",
+      "target": "shrine-guardian-seth"
+    },
+    {
+      "source": "grindle",
+      "target": "nailsmith"
+    },
+    {
+      "source": "grindle",
+      "target": "relic-seeker-lemm"
+    },
+    {
+      "source": "grindle",
+      "target": "dung-defender"
+    },
+    {
+      "source": "grindle",
+      "target": "gruz-mother"
+    },
+    {
+      "source": "grishkin",
+      "target": "the-marrow"
+    },
+    {
+      "source": "grishkin",
+      "target": "greymoor"
+    },
+    {
+      "source": "grishkin",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "grishkin",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "grishkin",
+      "target": "shrine-guardian-seth"
+    },
+    {
+      "source": "horned-pilgrim",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "horned-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "horned-pilgrim",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "horned-pilgrim",
+      "target": "pebb"
+    },
+    {
+      "source": "humble-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "humble-pilgrim",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "humble-pilgrim",
+      "target": "lace"
+    },
+    {
+      "source": "humble-pilgrim",
+      "target": "the-cradle"
+    },
+    {
+      "source": "huntress",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "huntress",
+      "target": "runt"
+    },
+    {
+      "source": "huntress",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "huntress",
+      "target": "far-fields"
+    },
+    {
+      "source": "huntress",
+      "target": "shrine-guardian-seth"
+    },
+    {
+      "source": "huntress",
+      "target": "quirrel"
+    },
+    {
+      "source": "huntress",
+      "target": "the-hunter"
+    },
+    {
+      "source": "huntress",
+      "target": "styx"
+    },
+    {
+      "source": "jubilana",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "jubilana",
+      "target": "memorium"
+    },
+    {
+      "source": "jubilana",
+      "target": "high-halls"
+    },
+    {
+      "source": "jubilana",
+      "target": "the-citadel"
+    },
+    {
+      "source": "jubilana",
+      "target": "whiteward"
+    },
+    {
+      "source": "jubilana",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "jubilana",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "kratt",
+      "target": "the-marrow"
+    },
+    {
+      "source": "kratt",
+      "target": "greymoor"
+    },
+    {
+      "source": "kratt",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "kratt",
+      "target": "vog"
+    },
+    {
+      "source": "lace",
+      "target": "deep-docks"
+    },
+    {
+      "source": "lace",
+      "target": "the-cradle"
+    },
+    {
+      "source": "lace",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "lace",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "lace",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "lace",
+      "target": "the-abyss-silksong"
+    },
+    {
+      "source": "lace",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "lace",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "lace",
+      "target": "the-citadel"
+    },
+    {
+      "source": "lace",
+      "target": "lost-lace"
+    },
+    {
+      "source": "lace",
+      "target": "phantom"
+    },
+    {
+      "source": "lace",
+      "target": "pebb"
+    },
+    {
+      "source": "lace",
+      "target": "wormways"
+    },
+    {
+      "source": "lace",
+      "target": "shellwood"
+    },
+    {
+      "source": "lace",
+      "target": "far-fields"
+    },
+    {
+      "source": "lace",
+      "target": "flea"
+    },
+    {
+      "source": "lace",
+      "target": "greymoor"
+    },
+    {
+      "source": "lace",
+      "target": "flea-caravan"
+    },
+    {
+      "source": "lace",
+      "target": "bilewater"
+    },
+    {
+      "source": "lace",
+      "target": "the-knight"
+    },
+    {
+      "source": "loam",
+      "target": "underworks"
+    },
+    {
+      "source": "loam",
+      "target": "the-citadel"
+    },
+    {
+      "source": "loam",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "loddie",
+      "target": "the-marrow"
+    },
+    {
+      "source": "loddie",
+      "target": "widow"
+    },
+    {
+      "source": "loddie",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "loddie",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "loddie",
+      "target": "grindle"
+    },
+    {
+      "source": "loyal-mergwin",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "loyal-mergwin",
+      "target": "the-citadel"
+    },
+    {
+      "source": "loyal-mergwin",
+      "target": "tall-pilgrim"
+    },
+    {
+      "source": "lumble-the-lucky",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "lumble-the-lucky",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "lumble-the-lucky",
+      "target": "the-citadel"
+    },
+    {
+      "source": "lumble-the-lucky",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "lumble-the-lucky",
+      "target": "last-judge"
+    },
+    {
+      "source": "mask-maker-silksong",
+      "target": "mount-fay"
+    },
+    {
+      "source": "mask-maker-silksong",
+      "target": "hornet-hollow-knight"
+    },
+    {
+      "source": "mask-maker-silksong",
+      "target": "the-cradle"
+    },
+    {
+      "source": "mask-maker-silksong",
+      "target": "wormways"
+    },
+    {
+      "source": "mask-maker-silksong",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "mask-maker-silksong",
+      "target": "bilewater"
+    },
+    {
+      "source": "mister-mushroom-silksong",
+      "target": "mister-mushroom-hollow-knight"
+    },
+    {
+      "source": "mister-mushroom-silksong",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "mister-mushroom-silksong",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "mister-mushroom-silksong",
+      "target": "the-knight"
+    },
+    {
+      "source": "mister-mushroom-silksong",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "mort",
+      "target": "far-fields"
+    },
+    {
+      "source": "mort",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "mort",
+      "target": "the-citadel"
+    },
+    {
+      "source": "moss-druid",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "moss-druid",
+      "target": "skarrsinger-karmelita"
+    },
+    {
+      "source": "moss-druid",
+      "target": "nyleth"
+    },
+    {
+      "source": "moss-druid",
+      "target": "crust-king-khann"
+    },
+    {
+      "source": "moss-druid",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "moss-druid",
+      "target": "widow"
+    },
+    {
+      "source": "mottled-skarr",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "mottled-skarr",
+      "target": "skarrsinger-karmelita"
+    },
+    {
+      "source": "mottled-skarr",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "mottled-skarr",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "mottled-skarr",
+      "target": "far-fields"
+    },
+    {
+      "source": "nuu",
+      "target": "the-marrow"
+    },
+    {
+      "source": "nuu",
+      "target": "shellwood"
+    },
+    {
+      "source": "nuu",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "nuu",
+      "target": "wisp-thicket"
+    },
+    {
+      "source": "nuu",
+      "target": "watcher-at-the-edge"
+    },
+    {
+      "source": "nuu",
+      "target": "greymoor"
+    },
+    {
+      "source": "nuu",
+      "target": "skull-tyrant"
+    },
+    {
+      "source": "nuu",
+      "target": "great-conchflies"
+    },
+    {
+      "source": "nuu",
+      "target": "sister-splinter"
+    },
+    {
+      "source": "nuu",
+      "target": "voltvyrm"
+    },
+    {
+      "source": "nuu",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "nuu",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "nuu",
+      "target": "father-of-the-flame"
+    },
+    {
+      "source": "nuu",
+      "target": "plasmified-zango"
+    },
+    {
+      "source": "old-penitent",
+      "target": "the-slab"
+    },
+    {
+      "source": "old-penitent",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "old-penitent",
+      "target": "the-citadel"
+    },
+    {
+      "source": "pavo",
+      "target": "bellhart"
+    },
+    {
+      "source": "pavo",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "pavo",
+      "target": "widow"
+    },
+    {
+      "source": "pavo",
+      "target": "lace"
+    },
+    {
+      "source": "pavo",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "pavo",
+      "target": "frey"
+    },
+    {
+      "source": "pavo",
+      "target": "pondcatcher-reed"
+    },
+    {
+      "source": "pebb",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "pebb",
+      "target": "the-citadel"
+    },
+    {
+      "source": "pebb",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "pebb",
+      "target": "shakra"
+    },
+    {
+      "source": "pebb",
+      "target": "skull-tyrant"
+    },
+    {
+      "source": "pebb",
+      "target": "the-marrow"
+    },
+    {
+      "source": "pebb",
+      "target": "deep-docks"
+    },
+    {
+      "source": "pilby",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "pilby",
+      "target": "the-citadel"
+    },
+    {
+      "source": "pilby",
+      "target": "shakra"
+    },
+    {
+      "source": "pilby",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "pilby",
+      "target": "bellhart"
+    },
+    {
+      "source": "pilby",
+      "target": "skull-tyrant"
+    },
+    {
+      "source": "pilby",
+      "target": "solemn-pilgrim"
+    },
+    {
+      "source": "pilby",
+      "target": "the-cradle"
+    },
+    {
+      "source": "pilby",
+      "target": "mort"
+    },
+    {
+      "source": "pilby",
+      "target": "far-fields"
+    },
+    {
+      "source": "pilby",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "pilgrim-preacher",
+      "target": "the-citadel"
+    },
+    {
+      "source": "pilgrim-preacher",
+      "target": "scared-pilgrim"
+    },
+    {
+      "source": "pilgrim-preacher",
+      "target": "lace"
+    },
+    {
+      "source": "pilgrim-preacher",
+      "target": "the-cradle"
+    },
+    {
+      "source": "pinmaster-plinney",
+      "target": "bellhart"
+    },
+    {
+      "source": "pinmaster-plinney",
+      "target": "shellwood"
+    },
+    {
+      "source": "pinmaster-plinney",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "pinmaster-plinney",
+      "target": "widow"
+    },
+    {
+      "source": "pinmaster-plinney",
+      "target": "lace"
+    },
+    {
+      "source": "pinmaster-plinney",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "pious-isamor",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "pious-isamor",
+      "target": "the-citadel"
+    },
+    {
+      "source": "pious-isamor",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "pious-isamor",
+      "target": "whiteward"
+    },
+    {
+      "source": "pious-isamor",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "pondcatcher-reed",
+      "target": "bellhart"
+    },
+    {
+      "source": "pondcatcher-reed",
+      "target": "shellwood"
+    },
+    {
+      "source": "pondcatcher-reed",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "pondcatcher-reed",
+      "target": "widow"
+    },
+    {
+      "source": "pondcatcher-reed",
+      "target": "frey"
+    },
+    {
+      "source": "quiet-pilgrim",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "quiet-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "quiet-pilgrim",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "quiet-pilgrim",
+      "target": "pilby"
+    },
+    {
+      "source": "relic-seeker-scrounge",
+      "target": "bellhart"
+    },
+    {
+      "source": "relic-seeker-scrounge",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "relic-seeker-scrounge",
+      "target": "widow"
+    },
+    {
+      "source": "relic-seeker-scrounge",
+      "target": "lace"
+    },
+    {
+      "source": "relic-seeker-scrounge",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "relic-seeker-scrounge",
+      "target": "vaultkeeper-cardinius"
+    },
+    {
+      "source": "runt",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "scared-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "seamstress",
+      "target": "far-fields"
+    },
+    {
+      "source": "seamstress",
+      "target": "pinstress"
+    },
+    {
+      "source": "seamstress",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "seamstress",
+      "target": "the-citadel"
+    },
+    {
+      "source": "seamstress",
+      "target": "fourth-chorus"
+    },
+    {
+      "source": "seamstress",
+      "target": "lace"
+    },
+    {
+      "source": "seamstress",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "shakra",
+      "target": "greymoor"
+    },
+    {
+      "source": "shakra",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "shakra",
+      "target": "bellhart"
+    },
+    {
+      "source": "shakra",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "shakra",
+      "target": "the-marrow"
+    },
+    {
+      "source": "shakra",
+      "target": "bell-beast"
+    },
+    {
+      "source": "shakra",
+      "target": "widow"
+    },
+    {
+      "source": "shakra",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "shakra",
+      "target": "shellwood"
+    },
+    {
+      "source": "shakra",
+      "target": "high-halls"
+    },
+    {
+      "source": "shakra",
+      "target": "flea-caravan"
+    },
+    {
+      "source": "shakra",
+      "target": "mount-fay"
+    },
+    {
+      "source": "shakra",
+      "target": "mosslands"
+    },
+    {
+      "source": "shakra",
+      "target": "deep-docks"
+    },
+    {
+      "source": "shakra",
+      "target": "far-fields"
+    },
+    {
+      "source": "shakra",
+      "target": "the-citadel"
+    },
+    {
+      "source": "shakra",
+      "target": "wormways"
+    },
+    {
+      "source": "shakra",
+      "target": "wisp-thicket"
+    },
+    {
+      "source": "shakra",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "shakra",
+      "target": "last-judge"
+    },
+    {
+      "source": "shakra",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "shakra",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "shakra",
+      "target": "raging-conchfly"
+    },
+    {
+      "source": "shakra",
+      "target": "bilewater"
+    },
+    {
+      "source": "shakra",
+      "target": "groal-the-great"
+    },
+    {
+      "source": "sherma",
+      "target": "the-citadel"
+    },
+    {
+      "source": "sherma",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "sherma",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "sherma",
+      "target": "the-marrow"
+    },
+    {
+      "source": "sherma",
+      "target": "shakra"
+    },
+    {
+      "source": "sherma",
+      "target": "bell-beast"
+    },
+    {
+      "source": "sherma",
+      "target": "weary-pilgrim"
+    },
+    {
+      "source": "sherma",
+      "target": "greymoor"
+    },
+    {
+      "source": "sherma",
+      "target": "shellwood"
+    },
+    {
+      "source": "sherma",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "sherma",
+      "target": "widow"
+    },
+    {
+      "source": "sherma",
+      "target": "bellhart"
+    },
+    {
+      "source": "sherma",
+      "target": "last-judge"
+    },
+    {
+      "source": "sherma",
+      "target": "great-conchflies"
+    },
+    {
+      "source": "sherma",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "sherma",
+      "target": "bilewater"
+    },
+    {
+      "source": "sherma",
+      "target": "grand-gate"
+    },
+    {
+      "source": "sherma",
+      "target": "lace"
+    },
+    {
+      "source": "sherma",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "sherma",
+      "target": "whiteward"
+    },
+    {
+      "source": "sherma",
+      "target": "caretaker"
+    },
+    {
+      "source": "sherma",
+      "target": "far-fields"
+    },
+    {
+      "source": "shrine-guardian-seth",
+      "target": "nyleth"
+    },
+    {
+      "source": "shrine-guardian-seth",
+      "target": "grand-gate"
+    },
+    {
+      "source": "shrine-guardian-seth",
+      "target": "greymoor"
+    },
+    {
+      "source": "shrine-guardian-seth",
+      "target": "shellwood"
+    },
+    {
+      "source": "shrine-guardian-seth",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "shrine-guardian-seth",
+      "target": "the-citadel"
+    },
+    {
+      "source": "shrine-guardian-seth",
+      "target": "the-knight"
+    },
+    {
+      "source": "shrine-guardian-seth",
+      "target": "divine"
+    },
+    {
+      "source": "skarrsinger-karmelita",
+      "target": "far-fields"
+    },
+    {
+      "source": "skarrsinger-karmelita",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "skarrsinger-karmelita",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "skarrsinger-karmelita",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "skarrsinger-karmelita",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "skynx",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "skynx",
+      "target": "styx"
+    },
+    {
+      "source": "snail-shamans-silksong",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "snail-shamans-silksong",
+      "target": "the-abyss-silksong"
+    },
+    {
+      "source": "snail-shamans-silksong",
+      "target": "red-memory"
+    },
+    {
+      "source": "snail-shamans-silksong",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "snail-shamans-silksong",
+      "target": "bilewater"
+    },
+    {
+      "source": "solemn-pilgrim",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "solemn-pilgrim",
+      "target": "skull-tyrant"
+    },
+    {
+      "source": "solemn-pilgrim",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "sprintmaster-swift",
+      "target": "far-fields"
+    },
+    {
+      "source": "sprintmaster-swift",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "sprintmaster-swift",
+      "target": "bellhart"
+    },
+    {
+      "source": "sprintmaster-swift",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "steel-seer-zi",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "steel-seer-zi",
+      "target": "sula"
+    },
+    {
+      "source": "steel-seer-zi",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "steel-seer-zi",
+      "target": "summoned-saviour"
+    },
+    {
+      "source": "styx",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "styx",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "styx",
+      "target": "bellhart"
+    },
+    {
+      "source": "sula",
+      "target": "summoned-saviour"
+    },
+    {
+      "source": "tall-pilgrim",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "tall-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "tall-pilgrim",
+      "target": "grand-gate"
+    },
+    {
+      "source": "tall-pilgrim",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "tall-pilgrim",
+      "target": "last-judge"
+    },
+    {
+      "source": "tormented-trobbio",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "tormented-trobbio",
+      "target": "trobbio"
+    },
+    {
+      "source": "tormented-trobbio",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "tormented-trobbio",
+      "target": "the-citadel"
+    },
+    {
+      "source": "tormented-trobbio",
+      "target": "hornet-hollow-knight"
+    },
+    {
+      "source": "tormented-trobbio",
+      "target": "lace"
+    },
+    {
+      "source": "twelfth-architect",
+      "target": "underworks"
+    },
+    {
+      "source": "twelfth-architect",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "twelfth-architect",
+      "target": "the-citadel"
+    },
+    {
+      "source": "unnamed-skarr",
+      "target": "far-fields"
+    },
+    {
+      "source": "unnamed-skarr",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "unnamed-skarr",
+      "target": "mottled-skarr"
+    },
+    {
+      "source": "unnamed-skarr",
+      "target": "gurr-the-outcast"
+    },
+    {
+      "source": "varga",
+      "target": "the-marrow"
+    },
+    {
+      "source": "varga",
+      "target": "greymoor"
+    },
+    {
+      "source": "varga",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "varga",
+      "target": "grishkin"
+    },
+    {
+      "source": "varga",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "vaultkeeper-cardinius",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "vaultkeeper-cardinius",
+      "target": "the-citadel"
+    },
+    {
+      "source": "vaultkeeper-cardinius",
+      "target": "cogwork-statues"
+    },
+    {
+      "source": "vog",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "vog",
+      "target": "the-marrow"
+    },
+    {
+      "source": "vog",
+      "target": "greymoor"
+    },
+    {
+      "source": "vog",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "vog",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "vog",
+      "target": "wormways"
+    },
+    {
+      "source": "vog",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "vog",
+      "target": "deep-docks"
+    },
+    {
+      "source": "vog",
+      "target": "far-fields"
+    },
+    {
+      "source": "vog",
+      "target": "shellwood"
+    },
+    {
+      "source": "vog",
+      "target": "bellhart"
+    },
+    {
+      "source": "vog",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "vog",
+      "target": "the-citadel"
+    },
+    {
+      "source": "vog",
+      "target": "underworks"
+    },
+    {
+      "source": "vog",
+      "target": "mount-fay"
+    },
+    {
+      "source": "vog",
+      "target": "the-slab"
+    },
+    {
+      "source": "vog",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "vog",
+      "target": "bilewater"
+    },
+    {
+      "source": "weary-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "weary-pilgrim",
+      "target": "far-fields"
+    },
+    {
+      "source": "worried-pilgrim",
+      "target": "the-citadel"
+    },
+    {
+      "source": "worried-pilgrim",
+      "target": "second-sentinel"
+    },
+    {
+      "source": "yarnaby",
+      "target": "greymoor"
+    },
+    {
+      "source": "yarnaby",
+      "target": "bellhart"
+    },
+    {
+      "source": "yarnaby",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "yarnaby",
+      "target": "pavo"
+    },
+    {
+      "source": "bell-eater",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "broodmother",
+      "target": "the-slab"
+    },
+    {
+      "source": "broodmother",
+      "target": "old-penitent"
+    },
+    {
+      "source": "broodmother",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "clover-dancers",
+      "target": "the-citadel"
+    },
+    {
+      "source": "clover-dancers",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "clover-dancers",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "clover-dancers",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "clover-dancers",
+      "target": "greymoor"
+    },
+    {
+      "source": "clover-dancers",
+      "target": "verdania"
+    },
+    {
+      "source": "clover-dancers",
+      "target": "skarrsinger-karmelita"
+    },
+    {
+      "source": "cogwork-dancers",
+      "target": "cogwork-core"
+    },
+    {
+      "source": "cogwork-dancers",
+      "target": "the-cradle"
+    },
+    {
+      "source": "cogwork-dancers",
+      "target": "verdania"
+    },
+    {
+      "source": "cogwork-dancers",
+      "target": "the-citadel"
+    },
+    {
+      "source": "crawfather",
+      "target": "greymoor"
+    },
+    {
+      "source": "crawfather",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "crust-king-khann",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "crust-king-khann",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "crust-king-khann",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "crust-king-khann",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "disgraced-chef-lugoli",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "disgraced-chef-lugoli",
+      "target": "the-citadel"
+    },
+    {
+      "source": "disgraced-chef-lugoli",
+      "target": "loyal-mergwin"
+    },
+    {
+      "source": "disgraced-chef-lugoli",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "father-of-the-flame",
+      "target": "wisp-thicket"
+    },
+    {
+      "source": "father-of-the-flame",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "father-of-the-flame",
+      "target": "underworks"
+    },
+    {
+      "source": "first-sinner",
+      "target": "the-slab"
+    },
+    {
+      "source": "first-sinner",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "first-sinner",
+      "target": "the-citadel"
+    },
+    {
+      "source": "first-sinner",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "first-sinner",
+      "target": "widow"
+    },
+    {
+      "source": "forebrothers-signis-&-gron",
+      "target": "deep-docks"
+    },
+    {
+      "source": "forebrothers-signis-&-gron",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "far-fields"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "the-citadel"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "pinstress"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "underworks"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "twelfth-architect"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "savage-beastfly"
+    },
+    {
+      "source": "fourth-chorus",
+      "target": "sister-splinter"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "the-cradle"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "green-prince"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "mask-maker-silksong"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "the-citadel"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "weavenest-atla"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "whiteward"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "phantom"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "seamstress"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "bell-beast"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "the-abyss-silksong"
+    },
+    {
+      "source": "grand-mother-silk",
+      "target": "lost-lace"
+    },
+    {
+      "source": "great-conchflies",
+      "target": "pinstress"
+    },
+    {
+      "source": "great-conchflies",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "great-conchflies",
+      "target": "raging-conchfly"
+    },
+    {
+      "source": "great-conchflies",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "great-conchflies",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "groal-the-great",
+      "target": "bilewater"
+    },
+    {
+      "source": "groal-the-great",
+      "target": "caretaker"
+    },
+    {
+      "source": "groal-the-great",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "groal-the-great",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "gurr-the-outcast",
+      "target": "far-fields"
+    },
+    {
+      "source": "gurr-the-outcast",
+      "target": "greymoor"
+    },
+    {
+      "source": "gurr-the-outcast",
+      "target": "the-citadel"
+    },
+    {
+      "source": "gurr-the-outcast",
+      "target": "mottled-skarr"
+    },
+    {
+      "source": "gurr-the-outcast",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "last-judge",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "last-judge",
+      "target": "the-citadel"
+    },
+    {
+      "source": "last-judge",
+      "target": "grand-gate"
+    },
+    {
+      "source": "last-judge",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "last-judge",
+      "target": "the-knight"
+    },
+    {
+      "source": "lost-garmond",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "lost-garmond",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "lost-lace",
+      "target": "the-abyss-silksong"
+    },
+    {
+      "source": "lost-lace",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "moorwing",
+      "target": "bellhart"
+    },
+    {
+      "source": "moorwing",
+      "target": "greymoor"
+    },
+    {
+      "source": "moorwing",
+      "target": "the-citadel"
+    },
+    {
+      "source": "moorwing",
+      "target": "wormways"
+    },
+    {
+      "source": "moorwing",
+      "target": "shellwood"
+    },
+    {
+      "source": "moss-mother",
+      "target": "weavenest-atla"
+    },
+    {
+      "source": "moss-mother",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "moss-mother",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "moss-mother",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "moss-mother",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "nyleth",
+      "target": "grand-gate"
+    },
+    {
+      "source": "nyleth",
+      "target": "shellwood"
+    },
+    {
+      "source": "nyleth",
+      "target": "the-citadel"
+    },
+    {
+      "source": "nyleth",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "nyleth",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "palestag",
+      "target": "verdania"
+    },
+    {
+      "source": "palestag",
+      "target": "clover-dancers"
+    },
+    {
+      "source": "palestag",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "phantom",
+      "target": "the-citadel"
+    },
+    {
+      "source": "phantom",
+      "target": "bilewater"
+    },
+    {
+      "source": "phantom",
+      "target": "the-mist"
+    },
+    {
+      "source": "phantom",
+      "target": "underworks"
+    },
+    {
+      "source": "phantom",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "phantom",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "pinstress",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "pinstress",
+      "target": "mount-fay"
+    },
+    {
+      "source": "pinstress",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "pinstress",
+      "target": "the-citadel"
+    },
+    {
+      "source": "pinstress",
+      "target": "bellhart"
+    },
+    {
+      "source": "pinstress",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "plasmified-zango",
+      "target": "wormways"
+    },
+    {
+      "source": "plasmified-zango",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "raging-conchfly",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "raging-conchfly",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "savage-beastfly",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "savage-beastfly",
+      "target": "far-fields"
+    },
+    {
+      "source": "savage-beastfly",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "savage-beastfly",
+      "target": "bellhart"
+    },
+    {
+      "source": "savage-beastfly",
+      "target": "memorium"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "cogwork-core"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "high-halls"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "the-citadel"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "twelfth-architect"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "whiteward"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "jubilana"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "pinstress"
+    },
+    {
+      "source": "second-sentinel",
+      "target": "lace"
+    },
+    {
+      "source": "sister-splinter",
+      "target": "shellwood"
+    },
+    {
+      "source": "sister-splinter",
+      "target": "nyleth"
+    },
+    {
+      "source": "sister-splinter",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "skull-tyrant",
+      "target": "the-marrow"
+    },
+    {
+      "source": "skull-tyrant",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "skull-tyrant",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "skull-tyrant",
+      "target": "the-citadel"
+    },
+    {
+      "source": "skull-tyrant",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "skull-tyrant",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "skull-tyrant",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "summoned-saviour",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "summoned-saviour",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "the-unravelled",
+      "target": "whiteward"
+    },
+    {
+      "source": "the-unravelled",
+      "target": "underworks"
+    },
+    {
+      "source": "the-unravelled",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "trobbio",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "trobbio",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "trobbio",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "voltvyrm",
+      "target": "the-citadel"
+    },
+    {
+      "source": "voltvyrm",
+      "target": "memorium"
+    },
+    {
+      "source": "voltvyrm",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "voltvyrm",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "watcher-at-the-edge",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "watcher-at-the-edge",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "widow",
+      "target": "bellhart"
+    },
+    {
+      "source": "widow",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "widow",
+      "target": "the-cradle"
+    },
+    {
+      "source": "widow",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "widow",
+      "target": "shellwood"
+    },
+    {
+      "source": "widow",
+      "target": "fourth-chorus"
+    },
+    {
+      "source": "widow",
+      "target": "soul-master"
+    },
+    {
+      "source": "the-abyss-silksong",
+      "target": "deep-docks"
+    },
+    {
+      "source": "the-abyss-silksong",
+      "target": "the-citadel"
+    },
+    {
+      "source": "the-abyss-silksong",
+      "target": "red-memory"
+    },
+    {
+      "source": "bellhart",
+      "target": "greymoor"
+    },
+    {
+      "source": "bellhart",
+      "target": "shellwood"
+    },
+    {
+      "source": "bellhart",
+      "target": "the-marrow"
+    },
+    {
+      "source": "bellhart",
+      "target": "the-citadel"
+    },
+    {
+      "source": "bellhart",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "bellhart",
+      "target": "wormways"
+    },
+    {
+      "source": "bellhart",
+      "target": "flea-caravan"
+    },
+    {
+      "source": "bellhart",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "bellhart",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "bellhart",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "bellhart",
+      "target": "gilly"
+    },
+    {
+      "source": "bellhart",
+      "target": "far-fields"
+    },
+    {
+      "source": "bellhart",
+      "target": "father-of-the-flame"
+    },
+    {
+      "source": "bilewater",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "bilewater",
+      "target": "the-mist"
+    },
+    {
+      "source": "bilewater",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "bilewater",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "bilewater",
+      "target": "underworks"
+    },
+    {
+      "source": "bilewater",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "bilewater",
+      "target": "the-citadel"
+    },
+    {
+      "source": "bilewater",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "bilewater",
+      "target": "white-palace"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "bone-bottom"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "grand-gate"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "shellwood"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "the-citadel"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "wormways"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "aged-pilgrim"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "deep-docks"
+    },
+    {
+      "source": "blasted-steps",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "the-marrow"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "shellwood"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "wormways"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "mosslands"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "the-citadel"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "mask-maker-silksong"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "sula"
+    },
+    {
+      "source": "bone-bottom",
+      "target": "dirtmouth"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "cogwork-core"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "grand-gate"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "high-halls"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "memorium"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "the-slab"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "underworks"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "whiteward"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "the-citadel"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "mort"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "last-judge"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "phantom"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "bellhart"
+    },
+    {
+      "source": "choral-chambers",
+      "target": "tormented-trobbio"
+    },
+    {
+      "source": "the-citadel",
+      "target": "cogwork-core"
+    },
+    {
+      "source": "the-citadel",
+      "target": "grand-gate"
+    },
+    {
+      "source": "the-citadel",
+      "target": "high-halls"
+    },
+    {
+      "source": "the-citadel",
+      "target": "memorium"
+    },
+    {
+      "source": "the-citadel",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "the-citadel",
+      "target": "whiteward"
+    },
+    {
+      "source": "the-citadel",
+      "target": "chapel-maid"
+    },
+    {
+      "source": "the-citadel",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "the-citadel",
+      "target": "underworks"
+    },
+    {
+      "source": "the-citadel",
+      "target": "the-cradle"
+    },
+    {
+      "source": "the-citadel",
+      "target": "mask-maker-silksong"
+    },
+    {
+      "source": "the-citadel",
+      "target": "cogwork-statues"
+    },
+    {
+      "source": "the-citadel",
+      "target": "deep-docks"
+    },
+    {
+      "source": "the-citadel",
+      "target": "greymoor"
+    },
+    {
+      "source": "the-citadel",
+      "target": "shellwood"
+    },
+    {
+      "source": "the-citadel",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "the-citadel",
+      "target": "verdania"
+    },
+    {
+      "source": "the-citadel",
+      "target": "green-prince"
+    },
+    {
+      "source": "the-citadel",
+      "target": "the-slab"
+    },
+    {
+      "source": "the-citadel",
+      "target": "trobbio"
+    },
+    {
+      "source": "the-citadel",
+      "target": "caretaker"
+    },
+    {
+      "source": "cogwork-core",
+      "target": "the-cradle"
+    },
+    {
+      "source": "cogwork-core",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "cogwork-core",
+      "target": "twelfth-architect"
+    },
+    {
+      "source": "cogwork-core",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "cogwork-core",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "cogwork-core",
+      "target": "mask-maker-silksong"
+    },
+    {
+      "source": "cogwork-core",
+      "target": "verdania"
+    },
+    {
+      "source": "the-cradle",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "the-cradle",
+      "target": "the-abyss-silksong"
+    },
+    {
+      "source": "the-cradle",
+      "target": "first-sinner"
+    },
+    {
+      "source": "the-cradle",
+      "target": "vaultkeeper-cardinius"
+    },
+    {
+      "source": "the-cradle",
+      "target": "seamstress"
+    },
+    {
+      "source": "the-cradle",
+      "target": "choral-chambers"
+    },
+    {
+      "source": "the-cradle",
+      "target": "howling-cliffs"
+    },
+    {
+      "source": "the-cradle",
+      "target": "mister-mushroom-silksong"
+    },
+    {
+      "source": "deep-docks",
+      "target": "the-marrow"
+    },
+    {
+      "source": "deep-docks",
+      "target": "far-fields"
+    },
+    {
+      "source": "deep-docks",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "deep-docks",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "deep-docks",
+      "target": "underworks"
+    },
+    {
+      "source": "deep-docks",
+      "target": "bell-beast"
+    },
+    {
+      "source": "far-fields",
+      "target": "greymoor"
+    },
+    {
+      "source": "far-fields",
+      "target": "hunter's-march"
+    },
+    {
+      "source": "far-fields",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "far-fields",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "far-fields",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "far-fields",
+      "target": "the-citadel"
+    },
+    {
+      "source": "far-fields",
+      "target": "pinstress"
+    },
+    {
+      "source": "far-fields",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "far-fields",
+      "target": "forge-daughter"
+    },
+    {
+      "source": "far-fields",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "far-fields",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "far-fields",
+      "target": "wormways"
+    },
+    {
+      "source": "grand-gate",
+      "target": "underworks"
+    },
+    {
+      "source": "grand-gate",
+      "target": "shellwood"
+    },
+    {
+      "source": "grand-gate",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "grand-gate",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "grand-gate",
+      "target": "verdania"
+    },
+    {
+      "source": "greymoor",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "greymoor",
+      "target": "wisp-thicket"
+    },
+    {
+      "source": "greymoor",
+      "target": "verdania"
+    },
+    {
+      "source": "greymoor",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "greymoor",
+      "target": "cogwork-dancers"
+    },
+    {
+      "source": "greymoor",
+      "target": "crull-and-benjin"
+    },
+    {
+      "source": "greymoor",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "greymoor",
+      "target": "wormways"
+    },
+    {
+      "source": "greymoor",
+      "target": "shellwood"
+    },
+    {
+      "source": "high-halls",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "high-halls",
+      "target": "cogwork-statues"
+    },
+    {
+      "source": "high-halls",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "high-halls",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "high-halls",
+      "target": "cogwork-core"
+    },
+    {
+      "source": "hunter's-march",
+      "target": "the-marrow"
+    },
+    {
+      "source": "hunter's-march",
+      "target": "greymoor"
+    },
+    {
+      "source": "hunter's-march",
+      "target": "bellhart"
+    },
+    {
+      "source": "hunter's-march",
+      "target": "shellwood"
+    },
+    {
+      "source": "hunter's-march",
+      "target": "creige"
+    },
+    {
+      "source": "hunter's-march",
+      "target": "gurr-the-outcast"
+    },
+    {
+      "source": "the-marrow",
+      "target": "shellwood"
+    },
+    {
+      "source": "the-marrow",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "the-marrow",
+      "target": "widow"
+    },
+    {
+      "source": "the-marrow",
+      "target": "forgotten-crossroads"
+    },
+    {
+      "source": "the-marrow",
+      "target": "far-fields"
+    },
+    {
+      "source": "the-marrow",
+      "target": "mosslands"
+    },
+    {
+      "source": "memorium",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "memorium",
+      "target": "moss-grotto"
+    },
+    {
+      "source": "memorium",
+      "target": "verdania"
+    },
+    {
+      "source": "memorium",
+      "target": "sands-of-karak"
+    },
+    {
+      "source": "memorium",
+      "target": "shellwood"
+    },
+    {
+      "source": "memorium",
+      "target": "far-fields"
+    },
+    {
+      "source": "memorium",
+      "target": "the-marrow"
+    },
+    {
+      "source": "memorium",
+      "target": "greymoor"
+    },
+    {
+      "source": "memorium",
+      "target": "cogwork-core"
+    },
+    {
+      "source": "the-mist",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "the-mist",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "the-mist",
+      "target": "grand-mother-silk"
+    },
+    {
+      "source": "the-mist",
+      "target": "the-citadel"
+    },
+    {
+      "source": "moss-grotto",
+      "target": "weavenest-atla"
+    },
+    {
+      "source": "moss-grotto",
+      "target": "red-memory"
+    },
+    {
+      "source": "moss-grotto",
+      "target": "shakra"
+    },
+    {
+      "source": "moss-grotto",
+      "target": "mosslands"
+    },
+    {
+      "source": "moss-grotto",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "moss-grotto",
+      "target": "moss-druid"
+    },
+    {
+      "source": "moss-grotto",
+      "target": "caretaker"
+    },
+    {
+      "source": "moss-grotto",
+      "target": "the-citadel"
+    },
+    {
+      "source": "mosslands",
+      "target": "blasted-steps"
+    },
+    {
+      "source": "mosslands",
+      "target": "shellwood"
+    },
+    {
+      "source": "mosslands",
+      "target": "weavenest-atla"
+    },
+    {
+      "source": "mosslands",
+      "target": "wormways"
+    },
+    {
+      "source": "mount-fay",
+      "target": "the-slab"
+    },
+    {
+      "source": "mount-fay",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "mount-fay",
+      "target": "the-citadel"
+    },
+    {
+      "source": "putrified-ducts",
+      "target": "the-citadel"
+    },
+    {
+      "source": "putrified-ducts",
+      "target": "shrine-guardian-seth"
+    },
+    {
+      "source": "putrified-ducts",
+      "target": "grand-gate"
+    },
+    {
+      "source": "putrified-ducts",
+      "target": "moorwing"
+    },
+    {
+      "source": "red-memory",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "red-memory",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "red-memory",
+      "target": "hornet-protector"
+    },
+    {
+      "source": "sands-of-karak",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "sands-of-karak",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "sands-of-karak",
+      "target": "pinstress"
+    },
+    {
+      "source": "sands-of-karak",
+      "target": "grand-gate"
+    },
+    {
+      "source": "shellwood",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "shellwood",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "shellwood",
+      "target": "pavo"
+    },
+    {
+      "source": "shellwood",
+      "target": "wormways"
+    },
+    {
+      "source": "shellwood",
+      "target": "zote-the-mighty"
+    },
+    {
+      "source": "shellwood",
+      "target": "steel-seer-zi"
+    },
+    {
+      "source": "sinner's-road",
+      "target": "the-citadel"
+    },
+    {
+      "source": "sinner's-road",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "sinner's-road",
+      "target": "deep-docks"
+    },
+    {
+      "source": "the-slab",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "the-slab",
+      "target": "bell-beast"
+    },
+    {
+      "source": "the-slab",
+      "target": "deep-docks"
+    },
+    {
+      "source": "the-slab",
+      "target": "greymoor"
+    },
+    {
+      "source": "the-slab",
+      "target": "bilewater"
+    },
+    {
+      "source": "the-slab",
+      "target": "putrified-ducts"
+    },
+    {
+      "source": "underworks",
+      "target": "whiteward"
+    },
+    {
+      "source": "underworks",
+      "target": "whispering-vaults"
+    },
+    {
+      "source": "underworks",
+      "target": "wisp-thicket"
+    },
+    {
+      "source": "underworks",
+      "target": "last-judge"
+    },
+    {
+      "source": "underworks",
+      "target": "trobbio"
+    },
+    {
+      "source": "verdania",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "verdania",
+      "target": "sinner's-road"
+    },
+    {
+      "source": "verdania",
+      "target": "wormways"
+    },
+    {
+      "source": "weavenest-atla",
+      "target": "caretaker"
+    },
+    {
+      "source": "weavenest-atla",
+      "target": "lace"
+    },
+    {
+      "source": "whispering-vaults",
+      "target": "cogwork-statues"
+    },
+    {
+      "source": "whiteward",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "whiteward",
+      "target": "the-cradle"
+    },
+    {
+      "source": "whiteward",
+      "target": "deep-docks"
+    },
+    {
+      "source": "whiteward",
+      "target": "fourth-chorus"
+    },
+    {
+      "source": "whiteward",
+      "target": "the-marrow"
+    },
+    {
+      "source": "wisp-thicket",
+      "target": "hornet-silksong"
+    },
+    {
+      "source": "wisp-thicket",
+      "target": "yarnaby"
+    },
+    {
+      "source": "wisp-thicket",
+      "target": "bellhart"
+    },
+    {
+      "source": "wormways",
+      "target": "the-marrow"
+    },
+    {
+      "source": "wormways",
+      "target": "green-prince"
+    },
+    {
+      "source": "the-knight",
+      "target": "resting-grounds"
+    },
+    {
+      "source": "the-knight",
+      "target": "godhome"
+    },
+    {
+      "source": "the-knight",
+      "target": "absolute-radiance"
+    },
+    {
+      "source": "the-knight",
+      "target": "the-abyss-silksong"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "snail-shamans-silksong"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "mask-maker-silksong"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "vaultkeeper-cardinius"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "the-knight"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "the-hollow-knight"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "broken-vessel"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "deepnest"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "herrah-the-beast"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "dreamers"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "the-pale-king"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "white-palace"
+    },
+    {
+      "source": "hornet-silksong",
+      "target": "the-hive"
+    }
   ]
 }
