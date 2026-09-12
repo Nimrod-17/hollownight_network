@@ -114,6 +114,89 @@
     </div>
   </section>
 
+  <section class="post" id="post-stats">
+    <header class="post-intro">
+      <p class="post-label">Post 2</p>
+      <h2>Network Stats</h2>
+      <p>
+        Every figure below is computed live, in the browser, straight from
+        the same data.json the graph above uses — nothing here is
+        hand-typed, so it stays accurate as the dataset grows. A short
+        plain-language note sits next to anything that isn't obvious.
+      </p>
+    </header>
+
+    <div class="stats-frame">
+      <div class="stats-cards" id="stats-cards" aria-live="polite"></div>
+
+      <div class="stats-columns">
+        <div class="stats-panel">
+          <h3>Most connected</h3>
+          <p class="stats-note">The ten entries linked to the most others - the hubs nearly everyone else eventually passes through.</p>
+          <ol class="stats-rank-list" id="stats-top10"></ol>
+        </div>
+        <div class="stats-panel">
+          <h3>Least connected</h3>
+          <p class="stats-note">The ten entries with the fewest links - easy to miss, easy to forget, including any with none at all.</p>
+          <ol class="stats-rank-list" id="stats-bottom10"></ol>
+        </div>
+      </div>
+
+      <div class="stats-panel">
+        <h3>Forgotten fragments</h3>
+        <p class="stats-note">Connected components: groups of entries only reachable from each other, cut off from the rest of the graph. The largest is the "giant component."</p>
+        <div id="stats-components"></div>
+      </div>
+
+      <div class="stats-columns">
+        <div class="stats-panel">
+          <h3>Clustering</h3>
+          <p class="stats-note">Average clustering coefficient - on average, how likely two of an entry's own connections are to also be connected to each other.</p>
+          <p class="stats-figure" id="stats-clustering"></p>
+        </div>
+        <div class="stats-panel">
+          <h3>Distances</h3>
+          <p class="stats-note">Average shortest path length, and the diameter (the single longest shortest path in the graph) - how many hops separate any two entries.</p>
+          <p class="stats-figure" id="stats-paths"></p>
+        </div>
+      </div>
+
+      <div class="stats-columns">
+        <div class="stats-panel">
+          <h3>Hub share</h3>
+          <p class="stats-note">What share of every link in the graph touches just the single most-connected entry.</p>
+          <p class="stats-figure" id="stats-hub"></p>
+        </div>
+        <div class="stats-panel">
+          <h3>The friendship paradox</h3>
+          <p class="stats-note">A well-known network quirk: on average, an entry's own connections have more connections than it does - because hubs get counted as "someone's connection" far more often than as themselves.</p>
+          <p class="stats-figure" id="stats-paradox"></p>
+        </div>
+      </div>
+
+      <div class="stats-panel stats-panel-wide">
+        <h3>Degree distribution</h3>
+        <p class="stats-note">How many entries have exactly N connections. A roughly straight line on the log-log scale is the signature of a "scale-free" network: a few extreme hubs, many barely-connected entries.</p>
+        <div class="stats-charts">
+          <div class="stats-chart-block">
+            <span class="stats-chart-label">Linear scale</span>
+            <svg id="chart-degree-linear" class="stats-chart"></svg>
+          </div>
+          <div class="stats-chart-block">
+            <span class="stats-chart-label">Log-log scale</span>
+            <svg id="chart-degree-loglog" class="stats-chart"></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-panel">
+        <h3>Hollow Knight vs. Silksong</h3>
+        <p class="stats-note">How much of the graph belongs to each game, and how many links bridge the two.</p>
+        <div id="stats-games"></div>
+      </div>
+    </div>
+  </section>
+
   <footer class="site-footer">
     Hollow Knight and its assets are property of Team Cherry — fan project, not affiliated.
   </footer>
@@ -134,5 +217,6 @@
 <script src="music.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="main.js"></script>
+<script src="stats.js"></script>
 </body>
 </html>
