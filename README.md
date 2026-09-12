@@ -1,48 +1,48 @@
-# Diario di Hallownest
+# Hallownest Diary
 
-Sito esplorabile del network di lore di Hollow Knight / Silksong, costruito settimana per settimana.
+An explorable lore network for Hollow Knight / Silksong, built week by week.
 
-## Struttura
+## Structure
 
-- `index.html` — struttura della pagina
-- `style.css` — tema visivo (palette, tipografia)
-- `main.js` — logica del grafo (D3 force simulation) e meccanica di rivelazione progressiva
-- `data.json` — dataset dei nodi/archi. **Questo è solo un esempio con 8 nodi finti** — va sostituito con i dati veri estratti dal wiki.
+- `index.html` — page structure
+- `style.css` — visual theme (palette, typography)
+- `main.js` — graph logic (D3 force simulation) and the progressive-reveal mechanic
+- `data.json` — node/edge dataset. **This is just a placeholder with 8 fake nodes** — replace it with the real data scraped from the wiki.
 
-## Formato di data.json
+## data.json format
 
 ```json
 {
   "nodes": [
-    { "id": "id-univoco", "label": "Nome mostrato", "area": "Zona/categoria", "fragment": "Testo breve, originale, mostrato quando il nodo viene rivelato", "type": "character | location | ..." }
+    { "id": "unique-id", "label": "Display name", "area": "Zone/category", "fragment": "Short, original text shown when the node is revealed", "type": "character | location | ..." }
   ],
   "links": [
-    { "source": "id-nodo-1", "target": "id-nodo-2" }
+    { "source": "node-id-1", "target": "node-id-2" }
   ]
 }
 ```
 
-Importante: il campo `fragment` va scritto con parole tue, non copiato dal wiki (per non violare il copyright e perché è più coerente con lo stile "diario").
+Important: write the `fragment` field in your own words, not copied from the wiki (to respect copyright and to keep the "diary" voice consistent).
 
-## Come funziona la rivelazione
+## How the reveal mechanic works
 
-Ogni nodo ha uno stato in `main.js`:
-- `hidden`: non disegnato
-- `glimpsed`: disegnato ma spento, senza etichetta né scheda
-- `revealed`: cliccato, mostra la scheda nel pannello laterale e "accende" i suoi vicini a `glimpsed`
+Every node has a state tracked in `main.js`:
+- `hidden`: not drawn
+- `glimpsed`: drawn but dim, no label or card
+- `revealed`: clicked, shows the card in the side panel and "lights up" its neighbors to `glimpsed`
 
-Cambia i nodi di partenza modificando `SEED_IDS` in cima a `main.js`.
+Change the starting nodes by editing `SEED_IDS` at the top of `main.js`.
 
-## Sviluppo locale
+## Local development
 
-Nessuna build richiesta. Basta aprire `index.html` con un server locale (per via del `fetch` su `data.json`, non funziona aprendo il file direttamente da disco):
+No build step required. Just open `index.html` through a local server (the `fetch` call on `data.json` won't work if you open the file directly from disk):
 
 ```
 python3 -m http.server 8000
 ```
 
-poi vai su `http://localhost:8000`.
+then visit `http://localhost:8000`.
 
-## Pubblicazione su GitHub Pages
+## Publishing on GitHub Pages
 
-Vedi le istruzioni fornite a parte per creare il repository e attivare Pages.
+See the separate instructions for creating the repository and enabling Pages.

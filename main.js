@@ -1,11 +1,11 @@
-// Diario di Hallownest — grafo esplorabile a rivelazione progressiva
+// Hallownest Diary — force-directed graph with progressive reveal
 //
-// Stati di un nodo:
-//   hidden    -> non esiste ancora per chi guarda (non viene disegnato)
-//   glimpsed  -> intravisto (vicino a un nodo rivelato): cerchio spento, nessuna scheda
-//   revealed  -> rivelato: cliccato, mostra la scheda nel pannello laterale
+// Node states:
+//   hidden    -> doesn't exist yet for the viewer (not drawn)
+//   glimpsed  -> spotted (neighbor of a revealed node): dim circle, no card
+//   revealed  -> clicked: shows the fragment card in the side panel
 //
-// SEED_IDS: da quali nodi parte l'esplorazione. Cambiali per adattarli al dataset reale.
+// SEED_IDS: which nodes the exploration starts from. Change these to match the real dataset.
 const SEED_IDS = ["knight"];
 
 const svg = d3.select("#graph");
@@ -72,7 +72,7 @@ function visibleGraph() {
 function render() {
   const { nodes, links } = visibleGraph();
 
-  // preserve existing positions across re-renders
+  // preserve existing node positions across re-renders
   const prevPositions = new Map(
     simulation.nodes().map(n => [n.id, { x: n.x, y: n.y, vx: n.vx, vy: n.vy }])
   );
@@ -162,7 +162,7 @@ function updateProgress() {
   const revealed = allNodes.filter(n => state.get(n.id) === "revealed").length;
   const pct = total ? Math.round((revealed / total) * 100) : 0;
   progressFill.style.width = pct + "%";
-  progressLabel.textContent = `${pct}% esplorato`;
+  progressLabel.textContent = `${pct}% explored`;
 }
 
 window.addEventListener("resize", () => {

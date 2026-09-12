@@ -1,13 +1,13 @@
 {
   "nodes": [
-    { "id": "knight",     "label": "Il Cavaliere",  "area": "Forgotten Crossroads", "fragment": "Un vessel senza voce, sceso a Hallownest per ragioni che nemmeno lui ricorda.", "type": "character" },
-    { "id": "hornet",     "label": "Hornet",        "area": "Greenpath",            "fragment": "Sorveglia i confini di Hallownest con più discrezione di quanta ne conceda.", "type": "character" },
-    { "id": "quirrel",    "label": "Quirrel",       "area": "Forgotten Crossroads", "fragment": "Un viaggiatore che non ricorda perché viaggia, solo che deve.", "type": "character" },
-    { "id": "cornifer",   "label": "Cornifer",      "area": "Forgotten Crossroads", "fragment": "Disegna mappe di un regno che sembra non finire mai di stupirlo.", "type": "character" },
-    { "id": "greenpath",  "label": "Greenpath",     "area": "Greenpath",            "fragment": "Una foresta cresciuta dove un tempo c'era solo pietra.", "type": "location" },
-    { "id": "crossroads", "label": "Forgotten Crossroads", "area": "Forgotten Crossroads", "fragment": "Il crocevia da cui ogni cammino a Hallownest, prima o poi, riparte.", "type": "location" },
-    { "id": "zote",       "label": "Zote",          "area": "Greenpath",            "fragment": "Convinto di essere l'eroe di una storia che nessun altro sta raccontando.", "type": "character" },
-    { "id": "moss-knight","label": "Moss Knight",   "area": "Greenpath",            "fragment": "Un guardiano vegetale, lento quanto le cose che ha giurato di proteggere.", "type": "character" }
+    { "id": "knight",     "label": "The Knight",     "area": "Forgotten Crossroads", "fragment": "A voiceless vessel, descended into Hallownest for reasons even it no longer recalls.", "type": "character" },
+    { "id": "hornet",     "label": "Hornet",        "area": "Greenpath",            "fragment": "Watches over Hallownest's borders with far more discretion than she lets on.", "type": "character" },
+    { "id": "quirrel",    "label": "Quirrel",       "area": "Forgotten Crossroads", "fragment": "A traveler who no longer remembers why he travels, only that he must.", "type": "character" },
+    { "id": "cornifer",   "label": "Cornifer",      "area": "Forgotten Crossroads", "fragment": "Draws maps of a kingdom that never seems to stop surprising him.", "type": "character" },
+    { "id": "greenpath",  "label": "Greenpath",     "area": "Greenpath",            "fragment": "A forest grown where once there was only stone.", "type": "location" },
+    { "id": "crossroads", "label": "Forgotten Crossroads", "area": "Forgotten Crossroads", "fragment": "The junction from which every road through Hallownest eventually returns.", "type": "location" },
+    { "id": "zote",       "label": "Zote",          "area": "Greenpath",            "fragment": "Convinced he is the hero of a story no one else is telling.", "type": "character" },
+    { "id": "moss-knight","label": "Moss Knight",   "area": "Greenpath",            "fragment": "A plant-bound guardian, as slow as the things it swore to protect.", "type": "character" }
   ],
   "links": [
     { "source": "knight", "target": "crossroads" },
