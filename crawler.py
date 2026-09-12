@@ -24,7 +24,7 @@ HEADERS = {
     "User-Agent": "HallownestDiaryCourseProject/1.0 (your-email@example.com)"
 }
 
-# Categories to pull nodes from, and what "type" to tag them with.
+# Categories to pull nodes from, and what (type, game) to tag them with.
 # Verify these titles exist first (see check_categories() below) before
 # a full crawl - category names on this wiki are of the form
 # "Category:NPCs (Hollow Knight)", with the "(Hollow Knight)" /
@@ -32,20 +32,20 @@ HEADERS = {
 # under "Areas", not "Locations". Enemies (generic mobs) are deliberately
 # left out - the category is huge and mostly low-lore-value trash mobs.
 CATEGORIES = {
-    "Category:NPCs (Hollow Knight)": "character",
-    "Category:Bosses (Hollow Knight)": "character",
-    "Category:Areas (Hollow Knight)": "location",
-    "Category:NPCs (Silksong)": "character",
-    "Category:Bosses (Silksong)": "character",
-    "Category:Areas (Silksong)": "location",
+    "Category:NPCs (Hollow Knight)": ("npc", "Hollow Knight"),
+    "Category:Bosses (Hollow Knight)": ("boss", "Hollow Knight"),
+    "Category:Areas (Hollow Knight)": ("location", "Hollow Knight"),
+    "Category:NPCs (Silksong)": ("npc", "Silksong"),
+    "Category:Bosses (Silksong)": ("boss", "Silksong"),
+    "Category:Areas (Silksong)": ("location", "Silksong"),
 }
 
 # The two games' protagonists are playable characters, not NPCs/bosses, so
 # the wiki doesn't file them under any category in CATEGORIES above and the
 # crawl would otherwise miss them entirely - added by hand instead.
 EXTRA_TITLES = {
-    "The Knight": "character",
-    "Hornet (Silksong)": "character",
+    "The Knight": ("protagonist", "Hollow Knight"),
+    "Hornet (Silksong)": ("protagonist", "Silksong"),
 }
 
 REQUEST_DELAY_SECONDS = 0.3  # be polite, don't hammer the API
@@ -164,24 +164,24 @@ def build_dataset():
     # shows up as a namespace-0 category member too - skip those, they're
     # not characters/locations and every article links to them.
     overview_titles = {cat.removeprefix("Category:") for cat in CATEGORIES}
-    node_type_by_title = {}
-    for category, node_type in CATEGORIES.items():
+    node_meta_by_title = {}
+    for category, meta in CATEGORIES.items():
         for title in get_category_members(category):
             if title in overview_titles:
                 continue
-            node_type_by_title[title] = node_type
-    node_type_by_title.update(EXTRA_TITLES)
-    print(f"Collected {len(node_type_by_title)} candidate nodes.")
+            node_meta_by_title[title] = meta
+    node_meta_by_title.update(EXTRA_TITLES)
+    print(f"Collected {len(node_meta_by_title)} candidate nodes.")
 
     # 2. For each node, fetch its outgoing links and keep only the ones
     #    that point at another node we already collected (so the graph
     #    stays within our chosen categories, like the Marvel dataset does).
     links = []
-    titles = list(node_type_by_title.keys())
+    titles = list(node_meta_by_title.keys())
     for i, title in enumerate(titles):
         page_links = get_links_from_page(title)
         for target in page_links:
-            if target in node_type_by_title and target != title:
+            if target in node_meta_by_title and target != title:
                 links.append({"source": slugify(title), "target": slugify(target)})
         time.sleep(REQUEST_DELAY_SECONDS)
         if i % 20 == 0:
@@ -196,8 +196,9 @@ def build_dataset():
             "area": "",
             "fragment": "TODO: write a short original description.",
             "type": node_type,
+            "game": game,
         }
-        for title, node_type in node_type_by_title.items()
+        for title, (node_type, game) in node_meta_by_title.items()
     ]
 
     # de-duplicate links (A->B and B->A both appearing is fine/expected,

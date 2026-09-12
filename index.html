@@ -16,17 +16,62 @@
       <span id="progress-label">0% explored</span>
       <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
     </div>
+    <button id="filters-toggle-btn" class="ghost-btn" aria-expanded="false">Filters</button>
     <button id="reveal-all-btn" class="ghost-btn">Reveal all</button>
   </header>
 
   <main>
     <svg id="graph"></svg>
 
+    <aside id="filters-panel" class="filters-panel hidden">
+      <button id="filters-close" class="journal-close" aria-label="Close">&times;</button>
+
+      <section class="filter-section">
+        <h3>Legend</h3>
+        <ul class="legend">
+          <li><span class="swatch type-protagonist"></span>Protagonist</li>
+          <li><span class="swatch type-boss"></span>Boss</li>
+          <li><span class="swatch type-npc"></span>NPC</li>
+          <li><span class="swatch type-location"></span>Location</li>
+        </ul>
+      </section>
+
+      <section class="filter-section">
+        <h3>Show</h3>
+        <label class="check-row"><input type="checkbox" class="type-filter" value="protagonist" checked>Protagonists</label>
+        <label class="check-row"><input type="checkbox" class="type-filter" value="boss" checked>Bosses</label>
+        <label class="check-row"><input type="checkbox" class="type-filter" value="npc" checked>NPCs</label>
+        <label class="check-row"><input type="checkbox" class="type-filter" value="location" checked>Locations</label>
+      </section>
+
+      <section class="filter-section">
+        <h3>Game</h3>
+        <label class="check-row"><input type="checkbox" class="game-filter" value="Hollow Knight" checked>Hollow Knight</label>
+        <label class="check-row"><input type="checkbox" class="game-filter" value="Silksong" checked>Silksong</label>
+      </section>
+
+      <section class="filter-section">
+        <h3>Layout</h3>
+        <select id="view-mode-select">
+          <option value="force">Force-directed</option>
+          <option value="by-game">Split by game</option>
+          <option value="by-type">Grouped by role</option>
+        </select>
+      </section>
+
+      <section class="filter-section">
+        <h3>Find</h3>
+        <input type="search" id="search-input" placeholder="Search discovered entries…" autocomplete="off">
+        <p id="search-status" class="search-status"></p>
+      </section>
+    </aside>
+
     <aside id="journal" class="journal hidden">
       <button id="journal-close" class="journal-close" aria-label="Close">&times;</button>
       <p class="journal-area" id="journal-area"></p>
       <h2 id="journal-title"></h2>
       <p id="journal-fragment"></p>
+      <label class="check-row focus-row"><input type="checkbox" id="focus-toggle">Focus on this entry</label>
     </aside>
 
     <p id="hint" class="hint">Click the Knight or Hornet to start uncovering Hallownest and Pharloom.</p>

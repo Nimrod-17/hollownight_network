@@ -5,1925 +5,2200 @@
       "label": "Unnamed NPCs (Hollow Knight)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "bardoon",
       "label": "Bardoon",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "blue-child-joni",
       "label": "Blue Child Joni",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "bretta",
       "label": "Bretta",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "brumm",
       "label": "Brumm",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "charm-lover-salubra",
       "label": "Charm Lover Salubra",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "cloth",
       "label": "Cloth",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "confessor-jiji",
       "label": "Confessor Jiji",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "cornifer",
       "label": "Cornifer",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "divine",
       "label": "Divine",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "dreamers",
       "label": "Dreamers",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "dung-defender",
       "label": "Dung Defender",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "elderbug",
       "label": "Elderbug",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "eternal-emilitia",
       "label": "Eternal Emilitia",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "fluke-hermit",
       "label": "Fluke Hermit",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "godseeker",
       "label": "Godseeker",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "grey-mourner",
       "label": "Grey Mourner",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "grubfather",
       "label": "Grubfather",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "herrah-the-beast",
       "label": "Herrah the Beast",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "hive-queen-vespa",
       "label": "Hive Queen Vespa",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "hornet-hollow-knight",
       "label": "Hornet (Hollow Knight)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "the-hunter",
       "label": "The Hunter",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "iselda",
       "label": "Iselda",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "last-stag",
       "label": "Last Stag",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "leg-eater",
       "label": "Leg Eater",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "little-fool",
       "label": "Little Fool",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "lurien-the-watcher",
       "label": "Lurien the Watcher",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "marissa",
       "label": "Marissa",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "mask-maker-hollow-knight",
       "label": "Mask Maker (Hollow Knight)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "midwife",
       "label": "Midwife",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "millibelle-the-banker",
       "label": "Millibelle the Banker",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "mister-mushroom-hollow-knight",
       "label": "Mister Mushroom (Hollow Knight)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "monomon-the-teacher",
       "label": "Monomon the Teacher",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "moss-prophet",
       "label": "Moss Prophet",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "myla",
       "label": "Myla",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "nailmaster-mato",
       "label": "Nailmaster Mato",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "nailmaster-oro",
       "label": "Nailmaster Oro",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "nailmaster-sheo",
       "label": "Nailmaster Sheo",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "nailsmith",
       "label": "Nailsmith",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "nymm",
       "label": "Nymm",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "the-pale-king",
       "label": "The Pale King",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "quirrel",
       "label": "Quirrel",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "relic-seeker-lemm",
       "label": "Relic Seeker Lemm",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "revek",
       "label": "Revek",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "seer",
       "label": "Seer",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "sly",
       "label": "Sly",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "snail-shaman",
       "label": "Snail Shaman",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "spirits",
       "label": "Spirits",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "steel-soul-jinn",
       "label": "Steel Soul Jinn",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "thistlewind",
       "label": "Thistlewind",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "tiso",
       "label": "Tiso",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "the-traitors'-child",
       "label": "The Traitors' Child",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "troupe-master-grimm",
       "label": "Troupe Master Grimm",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "tuk",
       "label": "Tuk",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "unnamed-moth",
       "label": "Unnamed Moth",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "white-lady",
       "label": "White Lady",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "willoh",
       "label": "Willoh",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Hollow Knight"
     },
     {
       "id": "zote-the-mighty",
       "label": "Zote the Mighty",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "absolute-radiance",
       "label": "Absolute Radiance",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "broken-vessel",
       "label": "Broken Vessel",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "brooding-mawlek",
       "label": "Brooding Mawlek",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "brothers-oro-&-mato",
       "label": "Brothers Oro & Mato",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "the-collector",
       "label": "The Collector",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "crystal-guardian",
       "label": "Crystal Guardian",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "elder-hu",
       "label": "Elder Hu",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "enraged-guardian",
       "label": "Enraged Guardian",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "failed-champion",
       "label": "Failed Champion",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "false-knight",
       "label": "False Knight",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "flukemarm",
       "label": "Flukemarm",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "galien",
       "label": "Galien",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "god-tamer",
       "label": "God Tamer",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "gorb",
       "label": "Gorb",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "great-nailsage-sly",
       "label": "Great Nailsage Sly",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "grey-prince-zote",
       "label": "Grey Prince Zote",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "gruz-mother",
       "label": "Gruz Mother",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "hive-knight",
       "label": "Hive Knight",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "the-hollow-knight",
       "label": "The Hollow Knight",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "hornet-protector",
       "label": "Hornet Protector",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "hornet-sentinel",
       "label": "Hornet Sentinel",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "lost-kin",
       "label": "Lost Kin",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "mantis-lords",
       "label": "Mantis Lords",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "markoth",
       "label": "Markoth",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "marmu",
       "label": "Marmu",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "massive-moss-charger",
       "label": "Massive Moss Charger",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "nightmare-king-grimm",
       "label": "Nightmare King Grimm",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "no-eyes",
       "label": "No Eyes",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "nosk",
       "label": "Nosk",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "oblobbles",
       "label": "Oblobbles",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "paintmaster-sheo",
       "label": "Paintmaster Sheo",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "pure-vessel",
       "label": "Pure Vessel",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "the-radiance",
       "label": "The Radiance",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "sisters-of-battle",
       "label": "Sisters of Battle",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "soul-master",
       "label": "Soul Master",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "soul-tyrant",
       "label": "Soul Tyrant",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "soul-warrior",
       "label": "Soul Warrior",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "traitor-lord",
       "label": "Traitor Lord",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "uumuu",
       "label": "Uumuu",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "vengefly-king",
       "label": "Vengefly King",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "watcher-knight",
       "label": "Watcher Knight",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "white-defender",
       "label": "White Defender",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "winged-nosk",
       "label": "Winged Nosk",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "xero",
       "label": "Xero",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Hollow Knight"
     },
     {
       "id": "the-abyss-hollow-knight",
       "label": "The Abyss (Hollow Knight)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "ancient-basin",
       "label": "Ancient Basin",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "city-of-tears",
       "label": "City of Tears",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "colosseum-of-fools",
       "label": "Colosseum of Fools",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "crystal-peak",
       "label": "Crystal Peak",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "deepnest",
       "label": "Deepnest",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "dirtmouth",
       "label": "Dirtmouth",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "fog-canyon",
       "label": "Fog Canyon",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "forgotten-crossroads",
       "label": "Forgotten Crossroads",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "fungal-wastes",
       "label": "Fungal Wastes",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "godhome",
       "label": "Godhome",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "greenpath",
       "label": "Greenpath",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "the-hive",
       "label": "The Hive",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "howling-cliffs",
       "label": "Howling Cliffs",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "kingdom's-edge",
       "label": "Kingdom's Edge",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "queen's-gardens",
       "label": "Queen's Gardens",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "resting-grounds",
       "label": "Resting Grounds",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "royal-waterways",
       "label": "Royal Waterways",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "white-palace",
       "label": "White Palace",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Hollow Knight"
     },
     {
       "id": "aged-pilgrim",
       "label": "Aged Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "alchemist-zylotol",
       "label": "Alchemist Zylotol",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "ballow",
       "label": "Ballow",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "beastlings",
       "label": "Beastlings",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "bell-beast",
       "label": "Bell Beast",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "bell-hermit",
       "label": "Bell Hermit",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "broodling",
       "label": "Broodling",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "caretaker",
       "label": "Caretaker",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "chapel-maid",
       "label": "Chapel Maid",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "cogwork-statues",
       "label": "Cogwork Statues",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "conductor-ballador",
       "label": "Conductor Ballador",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "couriers-tipp-&-pill",
       "label": "Couriers Tipp & Pill",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "creige",
       "label": "Creige",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "crull-and-benjin",
       "label": "Crull and Benjin",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "dejected-pilgrim",
       "label": "Dejected Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "eva",
       "label": "Eva",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "exhausted-pilgrim",
       "label": "Exhausted Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "fayforn",
       "label": "Fayforn",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "fearful-pilgrim",
       "label": "Fearful Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "flea",
       "label": "Flea",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "flea-caravan",
       "label": "Flea Caravan",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "fleamaster-mooshka",
       "label": "Fleamaster Mooshka",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "flick-the-fixer",
       "label": "Flick the Fixer",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "forge-daughter",
       "label": "Forge Daughter",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "frey",
       "label": "Frey",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "garmond-and-zaza",
       "label": "Garmond and Zaza",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "gilly",
       "label": "Gilly",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "great-gourmand",
       "label": "Great Gourmand",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "green-prince",
       "label": "Green Prince",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "greyroot",
       "label": "Greyroot",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "grindle",
       "label": "Grindle",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "grishkin",
       "label": "Grishkin",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "horned-pilgrim",
       "label": "Horned Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "humble-pilgrim",
       "label": "Humble Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "huntress",
       "label": "Huntress",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "jubilana",
       "label": "Jubilana",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "kratt",
       "label": "Kratt",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "lace",
       "label": "Lace",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "loam",
       "label": "Loam",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "loddie",
       "label": "Loddie",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "loyal-mergwin",
       "label": "Loyal Mergwin",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "lumble-the-lucky",
       "label": "Lumble the Lucky",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "mask-maker-silksong",
       "label": "Mask Maker (Silksong)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "mister-mushroom-silksong",
       "label": "Mister Mushroom (Silksong)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "mort",
       "label": "Mort",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "moss-druid",
       "label": "Moss Druid",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "mottled-skarr",
       "label": "Mottled Skarr",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "nuu",
       "label": "Nuu",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "old-penitent",
       "label": "Old Penitent",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "pavo",
       "label": "Pavo",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "pebb",
       "label": "Pebb",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "pilby",
       "label": "Pilby",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "pilgrim-preacher",
       "label": "Pilgrim Preacher",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "pinmaster-plinney",
       "label": "Pinmaster Plinney",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "pious-isamor",
       "label": "Pious Isamor",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "pondcatcher-reed",
       "label": "Pondcatcher Reed",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "quiet-pilgrim",
       "label": "Quiet Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "relic-seeker-scrounge",
       "label": "Relic Seeker Scrounge",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "runt",
       "label": "Runt",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "scared-pilgrim",
       "label": "Scared Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "seamstress",
       "label": "Seamstress",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "shakra",
       "label": "Shakra",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "sherma",
       "label": "Sherma",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "shrine-guardian-seth",
       "label": "Shrine Guardian Seth",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "skarrsinger-karmelita",
       "label": "Skarrsinger Karmelita",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "skynx",
       "label": "Skynx",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "snail-shamans-silksong",
       "label": "Snail Shamans (Silksong)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "solemn-pilgrim",
       "label": "Solemn Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "sprintmaster-swift",
       "label": "Sprintmaster Swift",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "steel-seer-zi",
       "label": "Steel Seer Zi",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "styx",
       "label": "Styx",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "sula",
       "label": "Sula",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "tall-pilgrim",
       "label": "Tall Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "tormented-trobbio",
       "label": "Tormented Trobbio",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "twelfth-architect",
       "label": "Twelfth Architect",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "unnamed-skarr",
       "label": "Unnamed Skarr",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "varga",
       "label": "Varga",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "vaultkeeper-cardinius",
       "label": "Vaultkeeper Cardinius",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "vog",
       "label": "Vog",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "weary-pilgrim",
       "label": "Weary Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "worried-pilgrim",
       "label": "Worried Pilgrim",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "yarnaby",
       "label": "Yarnaby",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "npc",
+      "game": "Silksong"
     },
     {
       "id": "bell-eater",
       "label": "Bell Eater",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "broodmother",
       "label": "Broodmother",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "clover-dancers",
       "label": "Clover Dancers",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "cogwork-dancers",
       "label": "Cogwork Dancers",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "crawfather",
       "label": "Crawfather",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "crust-king-khann",
       "label": "Crust King Khann",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "disgraced-chef-lugoli",
       "label": "Disgraced Chef Lugoli",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "father-of-the-flame",
       "label": "Father of the Flame",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "first-sinner",
       "label": "First Sinner",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "forebrothers-signis-&-gron",
       "label": "Forebrothers Signis & Gron",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "fourth-chorus",
       "label": "Fourth Chorus",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "grand-mother-silk",
       "label": "Grand Mother Silk",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "great-conchflies",
       "label": "Great Conchflies",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "groal-the-great",
       "label": "Groal the Great",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "gurr-the-outcast",
       "label": "Gurr the Outcast",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "last-judge",
       "label": "Last Judge",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "lost-garmond",
       "label": "Lost Garmond",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "lost-lace",
       "label": "Lost Lace",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "moorwing",
       "label": "Moorwing",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "moss-mother",
       "label": "Moss Mother",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "nyleth",
       "label": "Nyleth",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "palestag",
       "label": "Palestag",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "phantom",
       "label": "Phantom",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "pinstress",
       "label": "Pinstress",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "plasmified-zango",
       "label": "Plasmified Zango",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "raging-conchfly",
       "label": "Raging Conchfly",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "savage-beastfly",
       "label": "Savage Beastfly",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "second-sentinel",
       "label": "Second Sentinel",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "sister-splinter",
       "label": "Sister Splinter",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "skull-tyrant",
       "label": "Skull Tyrant",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "summoned-saviour",
       "label": "Summoned Saviour",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "the-unravelled",
       "label": "The Unravelled",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "trobbio",
       "label": "Trobbio",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "voltvyrm",
       "label": "Voltvyrm",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "watcher-at-the-edge",
       "label": "Watcher at the Edge",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "widow",
       "label": "Widow",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "boss",
+      "game": "Silksong"
     },
     {
       "id": "the-abyss-silksong",
       "label": "The Abyss (Silksong)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "bellhart",
       "label": "Bellhart",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "bilewater",
       "label": "Bilewater",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "blasted-steps",
       "label": "Blasted Steps",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "bone-bottom",
       "label": "Bone Bottom",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "choral-chambers",
       "label": "Choral Chambers",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "the-citadel",
       "label": "The Citadel",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "cogwork-core",
       "label": "Cogwork Core",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "the-cradle",
       "label": "The Cradle",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "deep-docks",
       "label": "Deep Docks",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "far-fields",
       "label": "Far Fields",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "grand-gate",
       "label": "Grand Gate",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "greymoor",
       "label": "Greymoor",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "high-halls",
       "label": "High Halls",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "hunter's-march",
       "label": "Hunter's March",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "the-marrow",
       "label": "The Marrow",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "memorium",
       "label": "Memorium",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "the-mist",
       "label": "The Mist",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "moss-grotto",
       "label": "Moss Grotto",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "mosslands",
       "label": "Mosslands",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "mount-fay",
       "label": "Mount Fay",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "putrified-ducts",
       "label": "Putrified Ducts",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "red-memory",
       "label": "Red Memory",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "sands-of-karak",
       "label": "Sands of Karak",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "shellwood",
       "label": "Shellwood",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "sinner's-road",
       "label": "Sinner's Road",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "the-slab",
       "label": "The Slab",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "underworks",
       "label": "Underworks",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "verdania",
       "label": "Verdania",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "weavenest-atla",
       "label": "Weavenest Atla",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "whispering-vaults",
       "label": "Whispering Vaults",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "whiteward",
       "label": "Whiteward",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "wisp-thicket",
       "label": "Wisp Thicket",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "wormways",
       "label": "Wormways",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "location"
+      "type": "location",
+      "game": "Silksong"
     },
     {
       "id": "the-knight",
       "label": "The Knight",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "protagonist",
+      "game": "Hollow Knight"
     },
     {
       "id": "hornet-silksong",
       "label": "Hornet (Silksong)",
       "area": "",
       "fragment": "TODO: write a short original description.",
-      "type": "character"
+      "type": "protagonist",
+      "game": "Silksong"
     }
   ],
   "links": [
