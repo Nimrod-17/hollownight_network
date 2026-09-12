@@ -18,15 +18,20 @@ let height = window.innerHeight;
 svg.attr("viewBox", [0, 0, width, height]);
 
 const defs = svg.append("defs");
+// Knight mask: rounded head with two curved horns and two round eyes.
 defs.append("symbol").attr("id", "icon-knight").attr("viewBox", "0 0 32 32").html(`
-  <path d="M16 3C9 3 5 9 5 16C5 23 9 29 16 29C23 29 27 23 27 16C27 9 23 3 16 3Z" />
-  <ellipse cx="11.5" cy="17" rx="2.6" ry="3.6" fill="var(--bg-deep)" />
-  <ellipse cx="20.5" cy="17" rx="2.6" ry="3.6" fill="var(--bg-deep)" />
+  <path d="M6,15 C6,11 10,9 16,9 C22,9 26,11 26,15 L26,23 C26,27 21,29 16,29 C11,29 6,27 6,23 Z" />
+  <path d="M9,14 C6.5,10 4,5 1.5,1.5 C5,3 8.5,6.5 11,11 C11.8,12.4 10.8,13.6 9,14 Z" />
+  <path d="M23,14 C25.5,10 28,5 30.5,1.5 C27,3 23.5,6.5 21,11 C20.2,12.4 21.2,13.6 23,14 Z" />
+  <ellipse cx="12" cy="20" rx="2.4" ry="3.2" fill="var(--bg-deep)" />
+  <ellipse cx="20" cy="20" rx="2.4" ry="3.2" fill="var(--bg-deep)" />
 `);
+// Hornet mask: two long horns meeting at a point, eyes at the junction.
 defs.append("symbol").attr("id", "icon-hornet").attr("viewBox", "0 0 32 32").html(`
-  <path d="M16 3L19.5 9.5L25.5 13C26.5 20.5 21.5 29 16 29C10.5 29 5.5 20.5 6.5 13L12.5 9.5Z" />
-  <line x1="16" y1="10" x2="16" y2="24" stroke="var(--bg-deep)" stroke-width="1.2" opacity="0.55" />
-  <circle cx="16" cy="16" r="1.8" fill="var(--bg-deep)" />
+  <path d="M16,28 C10,22 4,13 4,3 C9,7 14,15 18,21 C19.2,23.2 18.2,26.2 16,28 Z" />
+  <path d="M16,28 C22,22 28,13 28,3 C23,7 18,15 14,21 C12.8,23.2 13.8,26.2 16,28 Z" />
+  <ellipse cx="12.3" cy="21.5" rx="2.3" ry="3" fill="var(--bg-deep)" transform="rotate(-18 12.3 21.5)" />
+  <ellipse cx="19.7" cy="21.5" rx="2.3" ry="3" fill="var(--bg-deep)" transform="rotate(18 19.7 21.5)" />
 `);
 
 const viewport = svg.append("g").attr("class", "viewport");
@@ -93,13 +98,14 @@ fetch("data.json")
     });
 
     simulation = d3.forceSimulation()
-      .force("link", d3.forceLink().id(d => d.id).distance(90).strength(0.6))
-      .force("charge", d3.forceManyBody().strength(-260))
+      .force("link", d3.forceLink().id(d => d.id).distance(150).strength(0.5))
+      .force("charge", d3.forceManyBody().strength(-360))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collide", d3.forceCollide(d => radiusFor(d) + 6))
+      .force("collide", d3.forceCollide(d => radiusFor(d) + 14))
+      .alphaDecay(0.05)
       .on("tick", ticked);
 
-    render();
+    render("high");
   });
 
 function radiusFor(d) {
@@ -146,7 +152,15 @@ function matchesSearch(d) {
   return d.label.toLowerCase().includes(searchQuery);
 }
 
-function render() {
+const REHEAT_ALPHA = { none: null, low: 0.25, medium: 0.5, high: 0.9 };
+
+// reheat controls how much the layout is allowed to shift: "none" for
+// interactions that don't change which nodes are visible (reopening an
+// already-revealed node, typing a search query), up to "high" for
+// structural changes (reveal all, first load). Restarting the simulation
+// hard on every click was the main source of the graph jumping around
+// and disorienting the viewer on every interaction.
+function render(reheat = "low") {
   const { nodes, links } = visibleGraph();
 
   // preserve existing node positions across re-renders
@@ -160,7 +174,8 @@ function render() {
 
   simulation.nodes(nodes);
   simulation.force("link").links(links);
-  simulation.alpha(0.7).restart();
+  const alpha = REHEAT_ALPHA[reheat];
+  if (alpha != null) simulation.alpha(Math.max(alpha, simulation.alpha())).restart();
 
   const linkSel = linkLayer.selectAll("line").data(links, d => `${idOf(d.source)}-${idOf(d.target)}`);
   linkSel.exit().remove();
@@ -207,6 +222,7 @@ function render() {
 
   updateProgress();
   updateSearchStatus(nodes);
+  ticked(); // position freshly-entered elements immediately, even if reheat === "none"
 }
 
 function ticked() {
@@ -224,7 +240,8 @@ function ticked() {
 function onNodeClick(d) {
   if (state.get(d.id) === "hidden") return;
 
-  if (state.get(d.id) === "glimpsed") {
+  const wasGlimpsed = state.get(d.id) === "glimpsed";
+  if (wasGlimpsed) {
     state.set(d.id, "revealed");
     neighborsOf(d.id).forEach(id => {
       if (state.get(id) === "hidden") state.set(id, "glimpsed");
@@ -232,7 +249,10 @@ function onNodeClick(d) {
   }
 
   openJournal(d);
-  render();
+  // reopening an already-revealed node's card doesn't add any nodes, so
+  // there's nothing to settle into place - only reheat when new
+  // neighbors were just glimpsed.
+  render(wasGlimpsed ? "medium" : "none");
 }
 
 function openJournal(d) {
@@ -248,21 +268,22 @@ function openJournal(d) {
 
 journalClose.addEventListener("click", () => {
   journal.classList.add("hidden");
+  const wasFocused = focusNodeId !== null;
   openNodeId = null;
   focusNodeId = null;
   focusToggle.checked = false;
-  render();
+  render(wasFocused ? "medium" : "none");
 });
 
 focusToggle.addEventListener("change", () => {
   focusNodeId = focusToggle.checked ? openNodeId : null;
-  render();
+  render("medium");
 });
 
 revealAllBtn.addEventListener("click", () => {
   allNodes.forEach(n => state.set(n.id, "revealed"));
   hint.style.display = "none";
-  render();
+  render("high");
 });
 
 filtersToggleBtn.addEventListener("click", () => {
@@ -277,24 +298,24 @@ filtersCloseBtn.addEventListener("click", () => {
 typeFilterInputs.forEach(input => {
   input.addEventListener("change", () => {
     activeTypes = new Set([...typeFilterInputs].filter(i => i.checked).map(i => i.value));
-    render();
+    render("medium");
   });
 });
 gameFilterInputs.forEach(input => {
   input.addEventListener("change", () => {
     activeGames = new Set([...gameFilterInputs].filter(i => i.checked).map(i => i.value));
-    render();
+    render("medium");
   });
 });
 
 viewModeSelect.addEventListener("change", () => {
   currentViewMode = viewModeSelect.value;
-  applyViewMode();
+  applyViewMode("high");
 });
 
 searchInput.addEventListener("input", () => {
   searchQuery = searchInput.value.trim().toLowerCase();
-  render();
+  render("none"); // highlighting only, the visible node set doesn't change
   recenterOnSingleMatch();
 });
 
@@ -323,13 +344,13 @@ function updateSearchStatus(visibleNodes) {
     : `${matchCount} match${matchCount === 1 ? "" : "es"} found.`;
 }
 
-function applyViewMode() {
+function applyViewMode(reheat = "high") {
   if (currentViewMode === "by-game") {
     const gameX = { "Hollow Knight": width * 0.28, "Silksong": width * 0.72 };
     simulation.force("x", d3.forceX(d => gameX[d.game] ?? width / 2).strength(0.12));
     simulation.force("y", d3.forceY(height / 2).strength(0.05));
-    simulation.force("link").distance(70).strength(0.5);
-    simulation.force("charge").strength(-200);
+    simulation.force("link").distance(90).strength(0.5);
+    simulation.force("charge").strength(-260);
   } else if (currentViewMode === "by-type") {
     const typeAnchors = {
       protagonist: { x: width * 0.5, y: height * 0.18 },
@@ -339,15 +360,15 @@ function applyViewMode() {
     };
     simulation.force("x", d3.forceX(d => (typeAnchors[d.type] || {}).x ?? width / 2).strength(0.45));
     simulation.force("y", d3.forceY(d => (typeAnchors[d.type] || {}).y ?? height / 2).strength(0.45));
-    simulation.force("link").distance(40).strength(0.1);
-    simulation.force("charge").strength(-90);
+    simulation.force("link").distance(50).strength(0.15);
+    simulation.force("charge").strength(-120);
   } else {
     simulation.force("x", null);
     simulation.force("y", null);
-    simulation.force("link").distance(90).strength(0.6);
-    simulation.force("charge").strength(-260);
+    simulation.force("link").distance(150).strength(0.5);
+    simulation.force("charge").strength(-360);
   }
-  simulation.alpha(0.9).restart();
+  simulation.alpha(REHEAT_ALPHA[reheat]).restart();
 }
 
 function updateProgress() {
@@ -363,5 +384,5 @@ window.addEventListener("resize", () => {
   height = window.innerHeight;
   svg.attr("viewBox", [0, 0, width, height]);
   simulation.force("center", d3.forceCenter(width / 2, height / 2));
-  applyViewMode();
+  applyViewMode("low");
 });
