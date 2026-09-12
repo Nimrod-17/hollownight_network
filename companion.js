@@ -1,7 +1,10 @@
 // Small companion sprite that hops between a handful of fixed waypoints as
 // the visitor scrolls, instead of tracking the scroll position
 // continuously. Reuses the same official Knight head image already used
-// for the hero emblem and the graph's protagonist node - no new art.
+// for the hero emblem and the graph's protagonist node - no new art. The
+// "walking/jumping" feel is entirely procedural (squash-and-stretch,
+// directional lean, a scaling contact shadow), built with CSS transforms
+// on this one image rather than any frame-by-frame animation.
 //
 // Waypoints are expressed as a fraction of the page's total scroll range
 // (0 = top, 1 = bottom) rather than pixel offsets tied to specific
@@ -18,8 +21,10 @@ const COMPANION_WAYPOINTS = [
 
 const HOP_DURATION_MS = 620;
 const LEDGE_OFFSET_PX = 58; // roughly the companion's own height + a gap
+const SHADOW_OFFSET_PX = 44; // sits closer under the sprite than the ledge
 
 const companion = document.getElementById("companion");
+const companionShadow = document.getElementById("companion-shadow");
 const companionLedge = document.getElementById("companion-ledge");
 const journalEl = document.getElementById("journal");
 
@@ -43,17 +48,47 @@ function ledgeStyleFor(style) {
   return ledge;
 }
 
-function goToWaypoint(index) {
+function shadowStyleFor(style) {
+  const shadow = { left: style.left, right: style.right };
+  if (style.top) {
+    shadow.top = `calc(${style.top} + ${SHADOW_OFFSET_PX}px)`;
+  } else if (style.bottom) {
+    shadow.bottom = `calc(${style.bottom} - ${SHADOW_OFFSET_PX}px)`;
+  }
+  return shadow;
+}
+
+// Approximate on-screen X (px) for a waypoint's style, used only to work
+// out which way the companion is about to travel so the hop can lean into
+// it - doesn't need to be exact, just the right sign.
+function resolveXPixels(style) {
+  if (style.left) return (parseFloat(style.left) / 100) * window.innerWidth;
+  if (style.right) return window.innerWidth - (parseFloat(style.right) / 100) * window.innerWidth;
+  return window.innerWidth / 2;
+}
+
+function goToWaypoint(index, previousIndex) {
   const waypoint = COMPANION_WAYPOINTS[index];
+  const previousWaypoint = COMPANION_WAYPOINTS[previousIndex] ?? waypoint;
+
+  const dx = resolveXPixels(waypoint.style) - resolveXPixels(previousWaypoint.style);
+  const lean = dx > 4 ? 1 : dx < -4 ? -1 : 0;
+  companion.style.setProperty("--lean", String(lean));
+
   applyPosition(companion, waypoint.style);
+  applyPosition(companionShadow, shadowStyleFor(waypoint.style));
   applyPosition(companionLedge, ledgeStyleFor(waypoint.style));
 
-  companion.classList.remove("idle");
-  companion.classList.add("hopping");
+  for (const el of [companion, companionShadow]) {
+    el.classList.remove("idle");
+    el.classList.add("hopping");
+  }
   clearTimeout(hopTimeout);
   hopTimeout = setTimeout(() => {
-    companion.classList.remove("hopping");
-    companion.classList.add("idle");
+    for (const el of [companion, companionShadow]) {
+      el.classList.remove("hopping");
+      el.classList.add("idle");
+    }
   }, HOP_DURATION_MS);
 }
 
@@ -67,8 +102,9 @@ function updateCompanion() {
   }
 
   if (newIndex !== activeWaypointIndex) {
+    const previousIndex = activeWaypointIndex;
     activeWaypointIndex = newIndex;
-    goToWaypoint(newIndex);
+    goToWaypoint(newIndex, previousIndex);
   }
 }
 
@@ -91,10 +127,12 @@ window.addEventListener("load", updateCompanion);
 // sitting awkwardly on top of that panel.
 const journalObserver = new MutationObserver(() => {
   const isOpen = !journalEl.classList.contains("hidden");
-  companion.classList.toggle("journal-dim", isOpen);
-  companionLedge.classList.toggle("journal-dim", isOpen);
+  for (const el of [companion, companionShadow, companionLedge]) {
+    el.classList.toggle("journal-dim", isOpen);
+  }
 });
 journalObserver.observe(journalEl, { attributes: true, attributeFilter: ["class"] });
 
 companion.classList.add("idle");
+companionShadow.classList.add("idle");
 updateCompanion();
