@@ -9,9 +9,9 @@
   --line: rgba(228, 222, 208, 0.14);
 
   --c-protagonist: #e8c170;
-  --c-boss: #c75c5c;
+  --c-boss: #a8635f;
   --c-npc: #7fb3d5;
-  --c-location: #8fae6b;
+  --c-location: #8a9975;
 }
 
 * { box-sizing: border-box; }
@@ -111,31 +111,38 @@ main {
   display: block;
 }
 
+.graph-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 38%, rgba(5, 6, 9, 0.6) 100%);
+}
+
 .node-shape {
-  stroke: var(--bg-deep);
-  stroke-width: 1.5px;
+  stroke: none;
   cursor: pointer;
-  transition: fill 0.4s ease, opacity 0.4s ease, filter 0.4s ease, r 0.3s ease;
+  transition: opacity 0.4s ease, filter 0.4s ease, r 0.3s ease;
 }
 
-.node-shape.type-protagonist { fill: var(--c-protagonist); }
-.node-shape.type-boss { fill: var(--c-boss); }
-.node-shape.type-npc { fill: var(--c-npc); }
-.node-shape.type-location { fill: var(--c-location); }
+/* Soft halo instead of a hard geometric outline - reads more like an
+   in-game charm/notch icon than a technical diagram node. */
+.node-shape.type-protagonist { filter: drop-shadow(0 0 7px rgba(232, 193, 112, 0.55)); }
+.node-shape.type-boss { fill: var(--c-boss); filter: drop-shadow(0 0 5px rgba(168, 99, 95, 0.5)); }
+.node-shape.type-npc { fill: var(--c-npc); filter: drop-shadow(0 0 5px rgba(127, 179, 213, 0.45)); }
+.node-shape.type-location { fill: var(--c-location); filter: drop-shadow(0 0 5px rgba(138, 153, 117, 0.45)); }
 
-.node-shape.glimpsed {
-  opacity: 0.45;
-  filter: grayscale(55%);
+.protagonist-badge { fill: var(--c-protagonist); }
+.protagonist-image {
+  clip-path: circle(50%);
+  pointer-events: none;
 }
 
-.node-shape.revealed {
-  opacity: 1;
-  filter: none;
-}
+.node-shape.glimpsed { opacity: 0.4; }
+.node-shape.revealed { opacity: 1; }
 
 .node-shape.search-match {
-  stroke: var(--bone);
-  stroke-width: 2.5px;
+  filter: drop-shadow(0 0 9px var(--bone));
 }
 
 .node { cursor: pointer; }
@@ -154,14 +161,16 @@ main {
 }
 
 .link-line {
-  stroke: var(--line);
-  stroke-width: 1px;
+  stroke: rgba(228, 222, 208, 0.09);
+  stroke-width: 0.6px;
+  fill: none;
 }
 
 .hint {
   position: absolute;
   bottom: 1.75rem;
   left: 1.75rem;
+  z-index: 6;
   margin: 0;
   font-size: 0.85rem;
   font-style: italic;
@@ -173,6 +182,7 @@ main {
   position: absolute;
   bottom: 1.75rem;
   right: 1.75rem;
+  z-index: 6;
   margin: 0;
   font-size: 0.7rem;
   letter-spacing: 0.02em;
@@ -186,8 +196,11 @@ main {
   right: 0;
   width: min(340px, 85vw);
   height: calc(100% - 72px);
-  background: var(--bg-deep);
-  border-left: 1px solid var(--line);
+  background: rgba(10, 12, 17, 0.86);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-left: 1px solid rgba(228, 222, 208, 0.08);
+  box-shadow: -18px 0 40px rgba(0, 0, 0, 0.35);
   padding: 2rem 1.75rem 2rem;
   z-index: 20;
   transform: translateX(0);
@@ -240,8 +253,11 @@ main {
   left: 0;
   width: min(280px, 85vw);
   height: calc(100% - 72px);
-  background: var(--bg-deep);
-  border-right: 1px solid var(--line);
+  background: rgba(10, 12, 17, 0.86);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(228, 222, 208, 0.08);
+  box-shadow: 18px 0 40px rgba(0, 0, 0, 0.35);
   padding: 2rem 1.5rem 2rem;
   z-index: 20;
   overflow-y: auto;
@@ -258,12 +274,14 @@ main {
 }
 
 .filter-section h3 {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--bone-dim);
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+  color: var(--bone);
   margin: 0 0 0.7rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(228, 222, 208, 0.1);
 }
 
 .legend {
@@ -304,19 +322,53 @@ main {
   cursor: pointer;
 }
 
-.check-row input {
-  accent-color: var(--soul);
+.check-row input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  flex-shrink: 0;
+  border: 1px solid rgba(228, 222, 208, 0.35);
+  border-radius: 3px;
+  background: rgba(228, 222, 208, 0.04);
+  display: inline-grid;
+  place-content: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.check-row input[type="checkbox"]::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 1px;
+  background: var(--soul);
+  transform: scale(0);
+  transition: transform 0.15s ease;
+}
+
+.check-row input[type="checkbox"]:checked {
+  border-color: var(--soul);
+}
+
+.check-row input[type="checkbox"]:checked::before {
+  transform: scale(1);
 }
 
 #view-mode-select {
+  appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   font-family: 'Work Sans', sans-serif;
   font-size: 0.85rem;
   color: var(--bone);
-  background: var(--bg);
-  border: 1px solid var(--line);
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 8 L12 16 L20 8' fill='none' stroke='%23a8a396' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 0.6rem center / 14px,
+    rgba(228, 222, 208, 0.04);
+  border: 1px solid rgba(228, 222, 208, 0.16);
   border-radius: 4px;
-  padding: 0.45rem 0.6rem;
+  padding: 0.5rem 2rem 0.5rem 0.7rem;
 }
 
 #search-input {
@@ -324,15 +376,16 @@ main {
   font-family: 'Work Sans', sans-serif;
   font-size: 0.85rem;
   color: var(--bone);
-  background: var(--bg);
-  border: 1px solid var(--line);
+  background: rgba(228, 222, 208, 0.04);
+  border: 1px solid rgba(228, 222, 208, 0.16);
   border-radius: 4px;
-  padding: 0.45rem 0.6rem;
+  padding: 0.5rem 0.7rem;
 }
 
 #search-input:focus, #view-mode-select:focus {
   outline: none;
-  border-color: var(--soul);
+  border-color: rgba(159, 216, 224, 0.55);
+  background-color: rgba(228, 222, 208, 0.07);
 }
 
 .search-status {
@@ -410,15 +463,13 @@ main {
 }
 
 .hero-emblem {
-  width: 64px;
-  height: 64px;
-  fill: var(--soul);
-  filter: drop-shadow(0 0 14px rgba(159, 216, 224, 0.45));
+  width: 72px;
+  height: auto;
+  /* official artwork is black line-art on transparent - invert to a pale
+     silhouette so it reads against the dark hero, then tint with a soft
+     soul-cyan glow to match the title's glow */
+  filter: invert(1) drop-shadow(0 0 14px rgba(159, 216, 224, 0.5));
   margin-bottom: 1.5rem;
-}
-
-.hero-emblem .eye {
-  fill: var(--bg-deep);
 }
 
 .hero h1 {
@@ -491,6 +542,16 @@ main {
   font-size: 1rem;
   line-height: 1.7;
   color: var(--bone-dim);
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  padding: 2rem 1.5rem 2.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--bone-dim);
+  opacity: 0.6;
 }
 
 @media (max-width: 640px) {

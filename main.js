@@ -23,22 +23,12 @@ const svg = d3.select("#graph");
 let { width, height } = measureAppFrame();
 svg.attr("viewBox", [0, 0, width, height]);
 
-const defs = svg.append("defs");
-// Knight mask: rounded head with two curved horns and two round eyes.
-defs.append("symbol").attr("id", "icon-knight").attr("viewBox", "0 0 32 32").html(`
-  <path d="M6,15 C6,11 10,9 16,9 C22,9 26,11 26,15 L26,23 C26,27 21,29 16,29 C11,29 6,27 6,23 Z" />
-  <path d="M9,14 C6.5,10 4,5 1.5,1.5 C5,3 8.5,6.5 11,11 C11.8,12.4 10.8,13.6 9,14 Z" />
-  <path d="M23,14 C25.5,10 28,5 30.5,1.5 C27,3 23.5,6.5 21,11 C20.2,12.4 21.2,13.6 23,14 Z" />
-  <ellipse cx="12" cy="20" rx="2.4" ry="3.2" fill="var(--bg-deep)" />
-  <ellipse cx="20" cy="20" rx="2.4" ry="3.2" fill="var(--bg-deep)" />
-`);
-// Hornet mask: two long horns meeting at a point, eyes at the junction.
-defs.append("symbol").attr("id", "icon-hornet").attr("viewBox", "0 0 32 32").html(`
-  <path d="M16,28 C10,22 4,13 4,3 C9,7 14,15 18,21 C19.2,23.2 18.2,26.2 16,28 Z" />
-  <path d="M16,28 C22,22 28,13 28,3 C23,7 18,15 14,21 C12.8,23.2 13.8,26.2 16,28 Z" />
-  <ellipse cx="12.3" cy="21.5" rx="2.3" ry="3" fill="var(--bg-deep)" transform="rotate(-18 12.3 21.5)" />
-  <ellipse cx="19.7" cy="21.5" rx="2.3" ry="3" fill="var(--bg-deep)" transform="rotate(18 19.7 21.5)" />
-`);
+// Official Team Cherry artwork, used as-is (see assets/icon/) - masked
+// into a circle per node, not redrawn.
+const PROTAGONIST_ICON = {
+  "the-knight": "assets/icon/knight_head.png",
+  "hornet-silksong": "assets/icon/hornet_head.png",
+};
 
 const viewport = svg.append("g").attr("class", "viewport");
 const linkLayer = viewport.append("g").attr("class", "links");
@@ -51,7 +41,11 @@ const zoom = d3.zoom()
   // post, not the whole viewport); only ctrl/cmd+wheel (also how
   // trackpad pinch is reported) or drag zoom/pan the graph itself.
   .filter((event) => (event.type !== "wheel" || event.ctrlKey || event.metaKey) && !event.button)
-  .on("zoom", (event) => viewport.attr("transform", event.transform));
+  .on("zoom", (event) => {
+    viewport.attr("transform", event.transform);
+    currentZoomScale = event.transform.k;
+    updateLabelVisibility();
+  });
 svg.call(zoom);
 
 const journal = document.getElementById("journal");
@@ -78,15 +72,20 @@ let allNodes = [];
 let allLinks = [];
 let state = new Map(); // id -> 'hidden' | 'glimpsed' | 'revealed'
 let degreeById = new Map();
+let topHubIds = new Set();
 
 let activeTypes = new Set(ALL_TYPES);
 let activeGames = new Set(ALL_GAMES);
 let searchQuery = "";
 let openNodeId = null;
 let focusNodeId = null;
+let hoveredNodeId = null;
 
 let simulation;
 let currentViewMode = "force";
+let currentZoomScale = 1;
+const LOW_ZOOM_LABEL_THRESHOLD = 1.6; // below this, only hub labels show
+const HUB_COUNT = 18;
 
 fetch("data.json")
   .then(res => res.json())
@@ -106,6 +105,9 @@ fetch("data.json")
       degreeById.set(l.source, (degreeById.get(l.source) || 0) + 1);
       degreeById.set(l.target, (degreeById.get(l.target) || 0) + 1);
     });
+    topHubIds = new Set(
+      [...degreeById.entries()].sort((a, b) => b[1] - a[1]).slice(0, HUB_COUNT).map(([id]) => id)
+    );
 
     simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(d => d.id).distance(150).strength(0.5))
@@ -152,14 +154,27 @@ function visibleGraph() {
   return { nodes, links };
 }
 
-function protagonistIcon(d) {
-  return d.id === "the-knight" ? "#icon-knight" : "#icon-hornet";
-}
-
 function matchesSearch(d) {
   if (!searchQuery) return false;
   if (state.get(d.id) === "hidden") return false;
   return d.label.toLowerCase().includes(searchQuery);
+}
+
+// Hidden by default; shown on hover (a quick peek without committing to a
+// reveal), once a node is actually revealed, or - even when revealed -
+// only for hub nodes while zoomed out, so the initial view isn't a wall
+// of overlapping text.
+function labelVisible(d) {
+  if (d.id === hoveredNodeId) return true;
+  if (state.get(d.id) !== "revealed") return false;
+  if (currentZoomScale < LOW_ZOOM_LABEL_THRESHOLD) return topHubIds.has(d.id);
+  return true;
+}
+
+function updateLabelVisibility() {
+  labelLayer.selectAll("text")
+    .text(d => (labelVisible(d) ? d.label : "?"))
+    .attr("class", d => `node-label ${labelVisible(d) ? "visible" : ""}`);
 }
 
 const REHEAT_ALPHA = { none: null, low: 0.25, medium: 0.5, high: 0.9 };
@@ -187,27 +202,38 @@ function render(reheat = "low") {
   const alpha = REHEAT_ALPHA[reheat];
   if (alpha != null) simulation.alpha(Math.max(alpha, simulation.alpha())).restart();
 
-  const linkSel = linkLayer.selectAll("line").data(links, d => `${idOf(d.source)}-${idOf(d.target)}`);
+  const linkSel = linkLayer.selectAll("path").data(links, d => `${idOf(d.source)}-${idOf(d.target)}`);
   linkSel.exit().remove();
-  linkSel.enter().append("line").attr("class", "link-line");
+  linkSel.enter().append("path").attr("class", "link-line").attr("fill", "none");
 
   const nodeSel = nodeLayer.selectAll("g.node").data(nodes, d => d.id);
   nodeSel.exit().remove();
   const nodeEnter = nodeSel.enter()
     .append("g")
     .attr("class", "node")
-    .on("click", (event, d) => onNodeClick(d));
+    .on("click", (event, d) => onNodeClick(d))
+    .on("pointerenter", (event, d) => { hoveredNodeId = d.id; updateLabelVisibility(); })
+    .on("pointerleave", (event, d) => { if (hoveredNodeId === d.id) hoveredNodeId = null; updateLabelVisibility(); });
 
   nodeEnter.each(function (d) {
     const g = d3.select(this);
     const r = radiusFor(d);
     if (d.type === "protagonist") {
-      g.append("use").attr("href", protagonistIcon(d)).attr("x", -r).attr("y", -r).attr("width", r * 2).attr("height", r * 2);
+      const shape = g.append("g").attr("class", "node-shape");
+      shape.append("circle").attr("r", r).attr("class", "protagonist-badge");
+      shape.append("image")
+        .attr("href", PROTAGONIST_ICON[d.id])
+        .attr("x", -r).attr("y", -r)
+        .attr("width", r * 2).attr("height", r * 2)
+        .attr("preserveAspectRatio", "xMidYMid slice")
+        .attr("class", "protagonist-image");
     } else if (d.type === "boss") {
       const side = r * 1.3;
-      g.append("rect").attr("x", -side / 2).attr("y", -side / 2).attr("width", side).attr("height", side).attr("transform", "rotate(45)");
+      g.append("rect").attr("class", "node-shape")
+        .attr("x", -side / 2).attr("y", -side / 2).attr("width", side).attr("height", side)
+        .attr("transform", "rotate(45)");
     } else {
-      g.append("circle").attr("r", r);
+      g.append("circle").attr("class", "node-shape").attr("r", r);
     }
   });
 
@@ -215,7 +241,7 @@ function render(reheat = "low") {
     const shapeState = state.get(d.id);
     const classes = ["node-shape", `type-${d.type}`, shapeState];
     if (matchesSearch(d)) classes.push("search-match");
-    d3.select(this).select("use, rect, circle").attr("class", classes.join(" "));
+    d3.select(this).select(".node-shape").attr("class", classes.join(" "));
   });
 
   const labelSel = labelLayer.selectAll("text").data(nodes, d => d.id);
@@ -226,19 +252,28 @@ function render(reheat = "low") {
     .attr("dx", d => radiusFor(d) + 6)
     .attr("dy", 4);
 
-  labelLayer.selectAll("text")
-    .text(d => (state.get(d.id) === "revealed" ? d.label : "?"))
-    .attr("class", d => `node-label ${state.get(d.id) === "revealed" ? "visible" : ""}`);
+  updateLabelVisibility();
 
   updateProgress();
   updateSearchStatus(nodes);
   ticked(); // position freshly-entered elements immediately, even if reheat === "none"
 }
 
+// Slight, stable bezier bow instead of a straight line - the offset
+// direction depends only on the link's own source/target, so a given
+// link always bows the same way instead of flickering between renders.
+function linkPath(d) {
+  const sx = d.source.x, sy = d.source.y, tx = d.target.x, ty = d.target.y;
+  const dx = tx - sx, dy = ty - sy;
+  const dr = Math.sqrt(dx * dx + dy * dy) || 1;
+  const offset = dr * 0.15;
+  const mx = (sx + tx) / 2 - (dy / dr) * offset;
+  const my = (sy + ty) / 2 + (dx / dr) * offset;
+  return `M${sx},${sy} Q${mx},${my} ${tx},${ty}`;
+}
+
 function ticked() {
-  linkLayer.selectAll("line")
-    .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
-    .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+  linkLayer.selectAll("path").attr("d", linkPath);
 
   nodeLayer.selectAll("g.node")
     .attr("transform", d => `translate(${d.x},${d.y})`);
