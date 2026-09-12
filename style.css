@@ -135,9 +135,11 @@ main {
 .node-shape.type-npc { fill: var(--c-npc); filter: drop-shadow(0 0 5px rgba(127, 179, 213, 0.45)); }
 .node-shape.type-location { fill: var(--c-location); filter: drop-shadow(0 0 5px rgba(138, 153, 117, 0.45)); }
 
-/* Official artwork, drawn at its own natural aspect ratio - no crop/mask. */
+/* Official artwork, drawn at its own natural aspect ratio - no crop/mask.
+   Must stay hit-testable (its bounding box is the node's click target) -
+   the halo behind it is decorative only and stays pointer-events: none. */
 .protagonist-image {
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .protagonist-halo {
